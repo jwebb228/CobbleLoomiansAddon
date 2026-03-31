@@ -1,0 +1,129 @@
+{
+  "implemented": true,
+  "name": "snagull",
+  "nationalPokedexNumber": 2162,
+  "primaryType": "flying",
+  "abilities": [
+    "magicguard",
+    "h:sniper"
+  ],
+  "baseStats": {
+    "hp": 99,
+    "attack": 95,
+    "defence": 113,
+    "special_attack": 50,
+    "special_defence": 90,
+    "speed": 55
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "depth": "normal",
+      "light": "4-15",
+      "willSleepOnBed": true,
+      "times": "day"
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.3,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      },
+      "fly": {
+        "canFly": false,
+        "flySpeedHorizontal": 0.3
+      }
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    }
+  },
+  "catchRate": 150,
+  "maleRatio": -1,
+  "shoulderMountable": false,
+  "baseExperienceYield": 486,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 23,
+  "eggGroups": [
+    "monster",
+    "field"
+  ],
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:leftovers",
+        "quantityRange": "1",
+        "percentage": 5
+      },
+      {
+        "item": "cobblemon:razor_claw",
+        "quantityRange": "1",
+        "percentage": 10
+      },
+      {
+        "item": "minecraft:purple_wool",
+        "quantityRange": "1",
+        "percentage": 75
+      }
+    ]
+  },
+  "moves": [
+    "1:leer",
+    "1:peck",
+    "4:bite",
+    "6:agility",
+    "8:cut",
+    "12:gust",
+    "13:toxic",
+    "16:wingattack",
+    "20:taunt",
+    "25:scaryface",
+    "30:aircutter",
+    "35:hurricane",
+    "41:roost",
+    "egg:focusenergy",
+    "egg:tailwind",
+    "egg:defog",
+    "egg:sludgebomb",
+    "egg:hyperbeam",
+    "egg:hurricane",
+    "tm:protect",
+    "tm:falseswipe",
+    "tm:waterpulse",
+    "tm:trick"
+  ],
+  "labels": [
+    "custom",
+    "roria"
+  ],
+  "pokedex": [
+    "cobblemon.species.ursnac.desc"
+  ],
+  "baseScale": 0.75,
+  "hitbox": {
+    "width": 2,
+    "height": 3,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 203,
+  "weight": 95,
+  "preEvolution": "phancub variant",
+  "evolutions": []
+}

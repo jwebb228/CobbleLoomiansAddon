@@ -1,0 +1,16 @@
+{
+    "id": "cobblemon:grievestone",
+    "speciesId": "cobblemon:grievestone",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Normal",
+        "unlockForms": [
+          "Normal"
+        ]
+      }
+    ],
+    "variations": []
+  }
+  

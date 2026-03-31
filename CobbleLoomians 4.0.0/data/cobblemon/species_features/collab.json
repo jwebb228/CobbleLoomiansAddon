@@ -1,0 +1,6 @@
+{
+  "keys": [ "collab" ],
+  "type": "flag",
+  "isAspect": true,
+  "default": false
+}

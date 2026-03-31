@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:teridescent",
+  "order": 2,
+  "variations": [
+    {
+      "aspects": ["shiny", "gamma-gamma"],
+      "texture": "cobblemon:textures/pokemon/teridescent/teridescent_gamma.png",
+      "layers": [
+        {
+              "name": "emissive",
+              "emissive": true,
+              "texture": "cobblemon:textures/pokemon/teridescent/teridescent_emissive_gamma.png",
+              "translucent": true
+        }
+      ]
+    }
+  ]
+}

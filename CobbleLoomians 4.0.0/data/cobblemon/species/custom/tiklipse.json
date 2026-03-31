@@ -1,0 +1,202 @@
+{
+  "implemented": true,
+  "name": "tiklipse",
+  "nationalPokedexNumber": 2025,
+  "primaryType": "fairy",
+  "secondaryType": "dark",
+  "abilities": [
+    "circadian",
+    "innerfocus",
+    "h:totaleclipse"
+  ],
+  "baseStats": {
+    "hp": 75,
+    "attack": 106,
+    "defence": 90,
+    "special_attack": 106,
+    "special_defence": 75,
+    "speed": 89
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": false,
+      "depth": "normal",
+      "light": "0-4",
+      "willSleepOnBed": false,
+      "times": "night"
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.3,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      },
+      "fly": {
+        "canFly": false,
+        "flySpeedHorizontal": 0.3
+      }
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    }
+  },
+  "catchRate": 85,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 243,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 15,
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:oran_berry",
+        "quantityRange": "1-2",
+        "percentage": 50
+      },
+      {
+        "item": "cobblemon:pecha_berry",
+        "quantityRange": "1-1",
+        "percentage": 25
+      },
+      {
+        "item": "cobblemon:sun_stone",
+        "quantityRange": "1-1",
+        "percentage": 5
+      },
+      {
+        "item": "cobblemon:moon_stone",
+        "quantityRange": "1-1",
+        "percentage": 5
+      }
+    ]
+  },
+  "moves": [
+    "1:nightdaze",
+    "1:fairywind",
+    "1:blindspotbatter",
+    "1:radiantrush",
+    "1:gnaw",
+    "1:tailwhip",
+    "5:stretch",
+    "11:quickattack",
+    "16:swipe",
+    "25:substitute",
+    "31:disperse",
+    "31:honeclaws",
+    "39:raginghowl",
+    "39:doubleedge",
+    "45:dazzlinggleam",
+    "45:crunch",
+    "50:bulkup",
+    "50:calmmind",
+    "57:snarl",
+    "tm:bulkup",
+    "tm:darkpulse",
+    "tm:protect",
+    "tm:dazzlinggleam",
+    "tm:calmmind",
+    "tm:falseswipe",
+    "egg:swordsdance",
+    "egg:bodyslam",
+    "egg:chasedown",
+    "egg:disperse",
+    "egg:drudge",
+    "egg:hasten",
+    "egg:highpitchscreech",
+    "egg:workup",
+    "egg:nastyplot",
+    "egg:raginghowl",
+    "egg:doubleedge",
+    "egg:charm",
+    "egg:honeclaws"
+  ],
+  "labels": [
+    "custom",
+    "roria"
+  ],
+  "pokedex": [
+    "cobblemon.species.tiklipse.desc1"
+  ],
+  "baseScale": 0.8,
+  "hitbox": {
+    "width": 1.6,
+    "height": 1.4,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 11,
+  "weight": 426,
+  "preEvolution": "twilat",
+  "evolutions": [],
+  "forms": [
+    {
+      "name": "day",
+      "primaryType": "Fairy",
+      "maleRatio": 0.5,
+      "height": 3,
+      "weight": 30,
+      "pokedex": [
+        "cobblemon.species.tiklipse-light.desc"
+      ],
+      "labels": [
+        "gen8"
+      ],
+      "aspects": [
+        "day-form"
+      ],
+      "evolutions": [],
+      "battleOnly": true,
+      "behaviour": {
+        "resting": {
+          "willSleepOnBed": true
+        }
+      }
+    },
+
+    {
+      "name": "night",
+      "primaryType": "Dark",
+      "maleRatio": 0.5,
+      "height": 3,
+      "weight": 30,
+      "pokedex": [
+        "cobblemon.species.tiklipse-dark.desc"
+      ],
+      "labels": [
+        "gen8"
+      ],
+      "aspects": [
+        "night-form"
+      ],
+      "evolutions": [],
+      "battleOnly": true,
+      "behaviour": {
+        "resting": {
+          "willSleepOnBed": true
+        }
+      }
+    }
+  ],
+  "features": [
+    "eclipse_form"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+    "id": "cobblemon:obelost",
+    "speciesId": "cobblemon:obelost",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Normal",
+        "unlockForms": [
+          "Normal"
+        ]
+      }
+    ],
+    "variations": []
+  }
+  

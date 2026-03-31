@@ -1,0 +1,22 @@
+{
+    "species": "cobblemon:arapaigo",
+    "order": 0,
+    "variations": [
+        {
+            "aspects": [],
+            "poser": "cobblemon:arapaigo",
+            "model": "cobblemon:arapaigo.geo",
+            "texture": "cobblemon:textures/pokemon/arapaigo/arapaigo.png",
+            "layers": []
+        },
+        {
+            "aspects": [
+                "shiny"
+            ],
+            "poser": "cobblemon:arapaigo",
+            "model": "cobblemon:arapaigo.geo",
+            "texture": "cobblemon:textures/pokemon/arapaigo/arapaigo_shiny.png",
+            "layers": []
+        }
+    ]
+}

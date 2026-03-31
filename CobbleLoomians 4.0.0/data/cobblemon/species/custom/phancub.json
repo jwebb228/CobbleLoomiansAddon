@@ -1,0 +1,152 @@
+{
+  "implemented": true,
+  "name": "phancub",
+  "nationalPokedexNumber": 2059,
+  "primaryType": "ghost",
+  "secondaryType": "fighting",
+  "abilities": [
+    "toughclaws",
+    "h:adorable"
+  ],
+  "baseStats": {
+    "hp": 46,
+    "attack": 65,
+    "defence": 50,
+    "special_attack": 46,
+    "special_defence": 55,
+    "speed": 60
+  },
+  "behaviour": {
+    "herd": {
+      "maxSize": "6",
+      "toleratedLeaders": [
+        {
+          "pokemon": "phancub",
+          "tier": 1
+        },
+        {
+          "pokemon": "ursoul",
+          "tier": 2
+        }
+      ]
+    },
+    "resting": {
+      "canSleep": true,
+      "depth": "normal",
+      "light": "4-15",
+      "willSleepOnBed": true,
+      "times": "day"
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.3,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      },
+      "fly": {
+        "canFly": false,
+        "flySpeedHorizontal": 0.3
+      }
+    }
+  },
+  "catchRate": 150,
+  "maleRatio": -1,
+  "shoulderMountable": true,
+  "baseExperienceYield": 507,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 23,
+  "eggGroups": [
+    "monster",
+    "field"
+  ],
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:leftovers",
+        "quantityRange": "1",
+        "percentage": 5
+      },
+      {
+        "item": "minecraft:black_wool",
+        "quantityRange": "1",
+        "percentage": 75
+      }
+    ],
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    }
+  },
+  "moves": [
+    "1:astonish",
+    "1:leer",
+    "6:punch",
+    "13:machpunch",
+    "24:slash",
+    "27:chasedown",
+    "33:honeclaws",
+    "37:shadowclaw",
+    "42:drainpunch",
+    "egg:spikes",
+    "egg:destinybond",
+    "egg:harrow",
+    "egg:taunt",
+    "egg:shadowsneak",
+    "egg:shadowbox",
+    "egg:knockoff",
+    "egg:soulstorm",
+    "tm:bulkup",
+    "tm:protect",
+    "tm:falseswipe",
+    "tm:shadowball"
+  ],
+  "labels": [
+    "custom",
+    "roria"
+  ],
+  "pokedex": [
+    "cobblemon.species.phancub.desc"
+  ],
+  "baseScale": 0.5,
+  "hitbox": {
+    "width": 1,
+    "height": 1.5,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 66,
+  "weight": 8,
+  "evolutions": [
+    {
+      "id": "phancub-ursoul-level_up",
+      "variant": "level_up",
+      "result": "ursoul",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "steeltrap"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 28
+        }
+      ],
+      "requiredContext": ""
+    }
+  ]
+}

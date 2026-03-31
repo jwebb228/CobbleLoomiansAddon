@@ -1,0 +1,59 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "teridescent-1",
+            "pokemon": "teridescent",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "ultra-rare",
+            "level": "31-67",
+            "weight": 2,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_deep_ocean"
+                ]
+            }
+        },
+        {
+            "id": "teridescent-2",
+            "pokemon": "teridescent",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "ultra-rare",
+            "level": "31-67",
+            "weight": 3,
+            "condition": {
+                "biomes": [
+                     "#minecraft:is_ocean"
+                ]
+            }
+        },
+        {
+            "id": "teridescent-3",
+            "pokemon": "teridescent",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "ultra-rare",
+            "level": "31-67",
+            "weight": 2,
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                     "#cobblemon:is_deep_ocean"
+                ]
+            }
+        }
+    ]
+}

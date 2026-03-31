@@ -1,0 +1,10 @@
+{
+  "species": "cobblemon:metronette",
+  "order": 2,
+  "variations": [
+    {
+      "aspects": ["shiny", "gamma-gamma"],
+      "texture": "cobblemon:textures/pokemon/metronette/metronette_gamma.png"
+    }
+  ]
+}

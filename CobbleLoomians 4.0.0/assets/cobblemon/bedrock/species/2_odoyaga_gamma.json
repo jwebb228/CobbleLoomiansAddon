@@ -1,0 +1,10 @@
+{
+  "species": "cobblemon:odoyaga",
+  "order": 2,
+  "variations": [
+    {
+      "aspects": ["shiny", "gamma-gamma"],
+      "texture": "cobblemon:textures/pokemon/odoyaga/odoyaga_gamma.png"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+    "id": "cobblemon:revenine",
+    "speciesId": "cobblemon:revenine",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Normal",
+        "unlockForms": [
+          "Normal"
+        ]
+      }
+    ],
+    "variations": []
+  }
+  

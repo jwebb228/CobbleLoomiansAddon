@@ -1,0 +1,142 @@
+{
+  "implemented": true,
+  "name": "obelost",
+  "nationalPokedexNumber": 2269,
+  "primaryType": "ground",
+  "secondaryType": "ghost",
+  "abilities": [
+    "supremeoverlord",
+    "cursedbody",
+    "h:arenatrap"
+  ],
+  "baseStats": {
+    "hp": 84,
+    "attack": 50,
+    "defence": 135,
+    "special_attack": 135,
+    "special_defence": 50,
+    "speed": 60
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "depth": "normal",
+      "light": "0-8",
+      "willSleepOnBed": false,
+      "times": "day"
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.3,
+        "canSwimInWater": false,
+        "canBreatheUnderwater": false
+      },
+      "fly": {
+        "canFly": false,
+        "flySpeedHorizontal": 0.3
+      }
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    }
+  },
+  "catchRate": 50,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 347,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 40,
+  "eggGroups": [
+    "mineral"
+  ],
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "minecraft:dirt",
+        "quantityRange": "1-3",
+        "percentage": 35
+      },
+      {
+        "item": "minecraft:deepslate",
+        "quantityRange": "1-3",
+        "percentage": 25
+      },
+      {
+        "item": "minecraft:tuff",
+        "quantityRange": "1-3",
+        "percentage": 25
+      }
+    ]
+  },
+  "moves": [
+    "0:lastrespects",
+    "1:trickshot",
+    "1:mudslap",
+    "1:stupefy",
+    "5:shriek",
+    "7:laserfocus",
+    "12:painsplit",
+    "17:sandtomb",
+    "20:shadowball",
+    "24:dissonantchord",
+    "28:substitute",
+    "32:smackdown",
+    "35:soulstorm",
+    "40:bodypress",
+    "46:encore",
+    "50:splittingheadache",
+    "egg:acupressure",
+    "egg:trickroom",
+    "egg:spikes",
+    "egg:energybreak",
+    "egg:landslide",
+    "egg:mudslide",
+    "egg:phantomblast",
+    "egg:taunt",
+    "egg:leechseed",
+    "egg:rest",
+    "egg:haze",
+    "egg:assist",
+    "egg:momento",
+    "tm:protect",
+    "tm:facade",
+    "tm:mudshot",
+    "tm:calmmind",
+    "tm:shadowball",
+    "tm:falseswipe"
+  ],
+  "labels": [
+    "custom",
+    "roria"
+  ],
+  "pokedex": [
+    "cobblemon.species.obelost.desc1"
+  ],
+  "baseScale": 1.2,
+  "hitbox": {
+    "width": 2,
+    "height": 3.8,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 2184,
+  "weight": 3388,
+  "preEvolution": "grievestone",
+  "evolutions": []
+}

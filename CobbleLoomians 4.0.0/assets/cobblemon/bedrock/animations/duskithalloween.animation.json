@@ -1,0 +1,222 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.duskithalloween.faint": {
+			"animation_length": 5,
+			"bones": {
+				"duskithalloween": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.25": [20, 0, 0],
+						"0.5": [42.5, 0, 0],
+						"0.75": [92.5, 0, 0]
+					},
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.25": [0, -3, 14],
+						"0.5": [0, 1.5, 16],
+						"0.75": [0, 8, 19]
+					}
+				},
+				"tail": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5833": [-22.5, 0, 0],
+						"0.7083": [-45, 0, 0],
+						"1.0": [-120, 0, 0]
+					},
+					"position": {
+						"0.0": [0, 0, 0],
+						"1.0": [0, 0, -2]
+					}
+				},
+				"head": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.25": [-30, 0, 0],
+						"0.5": [-72.5, 0, 0],
+						"0.75": [0, 0, 0]
+					},
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.25": [0, -1, 0],
+						"0.5": [0, -4.5, 1],
+						"0.75": [0, 0, 0]
+					}
+				},
+				"arm2": {
+					"rotation": [0, 0, -37.5],
+					"position": [0, 7, 0]
+				},
+				"arm": {
+					"rotation": [0, 0, 35],
+					"position": [-3, -2, 0]
+				},
+				"eye2": {
+					"position": {
+						"0.0": [0, 0, -0.2],
+						"0.5": [0, 0, -1.2]
+					}
+				},
+				"eye": {
+					"position": {
+						"0.0": [0, 0, -0.2],
+						"0.5": [0, 0, -1.2]
+					}
+				}
+			}
+		},
+		"animation.duskithalloween.ground_idle": {
+			"loop": true,
+			"animation_length": 2.25,
+			"bones": {
+				"arm": {
+					"rotation": {
+						"0.0": [0, 0, 35],
+						"1.0": [0, 10, 35],
+						"2.0": [0, 0, 35]
+					},
+					"position": {
+						"0.0": [-3, -2, 0],
+						"2.0": [-3, -2, 0]
+					}
+				},
+				"arm2": {
+					"rotation": {
+						"0.0": [0, 0, -37.5],
+						"1.0": [0, -7.5, -37.5],
+						"2.0": [0, 0, -37.5]
+					},
+					"position": {
+						"0.0": [0, 7, 0],
+						"1.0": [0, 7, 2],
+						"2.0": [0, 7, 0]
+					}
+				},
+				"tail": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.0": [-25, 0, 0],
+						"2.0": [0, 0, 0]
+					},
+					"position": {
+						"0.0": [0, 0, 0],
+						"1.0": [0, 0, -1],
+						"2.0": [0, 0, 0]
+					}
+				},
+				"bone": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.7083": [20, 0, 0],
+						"1.5": [0, 0, 0]
+					},
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.7083": [0, 0, 1],
+						"1.5": [0, 0, 0]
+					}
+				},
+				"bone2": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.7083": [20, 0, 0],
+						"1.5": [0, 0, 0]
+					},
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.7083": [0, 0, 1],
+						"1.5": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.duskithalloween.cry": {
+			"animation_length": 2.5,
+			"sound_effects": {
+				"0.0": {
+					"effect": "pokemon.duskit.cry"
+				}
+			}
+		},
+		"animation.duskithalloween.sleep": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"duskithalloween": {
+					"rotation": [92.5, 0, 0],
+					"position": [0, 8, 19]
+				},
+				"tail": {
+					"rotation": [0, -90, -60],
+					"position": [0, 0, -2]
+				},
+				"head": {
+					"rotation": [-102.1809, -19.92066, -1.81693],
+					"position": [-3, -7, 4]
+				},
+				"arm2": {
+					"rotation": [-90, 0, 120],
+					"position": [-14, -6, 0]
+				},
+				"arm": {
+					"rotation": [-90, 0, -107.5],
+					"position": [-7, 7, -1]
+				},
+				"leg": {
+					"rotation": [-180, 0, 0],
+					"position": [0, 20, -1]
+				},
+				"leg2": {
+					"rotation": [-180, 0, 0],
+					"position": [0, 20, -1]
+				},
+				"bone3": {
+					"position": [0, 0, 1]
+				},
+				"eye2": {
+					"position": [0, 0, -0.92]
+				},
+				"eye": {
+					"position": [0, 0, -0.92]
+				}
+			}
+		},
+		"animation.duskithalloween.ground_walk": {
+			"loop": true,
+			"animation_length": 2,
+			"bones": {
+				"duskithalloween": {
+					"rotation": [40, 0, 0],
+					"position": [0, 1, 16]
+				},
+				"head": {
+					"rotation": [-40, 0, 0],
+					"position": [0, -2.01607, 1.16826]
+				},
+				"torso": {
+					"rotation": [17.5, 0, 0],
+					"position": [0, 7, -10]
+				},
+				"arm": {
+					"rotation": [0, 0, 40],
+					"position": [-3, -3, 0]
+				},
+				"arm2": {
+					"rotation": [0, 0, -35],
+					"position": [0, 6, 0]
+				},
+				"tail": {
+					"rotation": [-72.5, 0, 0],
+					"position": [0, 0, -1]
+				},
+				"leg": {
+					"position": [0, 5.90835, -5.48557]
+				},
+				"leg2": {
+					"position": [0, 5.90835, -5.48557]
+				}
+			}
+		}
+	}
+}

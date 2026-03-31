@@ -1,0 +1,16 @@
+{
+    "id": "cobblemon:odoyaga",
+    "speciesId": "cobblemon:odoyaga",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Normal",
+        "unlockForms": [
+          "Normal"
+        ]
+      }
+    ],
+    "variations": []
+  }
+  

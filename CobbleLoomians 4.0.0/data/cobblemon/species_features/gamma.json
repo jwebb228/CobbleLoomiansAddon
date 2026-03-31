@@ -1,0 +1,16 @@
+{
+  "type": "choice",
+  "keys": [
+    "gamma"
+  ],
+  "default": "random",
+  "choices": [
+    "regular",
+    "regular",
+    "regular",
+    "regular",
+    "gamma"
+  ],
+  "isAspect": true,
+  "aspectFormat": "gamma-{{choice}}"
+}

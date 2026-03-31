@@ -1,0 +1,61 @@
+{
+ "head": "head",
+ "portraitScale": 2,
+ "portraitTranslation": [ 0, -1, 0 ],
+ "profileScale": 1.1,
+ "profileTranslation": [ 0, 0.1, 0 ],
+ "animations": {
+  "cry": "q.bedrock_stateful('twilat', 'cry')"
+},
+ "poses": {
+  "standing": {
+    "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+    "isBattle": false,
+    "animations": ["look",
+      "q.bedrock('twilat', 'ground_idle')"
+    ],
+    "quirks": [
+      "q.bedrock_quirk('twilat', 'blink')"
+    ]
+  },
+  "walking": {
+    "poseTypes": ["WALK"],
+    "animations": ["look",
+      "q.bedrock('twilat', 'ground_walk')"
+    ],
+    "quirks": ["q.bedrock_quirk('twilat', 'blink')"]
+  },
+  "float": {
+    "poseTypes": ["FLOAT"],
+    "animations": [
+      "q.bedrock('twilat', 'ground_idle')"
+    ],
+    "quirks": ["q.bedrock_quirk('twilat', 'blink')"]
+  },
+  "swim": {
+    "poseTypes": ["SWIM"],
+    "animations": [
+      "q.bedrock('twilat', 'ground_walk')"
+    ],
+    "quirks": ["q.bedrock_quirk('twilat', 'blink')"]
+  },
+  "sleep": {
+    "poseTypes": ["SLEEP"],
+    "animations": ["q.bedrock('twilat', 'sleep')"]
+    },
+    "shoulder_left": {
+     "poseTypes": ["SHOULDER_LEFT"],
+     "animations": [
+       "q.bedrock('twilat', 'shoulder_left')"
+     ],
+     "quirks": ["q.bedrock_quirk('twilat', 'blink')"]
+   },
+   "shoulder_right": {
+     "poseTypes": ["SHOULDER_RIGHT"],
+     "animations": [
+       "q.bedrock('twilat', 'shoulder_right')"
+     ],
+     "quirks": ["q.bedrock_quirk('twilat', 'blink')"]
+   }
+ }
+}

@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:snapr",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:snapr",
+      "model": "cobblemon:snapr.geo",
+      "texture": "cobblemon:textures/pokemon/snapr/snapr.png"
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/snapr/snapr_shiny.png"
+    }
+  ]
+}

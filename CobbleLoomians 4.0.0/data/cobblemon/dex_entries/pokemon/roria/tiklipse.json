@@ -1,0 +1,16 @@
+{
+    "id": "cobblemon:tiklipse",
+    "speciesId": "cobblemon:tiklipse",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Normal",
+        "unlockForms": [
+          "Normal"
+        ]
+      }
+    ],
+    "variations": []
+  }
+  

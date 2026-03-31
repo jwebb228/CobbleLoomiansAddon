@@ -1,0 +1,16 @@
+{
+    "id": "cobblemon:swimp",
+    "speciesId": "cobblemon:swimp",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Normal",
+        "unlockForms": [
+          "Normal"
+        ]
+      }
+    ],
+    "variations": []
+  }
+  

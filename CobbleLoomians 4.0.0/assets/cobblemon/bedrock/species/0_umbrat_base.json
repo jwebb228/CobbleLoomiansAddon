@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:umbrat",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:umbrat",
+      "model": "cobblemon:umbrat.geo",
+      "texture": "cobblemon:textures/pokemon/umbrat/umbrat.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/umbrat/umbrat_shiny.png"
+    }
+  ]
+}

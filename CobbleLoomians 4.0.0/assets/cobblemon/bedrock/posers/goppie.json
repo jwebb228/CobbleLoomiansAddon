@@ -1,0 +1,48 @@
+{
+ "head": "body",
+ "portraitScale": 2,
+ "portraitTranslation": [ -0.2, -1.3, 0 ],
+ "profileScale": 0.8,
+ "profileTranslation": [ 0, 0.3, 0 ],
+ "animations": {
+  "cry": "q.bedrock_stateful('goppie', 'cry')"
+},
+ "poses": {
+  "battle-standing": {
+    "poseTypes": ["STAND"],
+    "isBattle": true,
+    "isTouchingWater": false,
+    "animations": [
+      "q.bedrock('goppie', 'ground_idle')"
+    ],
+    "quirks": [
+     
+    ]
+  },
+  "standing": {
+    "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+    "isBattle": false,
+    "animations": [
+      "q.bedrock('goppie', 'ground_idle')"
+    ]
+  },
+  "walking": {
+    "poseTypes": ["WALK"],
+    "animations": [
+      "q.bedrock('goppie', 'ground_walk')"
+    ]
+  },
+  "float": {
+    "poseTypes": ["FLOAT"],
+    "animations": [
+      "q.bedrock('goppie', 'water_idle')"
+    ]
+  },
+  "swim": {
+    "poseTypes": ["SWIM"],
+    "animations": [
+      "q.bedrock('goppie', 'water_swim')"
+    ]
+  }
+ }
+}

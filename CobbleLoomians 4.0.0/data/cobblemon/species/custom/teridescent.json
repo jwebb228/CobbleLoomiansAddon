@@ -1,0 +1,252 @@
+{
+  "implemented": true,
+  "name": "teridescent",
+  "nationalPokedexNumber": 2225,
+  "primaryType": "dragon",
+  "secondaryType": "fairy",
+  "abilities": [
+    "analytic",
+    "pixilate",
+    "h:dazzling"
+  ],
+  "baseStats": {
+    "hp": 115,
+    "attack": 112,
+    "defence": 104,
+    "special_attack": 45,
+    "special_defence": 73,
+    "speed": 70
+  },
+  "riding": {
+    "behaviours": {
+      "LIQUID": {
+        "key": "cobblemon:liquid/dolphin",
+        "rideSounds": [
+          {
+            "muffleEnabled": true,
+            "pitchExpr": "math.max(1.0 ,0.2 + math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2))",
+            "playForNonPassengers": true,
+            "soundLocation": "cobblemon:ride.loop.water_surface",
+            "volumeExpr": "math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2)"
+          }
+        ],
+        "stats": {
+          "ACCELERATION": "40-60",
+          "JUMP": "40-70",
+          "SKILL": "35-65",
+          "SPEED": "30-55",
+          "STAMINA": "45-75"
+        }
+      }
+    },
+    "seats": [
+      {
+        "offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "poseOffsets": [
+          {
+            "offset": {
+              "x": -0.044081237,
+              "y": -3.1708837,
+              "z": -0.5515496
+            },
+            "poseTypes": [
+              "STAND"
+            ]
+          },
+          {
+            "offset": {
+              "x": -0.031442184,
+              "y": -3.217463,
+              "z": -0.99444747
+            },
+            "poseTypes": [
+              "WALK"
+            ]
+          },
+          {
+            "offset": {
+              "x": -0.12131662,
+              "y": -2.7231147,
+              "z": -1.098696
+            },
+            "poseTypes": [
+              "HOVER"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.178188,
+              "y": -2.1333687,
+              "z": -1.0728004
+            },
+            "poseTypes": [
+              "FLY"
+            ]
+          },
+          {
+            "offset": {
+              "x": -0.040299278,
+              "y": -2.2590303,
+              "z": -1.3307521
+            },
+            "poseTypes": [
+              "FLOAT"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.30376646,
+              "y": -1.5890558,
+              "z": -1.3432088
+            },
+            "poseTypes": [
+              "SWIM"
+            ]
+          },
+          {
+            "offset": {
+              "x": -0.7275008,
+              "y": -3.4011788,
+              "z": -0.5909088
+            },
+            "poseTypes": [
+              "GLIDE"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "behaviour": {
+    "herd": {
+      "maxSize": "9",
+      "toleratedLeaders": [
+        {
+          "pokemon": "manaphy",
+          "tier": 1
+        }
+      ]
+    },
+    "resting": {
+      "canSleep": true,
+      "depth": "normal",
+      "light": "0-4",
+      "willSleepOnBed": false,
+      "times": "night"
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.5,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      },
+      "fly": {
+        "canFly": false,
+        "flySpeedHorizontal": 0.3
+      }
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    }
+  },
+  "catchRate": 50,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 522,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 30,
+  "eggGroups": [
+    "bug",
+    "water_3"
+  ],
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "minecraft:amethyst_shard",
+        "quantityRange": "1-2",
+        "percentage": 40.0
+      },
+      {
+        "item": "cobblemon:deep_sea_scale",
+        "quantityRange": "1",
+        "percentage": 20.0
+      },
+      {
+        "item": "cobblemon:deep_sea_tooth",
+        "quantityRange": "1",
+        "percentage": 20.0
+      },
+      {
+        "item": "cobblemon:prism_scale",
+        "quantityRange": "1",
+        "percentage": 215.0
+      }
+    ]
+  },
+  "moves": [
+    "1:hypersting",
+    "1:disarmingvoice",
+    "1:dinoclaws",
+    "4:confuseray",
+    "7:bugbite",
+    "11:drainingkiss",
+    "15:aquajaws",
+    "19:shrewdblast",
+    "24:dragondance",
+    "29:dazzlingbarrage",
+    "34:slash",
+    "38:aquacutter",
+    "42:blindspotbatter",
+    "49:primalslash",
+    "egg:trickroom",
+    "egg:bodyslam",
+    "egg:lunge",
+    "egg:moonblast",
+    "egg:leechlife",
+    "egg:wavewrecker",
+    "tm:protect",
+    "tm:hypnosis",
+    "tm:dazzlinggleam",
+    "tm:flashnflee",
+    "tm:bubblebeam",
+    "tm:falseswipe"
+  ],
+  "labels": [
+    "custom",
+    "roria"
+  ],
+  "pokedex": [
+    "cobblemon.species.teridescent.desc"
+  ],
+  "baseScale": 1,
+  "hitbox": {
+    "width": 3,
+    "height": 3.5,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 1,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 127,
+  "weight": 34,
+  "preEvolution": "teripod",
+  "evolutions": []
+}

@@ -1,0 +1,30 @@
+{
+    "species": "cobblemon:poochrol",
+    "order": 0,
+    "variations": [
+        {
+            "aspects": [],
+            "poser": "cobblemon:poochrol",
+            "model": "cobblemon:poochrol.geo",
+            "texture": "cobblemon:textures/pokemon/poochrol/poochrol.png",
+            "layers": [{
+                "name": "emissive",
+                "emissive": true,
+                "translucent": false,
+                "texture":"cobblemon:textures/pokemon/poochrol/poochrol_emmissive.png"
+            }]
+        },
+        {
+            "aspects": [
+                "shiny"
+            ],
+            "texture": "cobblemon:textures/pokemon/poochrol/poochrol_shiny.png",
+            "layers":[{
+                "name": "emissive",
+                "emissive": true,
+                "translucent": false,
+                "texture":"cobblemon:textures/pokemon/poochrol/poochrol_emmissive_shiny.png"
+            }] 
+        }
+    ]
+}

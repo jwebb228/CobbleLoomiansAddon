@@ -1,0 +1,148 @@
+{
+  "implemented": true,
+  "name": "weaselin",
+  "nationalPokedexNumber": 2219,
+  "primaryType": "normal",
+  "abilities": [
+    "hospitality",
+    "unburden",
+    "h:pickpocket"
+  ],
+  "baseStats": {
+    "hp": 75,
+    "attack": 72,
+    "defence": 71,
+    "special_attack": 56,
+    "special_defence": 66,
+    "speed": 90
+  },
+  "behaviour": {
+    "herd": {
+      "maxSize": "6",
+      "toleratedLeaders": [
+        {
+          "pokemon": "weaselin",
+          "tier": 1
+        },
+        {
+          "pokemon": "gholdengo",
+          "tier": 2
+        }
+      ]
+    },
+    "resting": {
+      "canSleep": true,
+      "depth": "normal",
+      "light": "0-4",
+      "willSleepOnBed": true,
+      "times": "night"
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.3,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      },
+      "fly": {
+        "canFly": false,
+        "flySpeedHorizontal": 0.3
+      }
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    }
+  },
+  "catchRate": 105,
+  "maleRatio": 0.5,
+  "shoulderMountable": true,
+  "baseExperienceYield": 423,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 30,
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "minecraft:string",
+        "quantityRange": "1-4",
+        "percentage": 40.0
+      },
+      {
+        "item": "minecraft:emerald",
+        "quantityRange": "1-2",
+        "percentage": 10.0
+      },
+      {
+        "item": "cobblemon:relic_coin",
+        "quantityRange": "1-10",
+        "percentage": 5.0
+      }
+    ]
+  },
+  "moves": [
+    "1:helpinghand",
+    "1:scratch",
+    "1:tailwhip",
+    "3:stretch",
+    "6:quickattack",
+    "10:falseswipe",
+    "14:recycle",
+    "18:headbutt",
+    "22:momento",
+    "26:slash",
+    "30:batonpass",
+    "35:substitute",
+    "39:bodyslam",
+    "44:rest",
+    "egg:baffle",
+    "egg:spikes",
+    "egg:circlethrow",
+    "egg:healingwish",
+    "egg:taunt",
+    "egg:snarl",
+    "egg:knockoff",
+    "egg:teardown",
+    "egg:foulplay",
+    "tm:followme",
+    "tm:trick",
+    "tm:protect",
+    "tm:facade",
+    "tm:falseswipe"
+
+  ],
+  "labels": [
+    "custom",
+    "roria"
+  ],
+  "pokedex": [
+    "cobblemon.species.weaselin.desc"
+  ],
+  "baseScale": 0.5,
+  "hitbox": {
+    "width": 1,
+    "height": 2.5,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
+  },
+  "height": 23,
+  "weight": 2,
+  "preEvolution": "fentern",
+  "evolutions": []
+}

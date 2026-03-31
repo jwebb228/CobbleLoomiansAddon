@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "kittone-1",
+      "pokemon": "kittone",
+      "presets": [ "village" ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "1-27",
+      "weight": 10.0,
+      "condition": {
+           "structures": ["#minecraft:village"],
+           "biomes": [
+              "#cobblemon:is_overworld"
+          ]
+      }
+  }
+  ]
+}

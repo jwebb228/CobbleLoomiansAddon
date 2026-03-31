@@ -1,0 +1,160 @@
+{
+  "implemented": true,
+  "name": "duskit",
+  "nationalPokedexNumber": 2289,
+  "primaryType": "ghost",
+  "secondaryType": "psychic",
+  "abilities": [
+    "synchronize",
+    "h:meanspirited"
+  ],
+  "baseStats": {
+    "hp": 74,
+    "attack": 100,
+    "defence": 81,
+    "special_attack": 132,
+    "special_defence": 104,
+    "speed": 109
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "depth": "normal",
+      "light": "0-4",
+      "willSleepOnBed": true,
+      "times": "night"
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false,
+	"walkSpeed": 0.5
+      },
+      "swim": {
+        "swimSpeed": 0.3,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      },
+      "fly": {
+        "canFly": true,
+        "flySpeedHorizontal": 0.3
+      }
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    }
+  },
+  "catchRate": 3,
+  "maleRatio": -1,
+  "shoulderMountable": true,
+  "baseExperienceYield": 330,
+  "experienceGroup": "slow",
+  "eggCycles": 120,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "minecraft:bone",
+        "quantityRange": "1-4",
+        "percentage": 25
+      }
+    ]
+  },
+  "moves": [
+    "1:thunderwave",
+    "1:astonish",
+    "1:confusion",
+    "4:destinybond",
+    "8:stupefy",
+    "12:mirrorcoat",
+    "19:oppress",
+    "24:shadowball",
+    "29:calmmind",
+    "37:shadowclaw",
+    "45:encore",
+    "tm:psychocut",
+    "tm:chasedown",
+    "tm:darkpulse",
+    "tm:flabbergast",
+    "tm:harrow",
+    "tm:hasten",
+    "tm:outburst",
+    "tm:phantomblast",
+    "tm:toxic",
+    "tm:taunt",
+    "tm:psychoblast",
+    "tm:pyrokinesis",
+    "tm:willowisp",
+    "tm:shadowsneak",
+    "tm:falseswipe",
+    "tm:momento",
+    "tm:darkpulse",
+    "tm:protect",
+    "tm:fadeaway",
+    "tm:hypnosis",
+    "tm:calmmind",
+    "tm:falseswipe",
+    "tm:shadowball"
+  ],
+  "labels": [
+    "custom",
+    "roria"
+  ],
+  "pokedex": [
+    "cobblemon.species.duskit.desc"
+  ],
+  "forms": [
+    {
+            "name": "plushie",
+            "baseScale": 0.5,
+            "hitbox": {
+            "width": 1,
+            "height": 1,
+            "fixed": false
+       }, 
+       "aspects": [
+        "plushie" 
+     ]
+    
+   },
+   {
+    "name": "skeleton",
+    "aspects": [
+        "skeleton" 
+     ]
+   },
+   {
+    "name": "puppet",
+    "aspects": [
+        "puppet" 
+     ]
+   }
+ ],
+   
+  "baseScale": 1,
+  "hitbox": {
+    "width": 1,
+    "height": 2,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 94,
+  "weight": 17,
+  "evolutions": [],
+  "features": [ 
+    "plushie", "puppet", "skeleton"] 
+}

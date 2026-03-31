@@ -1,0 +1,16 @@
+{
+    "id": "cobblemon:fentern",
+    "speciesId": "cobblemon:fentern",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Normal",
+        "unlockForms": [
+          "Normal"
+        ]
+      }
+    ],
+    "variations": []
+  }
+  

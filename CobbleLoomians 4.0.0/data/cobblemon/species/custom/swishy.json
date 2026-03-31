@@ -1,0 +1,179 @@
+{
+  "implemented": true,
+  "name": "swishy",
+  "nationalPokedexNumber": 2189,
+  "primaryType": "water",
+  "abilities": [
+    "magicbounce",
+    "damp",
+    "h:viscid"
+  ],
+  "baseStats": {
+    "hp": 39,
+    "attack": 15,
+    "defence": 51,
+    "special_attack": 52,
+    "special_defence": 77,
+    "speed": 72
+  },
+  "behaviour": {
+    "herd": {
+      "maxSize": "6",
+      "toleratedLeaders": [
+        {
+          "pokemon": "swishy",
+          "tier": 1
+        },
+        {
+          "pokemon": "fiscarna",
+          "tier": 2
+        },
+        {
+          "pokemon": "manaphy",
+          "tier": 3
+        }
+      ]
+    },
+    "resting": {
+      "canSleep": true,
+      "depth": "normal",
+      "light": "0-4",
+      "willSleepOnBed": false,
+      "times": "night"
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.5,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      },
+      "fly": {
+        "canFly": false,
+        "flySpeedHorizontal": 0.3
+      }
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    }
+  },
+  "catchRate": 101,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 168,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 5,
+  "eggGroups": [
+    "water_1",
+    "water_2"
+  ],
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:strawberry_sweet",
+        "quantityRange": "1-2",
+        "percentage": 40.0
+      },
+      {
+        "item": "cobblemon:exp_candy_xs",
+        "quantityRange": "1-10",
+        "percentage": 20.0
+      },
+      {
+        "item": "cobblemon:exp_candy_s",
+        "quantityRange": "1-6",
+        "percentage": 15.0
+      },
+       {
+        "item": "cobblemon:exp_candy_m",
+        "quantityRange": "1-4",
+        "percentage": 5.0
+      },
+       {
+        "item": "cobblemon:exp_candy_l",
+        "quantityRange": "1-2",
+        "percentage": 3.5
+      },
+             {
+        "item": "cobblemon:exp_candy_xl",
+        "quantityRange": "1",
+        "percentage": 0.5
+      },
+             {
+        "item": "cobblemon:rare_candy",
+        "quantityRange": "1",
+        "percentage": 2.5
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:watergun",
+    "4:defencecurl",
+    "8:waterpulse",
+    "11:taunt",
+    "15:laserfocus",
+    "20:aquaring",
+    "26:bubblebeam",
+    "30:substitute",
+    "35:haze",
+    "41:mudslide",
+    "egg:painsplit",
+    "egg:healinggift",
+    "egg:hydroblast",
+    "egg:landslide",
+    "egg:recycle",
+    "egg:stratagem",
+    "tm:protect",
+    "tm:icebeam",
+    "tm:bubblebeam",
+    "tm:calmmind",
+    "tm:dive",
+    "tm:falseswipe",
+    "tm:surf"
+  ],
+  "labels": [
+    "custom",
+    "roria"
+  ],
+  "pokedex": [
+    "cobblemon.species.swishy.desc"
+  ],
+  "baseScale": 0.5,
+  "hitbox": {
+    "width": 2,
+    "height": 1,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "height": 63,
+  "weight": 7,
+  "evolutions": [
+     {
+      "id": "swishy-fiscarna-item_interact",
+      "variant": "item_interact",
+      "result": "fiscarna",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "gulp"
+      ],
+      "requirements": [],
+      "requiredContext": "cobblemon:strawberry_sweet"
+    }
+  ]
+}

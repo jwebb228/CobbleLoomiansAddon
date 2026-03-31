@@ -1,0 +1,45 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "revenine-1",
+            "pokemon": "revenine",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "28-60",
+            "weight": 2,
+            "condition": {
+                "timeRange": "night",
+                "biomes": [
+                    "#cobblemon:is_forest",
+                    "#cobblemon:is_taiga",
+                    "#cobblemon:is_spooky"
+                ]
+            }
+        },
+        {
+            "id": "revenine-2",
+            "pokemon": "revenine",
+            "presets": [
+                "village"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "28-60",
+            "weight": 0.6,
+            "condition": {
+                "timeRange": "night",
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ]
+            }
+        }
+    ]
+}

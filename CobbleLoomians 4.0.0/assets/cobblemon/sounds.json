@@ -1,0 +1,188 @@
+{
+   "pokemon.duskit.cry": {
+       "sounds": ["cobblemon:pokemon/duskit/duskit"]
+   },
+       "pokemon.duskit.ambient": {
+        "sounds": ["cobblemon:pokemon/duskit/duskit"]
+   },
+   "pokemon.whispup.cry": {
+       "sounds": ["cobblemon:pokemon/whispup/whispup"]
+   },
+       "pokemon.whispup.ambient": {
+        "sounds": ["cobblemon:pokemon/whispup/whispup"]
+    },
+   "pokemon.revenine.cry": {
+       "sounds": ["cobblemon:pokemon/revenine/revenine"]
+    },
+       "pokemon.revenine.ambient": {
+        "sounds": ["cobblemon:pokemon/revenine/revenine"]
+    },
+   "pokemon.phancub.cry": {
+        "sounds": ["cobblemon:pokemon/phancub/phancub"]
+   },
+       "pokemon.phancub.ambient": {
+        "sounds": ["cobblemon:pokemon/phancub/phancub"]
+    },
+   "pokemon.ursoul.cry": {
+        "sounds": ["cobblemon:pokemon/ursoul/ursoul"]
+   },
+        "pokemon.ursoul.ambient": {
+        "sounds": ["cobblemon:pokemon/ursoul/ursoul"]
+    },
+   "pokemon.metronette.cry": {
+        "sounds": ["cobblemon:pokemon/metronette/metronette"]
+   },
+        "pokemon.metronette.ambient": {
+        "sounds": ["cobblemon:pokemon/metronette/metronette"]
+    },
+   "pokemon.twilat.cry": {
+        "sounds": ["cobblemon:pokemon/twilat/twilat"]
+   },
+        "pokemon.twilat.ambient": {
+        "sounds": ["cobblemon:pokemon/twilat/twilat"]
+    },
+    "pokemon.umbrat.cry": {
+        "sounds": ["cobblemon:pokemon/umbrat/umbrat"]
+    },
+        "pokemon.umbrat.ambient": {
+        "sounds": ["cobblemon:pokemon/umbrat/umbrat"]
+    },
+    "pokemon.luxoar.cry": {
+        "sounds": ["cobblemon:pokemon/luxoar/luxoar"]
+    },
+        "pokemon.luxoar.ambient": {
+        "sounds": ["cobblemon:pokemon/luxoar/luxoar"]
+    },
+    "pokemon.tiklipse.cry": {
+        "sounds": ["cobblemon:pokemon/tiklipse/tiklipse"]
+    },
+        "pokemon.tiklipse.ambient": {
+        "sounds": ["cobblemon:pokemon/tiklipse/tiklipse"]
+    },
+    "pokemon.grievestone.cry": {
+        "sounds": ["cobblemon:pokemon/grievestone/grievestone"]
+    },
+        "pokemon.grievestone.ambient": {
+        "sounds": ["cobblemon:pokemon/grievestone/grievestone"]
+    },
+    "pokemon.obelost.cry": {
+        "sounds": ["cobblemon:pokemon/obelost/obelost"]
+    },
+        "pokemon.obelost.ambient": {
+        "sounds": ["cobblemon:pokemon/obelost/obelost"]
+    },
+    "pokemon.hunder.cry": {
+        "sounds": ["cobblemon:pokemon/hunder/hunder"]
+    },
+        "pokemon.hunder.ambient": {
+        "sounds": ["cobblemon:pokemon/hunder/hunder"]
+    },
+    "pokemon.poochrol.cry": {
+        "sounds": ["cobblemon:pokemon/poochrol/poochrol"]
+    },
+        "pokemon.poochrol.ambient": {
+        "sounds": ["cobblemon:pokemon/poochrol/poochrol"]
+    },
+    "pokemon.teridescent.cry": {
+        "sounds": ["cobblemon:pokemon/teridescent/teridescent"]
+    },
+        "pokemon.teridescent.ambient": {
+        "sounds": ["cobblemon:pokemon/teridescent/teridescent"]
+    },
+    "pokemon.teripod.cry": {
+        "sounds": ["cobblemon:pokemon/teripod/teripod"]
+    },
+        "pokemon.teripod.ambient": {
+        "sounds": ["cobblemon:pokemon/teripod/teripod"]
+    },
+    "pokemon.swimp.cry": {
+        "sounds": ["cobblemon:pokemon/swimp/swimp"]
+    },
+        "pokemon.swimp.ambient": {
+        "sounds": ["cobblemon:pokemon/swimp/swimp"]
+    },
+    "pokemon.snapr.cry": {
+        "sounds": ["cobblemon:pokemon/snapr/snapr"]
+    },
+        "pokemon.snapr.ambient": {
+        "sounds": ["cobblemon:pokemon/snapr/snapr"]
+    },
+    "pokemon.garlash.cry": {
+        "sounds": ["cobblemon:pokemon/garlash/garlash"]
+    },
+        "pokemon.garlash.ambient": {
+        "sounds": ["cobblemon:pokemon/garlash/garlash"]
+    },
+    "pokemon.kittone.cry": {
+        "sounds": ["cobblemon:pokemon/kittone/kittone"]
+    },
+        "pokemon.kittone.ambient": {
+        "sounds": ["cobblemon:pokemon/kittone/kittone"]
+    },
+    "pokemon.lyricat.cry": {
+        "sounds": ["cobblemon:pokemon/lyricat/lyricat"]
+    },
+        "pokemon.lyricat.ambient": {
+        "sounds": ["cobblemon:pokemon/lyricat/lyricat"]
+    },
+     "pokemon.goppie.cry": {
+        "sounds": ["cobblemon:pokemon/goppie/goppie"]
+    },
+        "pokemon.goppie.ambient": {
+        "sounds": ["cobblemon:pokemon/goppie/goppie"]
+    },
+     "pokemon.arapaigo.cry": {
+        "sounds": ["cobblemon:pokemon/arapaigo/arapaigo"]
+    },
+        "pokemon.arapaigo.ambient": {
+        "sounds": ["cobblemon:pokemon/arapaigo/arapaigo"]
+    },
+      "pokemon.fentern.cry": {
+        "sounds": ["cobblemon:pokemon/fentern/fentern"]
+    },
+        "pokemon.fentern.ambient": {
+        "sounds": ["cobblemon:pokemon/fentern/fentern"]
+    },
+       "pokemon.weaselin.cry": {
+        "sounds": ["cobblemon:pokemon/weaselin/weaselin"]
+    },
+        "pokemon.weaselin.ambient": {
+        "sounds": ["cobblemon:pokemon/weaselin/weaselin"]
+    },
+       "pokemon.swishy.cry": {
+        "sounds": ["cobblemon:pokemon/swishy/swishy"]
+    },
+        "pokemon.swishy.ambient": {
+        "sounds": ["cobblemon:pokemon/swishy/swishy"]
+    },
+       "pokemon.fiscarna.cry": {
+        "sounds": ["cobblemon:pokemon/fiscarna/fiscarna"]
+    },
+        "pokemon.fiscarna.ambient": {
+        "sounds": ["cobblemon:pokemon/fiscarna/fiscarna"]
+    },
+       "pokemon.pwuff.cry": {
+        "sounds": ["cobblemon:pokemon/pwuff/pwuff"]
+    },
+        "pokemon.pwuff.ambient": {
+        "sounds": ["cobblemon:pokemon/pwuff/pwuff"]
+    },
+       "pokemon.barblast.cry": {
+        "sounds": ["cobblemon:pokemon/barblast/barblast"]
+    },
+        "pokemon.barblast.ambient": {
+        "sounds": ["cobblemon:pokemon/barblast/barblast"]
+    },
+        "pokemon.odoyaga.cry": {
+         "sounds": ["cobblemon:pokemon/odoyaga/odoyaga"]
+    },
+        "pokemon.odoyaga.ambient": {
+        "sounds": ["cobblemon:pokemon/odoyaga/odoyaga"]
+    },
+        "pokemon.celesting.cry": {
+         "sounds": ["cobblemon:pokemon/celesting/celesting"]
+    },
+        "pokemon.celesting.ambient": {
+        "sounds": ["cobblemon:pokemon/celesting/celesting"]
+    }
+}

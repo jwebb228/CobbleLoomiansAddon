@@ -1,0 +1,6 @@
+{
+  "keys": [ "corrupted" ],
+  "type": "flag",
+  "isAspect": true,
+  "default": false
+}

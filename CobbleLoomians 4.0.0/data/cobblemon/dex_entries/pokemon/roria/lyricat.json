@@ -1,0 +1,16 @@
+{
+    "id": "cobblemon:lyricat",
+    "speciesId": "cobblemon:lyricat",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Normal",
+        "unlockForms": [
+          "Normal"
+        ]
+      }
+    ],
+    "variations": []
+  }
+  

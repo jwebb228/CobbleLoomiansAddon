@@ -1,0 +1,32 @@
+{
+ "species": "cobblemon:grievestone",
+ "order": 0,
+ "variations": [
+   {
+     "aspects": [],
+     "poser": "cobblemon:grievestone",
+     "model": "cobblemon:grievestone.geo",
+     "texture": "cobblemon:textures/pokemon/grievestone/grievestone.png",
+     "layers": [
+        {
+              "name": "emissive",
+              "emissive": true,
+              "texture": "cobblemon:textures/pokemon/grievestone/grievestone_emissive.png",
+              "translucent": true
+        }
+      ]
+   },
+   {
+    "aspects": [ "shiny" ],
+    "texture": "cobblemon:textures/pokemon/grievestone/grievestone_shiny.png",
+    "layers": [
+      {
+            "name": "emissive",
+            "emissive": true,
+            "texture": "cobblemon:textures/pokemon/grievestone/grievestone_shiny_emissive.png",
+            "translucent": true
+      }
+    ]
+  }
+ ]
+}

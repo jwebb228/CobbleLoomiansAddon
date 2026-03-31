@@ -1,0 +1,58 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "arapaigo-1",
+            "pokemon": "arapaigo",
+            "presets": [
+                "freshwater",
+                "underwater"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "uncommon",
+            "level": "30-50",
+            "weight": 2,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_freshwater"
+                ]
+            }
+        },
+        {
+            "id": "arapaigo-2",
+            "pokemon": "arapaigo",
+            "presets": [
+                "underwater"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "uncommon",
+            "level": "30-50",
+            "weight": 2,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_ocean"
+                ]
+            }
+        },
+        {
+            "id": "arapaigo-3",
+            "pokemon": "arapaigo",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "uncommon",
+            "level": "1-100",
+            "weight": 3,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_freshwater",
+                    "#minecraft:is_ocean"
+                ]
+            }
+        }
+    ]
+}

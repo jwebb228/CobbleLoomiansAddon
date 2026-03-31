@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:weaselin",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:weaselin",
+      "model": "cobblemon:weaselin.geo",
+      "texture": "cobblemon:textures/pokemon/weaselin/weaselin.png"
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/weaselin/weaselin_shiny.png"
+    }
+  ]
+}

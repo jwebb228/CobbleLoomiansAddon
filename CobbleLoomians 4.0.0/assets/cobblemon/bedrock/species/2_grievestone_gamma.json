@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:grievestone",
+  "order": 2,
+  "variations": [
+    {
+      "aspects": ["shiny", "gamma-gamma"],
+      "texture": "cobblemon:textures/pokemon/grievestone/grievestone_gamma.png",
+      "layers": [
+        {
+              "name": "emissive",
+              "emissive": true,
+              "texture": "cobblemon:textures/pokemon/grievestone/grievestone_gamma_emissive.png",
+              "translucent": true
+        }
+      ]
+    }
+  ]
+}

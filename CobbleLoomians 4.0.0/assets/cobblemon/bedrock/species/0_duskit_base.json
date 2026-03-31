@@ -1,0 +1,440 @@
+{
+  "species": "cobblemon:duskit",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:duskit",
+      "model": "cobblemon:duskit.geo",
+      "texture": "cobblemon:textures/pokemon/duskit/duskit/duskit.png",
+      "layers": [
+        {
+              "name": "emissive",
+              "emissive": true,
+              "texture": "cobblemon:textures/pokemon/duskit/duskit/duskit_emissive.png",
+              "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/duskit/duskit/duskit_shiny.png",
+      "layers": [
+        {
+              "name": "emissive",
+              "emissive": true,
+              "texture": "cobblemon:textures/pokemon/duskit/duskit/duskit_shiny_emissive.png",
+              "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [ "plushie" ],
+      "poser": "cobblemon:duskitplushie",
+      "model": "cobblemon:duskitplushie.geo",
+      "texture": "cobblemon:textures/pokemon/duskit/duskitplushie/duskitplushie.png",
+      "layers": [
+        {
+               "name": "emissive",
+               "emissive": true,
+               "texture": "cobblemon:textures/pokemon/duskit/duskitplushie/duskitplushie_emissive.png",
+               "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny", "plushie"],
+      "texture": "cobblemon:textures/pokemon/duskit/duskitplushie/duskitplushie_shiny.png",
+      "layers": [
+        {
+               "name": "emissive",
+               "emissive": true,
+               "texture": "cobblemon:textures/pokemon/duskit/duskitplushie/duskitplushie_shiny_emissive.png",
+               "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [ "skeleton-red" ],
+      "poser": "cobblemon:duskithalloween",
+      "model": "cobblemon:duskithalloween.geo",
+      "texture": "cobblemon:textures/pokemon/duskit/duskithalloween/duskithalloween.png",
+      "layers": [
+        {
+          "name": "red",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/duskit/duskithalloween/duskithalloween_red.png",
+          "translucent": true
+        },
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/duskit/duskithalloween/duskithalloween_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [ "skeleton-orange" ],
+      "poser": "cobblemon:duskithalloween",
+      "model": "cobblemon:duskithalloween.geo",
+      "texture": "cobblemon:textures/pokemon/duskit/duskithalloween/duskithalloween.png",
+      "layers": [
+        {
+          "name": "orange",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/duskit/duskithalloween/duskithalloween_orange.png",
+          "translucent": true
+        },
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/duskit/duskithalloween/duskithalloween_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [ "skeleton-yellow" ],
+      "poser": "cobblemon:duskithalloween",
+      "model": "cobblemon:duskithalloween.geo",
+      "texture": "cobblemon:textures/pokemon/duskit/duskithalloween/duskithalloween.png",
+      "layers": [
+        {
+          "name": "yellow",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/duskit/duskithalloween/duskithalloween_yellow.png",
+          "translucent": true
+        },
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/duskit/duskithalloween/duskithalloween_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [ "skeleton-green" ],
+      "poser": "cobblemon:duskithalloween",
+      "model": "cobblemon:duskithalloween.geo",
+      "texture": "cobblemon:textures/pokemon/duskit/duskithalloween/duskithalloween.png",
+      "layers": [
+        {
+          "name": "green",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/duskit/duskithalloween/duskithalloween_green.png",
+          "translucent": true
+        },
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/duskit/duskithalloween/duskithalloween_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [ "skeleton-blue" ],
+      "poser": "cobblemon:duskithalloween",
+      "model": "cobblemon:duskithalloween.geo",
+      "texture": "cobblemon:textures/pokemon/duskit/duskithalloween/duskithalloween.png",
+      "layers": [
+        {
+          "name": "blue",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/duskit/duskithalloween/duskithalloween_blue.png",
+          "translucent": true
+        },
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/duskit/duskithalloween/duskithalloween_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [ "skeleton-purple" ],
+      "poser": "cobblemon:duskithalloween",
+      "model": "cobblemon:duskithalloween.geo",
+      "texture": "cobblemon:textures/pokemon/duskit/duskithalloween/duskithalloween.png",
+      "layers": [
+        {
+          "name": "purple",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/duskit/duskithalloween/duskithalloween_purple.png",
+          "translucent": true
+        },
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/duskit/duskithalloween/duskithalloween_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [ "skeleton-cyan" ],
+      "poser": "cobblemon:duskithalloween",
+      "model": "cobblemon:duskithalloween.geo",
+      "texture": "cobblemon:textures/pokemon/duskit/duskithalloween/duskithalloween.png",
+      "layers": [
+        {
+          "name": "cyan",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/duskit/duskithalloween/duskithalloween_cyan.png",
+          "translucent": true
+        },
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/duskit/duskithalloween/duskithalloween_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [ "skeleton-pink" ],
+      "poser": "cobblemon:duskithalloween",
+      "model": "cobblemon:duskithalloween.geo",
+      "texture": "cobblemon:textures/pokemon/duskit/duskithalloween/duskithalloween.png",
+      "layers": [
+        {
+          "name": "pink",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/duskit/duskithalloween/duskithalloween_pink.png",
+          "translucent": true
+        },
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/duskit/duskithalloween/duskithalloween_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [ "skeleton-white" ],
+      "poser": "cobblemon:duskithalloween",
+      "model": "cobblemon:duskithalloween.geo",
+      "texture": "cobblemon:textures/pokemon/duskit/duskithalloween/duskithalloween.png",
+      "layers": [
+        {
+          "name": "white",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/duskit/duskithalloween/duskithalloween_white.png",
+          "translucent": true
+        },
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/duskit/duskithalloween/duskithalloween_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [ "skeleton-black" ],
+      "poser": "cobblemon:duskithalloween",
+      "model": "cobblemon:duskithalloween.geo",
+      "texture": "cobblemon:textures/pokemon/duskit/duskithalloween/duskithalloween.png",
+      "layers": [
+        {
+          "name": "black",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/duskit/duskithalloween/duskithalloween_black.png",
+          "translucent": true
+        },
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/duskit/duskithalloween/duskithalloween_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [ "shiny", "skeleton-red" ],
+      "texture": "cobblemon:textures/pokemon/duskit/duskithalloween/duskithalloween_shiny.png",
+      "layers": [
+        {
+          "name": "red",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/duskit/duskithalloween/duskithalloween_red.png",
+          "translucent": true
+        },
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/duskit/duskithalloween/duskithalloween_emissive_red.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [ "shiny", "skeleton-orange" ],
+      "texture": "cobblemon:textures/pokemon/duskit/duskithalloween/duskithalloween_shiny.png",
+      "layers": [
+        {
+          "name": "orange",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/duskit/duskithalloween/duskithalloween_orange.png",
+          "translucent": true
+        },
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/duskit/duskithalloween/duskithalloween_emissive_orange.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [ "shiny", "skeleton-yellow" ],
+      "texture": "cobblemon:textures/pokemon/duskit/duskithalloween/duskithalloween_shiny.png",
+      "layers": [
+        {
+          "name": "yellow",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/duskit/duskithalloween/duskithalloween_yellow.png",
+          "translucent": true
+        },
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/duskit/duskithalloween/duskithalloween_emissive_yellow.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [ "shiny", "skeleton-green" ],
+      "texture": "cobblemon:textures/pokemon/duskit/duskithalloween/duskithalloween_shiny.png",
+      "layers": [
+        {
+          "name": "green",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/duskit/duskithalloween/duskithalloween_green.png",
+          "translucent": true
+        },
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/duskit/duskithalloween/duskithalloween_emissive_green.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [ "shiny", "skeleton-blue" ],
+      "texture": "cobblemon:textures/pokemon/duskit/duskithalloween/duskithalloween_shiny.png",
+      "layers": [
+        {
+          "name": "blue",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/duskit/duskithalloween/duskithalloween_blue.png",
+          "translucent": true
+        },
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/duskit/duskithalloween/duskithalloween_emissive_blue.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [ "shiny", "skeleton-purple" ],
+      "texture": "cobblemon:textures/pokemon/duskit/duskithalloween/duskithalloween_shiny.png",
+      "layers": [
+        {
+          "name": "purple",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/duskit/duskithalloween/duskithalloween_purple.png",
+          "translucent": true
+        },
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/duskit/duskithalloween/duskithalloween_emissive_purple.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [ "shiny", "skeleton-cyan" ],
+      "texture": "cobblemon:textures/pokemon/duskit/duskithalloween/duskithalloween_shiny.png",
+      "layers": [
+        {
+          "name": "cyan",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/duskit/duskithalloween/duskithalloween_cyan.png",
+          "translucent": true
+        },
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/duskit/duskithalloween/duskithalloween_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [ "shiny", "skeleton-pink" ],
+      "texture": "cobblemon:textures/pokemon/duskit/duskithalloween/duskithalloween_shiny.png",
+      "layers": [
+        {
+          "name": "pink",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/duskit/duskithalloween/duskithalloween_pink.png",
+          "translucent": true
+        },
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/duskit/duskithalloween/duskithalloween_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [ "shiny", "skeleton-black" ],
+      "texture": "cobblemon:textures/pokemon/duskit/duskithalloween/duskithalloween_shiny.png",
+      "layers": [
+        {
+          "name": "black",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/duskit/duskithalloween/duskithalloween_black.png",
+          "translucent": true
+        },
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/duskit/duskithalloween/duskithalloween_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [ "shiny", "skeleton-white" ],
+      "texture": "cobblemon:textures/pokemon/duskit/duskithalloween/duskithalloween_shiny.png",
+      "layers": [
+        {
+          "name": "white",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/duskit/duskithalloween/duskithalloween_white.png",
+          "translucent": true
+        },
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/duskit/duskithalloween/duskithalloween_emissive.png",
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}
+  

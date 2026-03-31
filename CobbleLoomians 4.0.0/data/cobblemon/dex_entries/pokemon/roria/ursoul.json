@@ -1,0 +1,16 @@
+{
+    "id": "cobblemon:ursoul",
+    "speciesId": "cobblemon:ursoul",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Normal",
+        "unlockForms": [
+          "Normal"
+        ]
+      }
+    ],
+    "variations": []
+  }
+  

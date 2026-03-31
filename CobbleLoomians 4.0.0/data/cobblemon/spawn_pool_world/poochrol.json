@@ -1,0 +1,38 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "poochrol-1",
+      "pokemon": "poochrol",
+      "presets": [ "underground" ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "20-34",
+      "weight": 20.0,
+      "condition": {
+        "canSeeSky": false,
+        "biomes": [ "sculk_depths:infected_columns", "sculk_depths:petrified_valtrox_forest", "sculk_depths:dried_valtrox_forest" ]
+
+      }
+    },
+    {
+      "id": "poochrol-2",
+      "pokemon": "poochrol",
+      "presets": [ "village" ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "1-25",
+      "weight": 10.0,
+      "condition": {
+          "structures": ["#minecraft:village"],
+          "biomes": [
+              "#cobblemon:is_overworld"
+          ]
+      }
+  }
+  ]
+}

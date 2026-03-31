@@ -1,0 +1,10 @@
+{
+  "species": "cobblemon:umbrat",
+  "order": 2,
+  "variations": [
+    {
+      "aspects": ["shiny", "gamma-gamma"],
+      "texture": "cobblemon:textures/pokemon/umbrat/umbrat_gamma.png"
+    }
+  ]
+}

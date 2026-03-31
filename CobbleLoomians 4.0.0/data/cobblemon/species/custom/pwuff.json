@@ -1,0 +1,172 @@
+{
+  "implemented": true,
+  "name": "pwuff",
+  "nationalPokedexNumber": 2112,
+  "primaryType": "water",
+  "secondaryType": "poison",
+  "abilities": [
+    "poisonpoint",
+    "roughskin",
+    "h:baneful"
+  ],
+  "baseStats": {
+    "hp": 75,
+    "attack": 46,
+    "defence": 71,
+    "special_attack": 47,
+    "special_defence": 69,
+    "speed": 49
+  },
+  "behaviour": {
+    "herd": {
+      "maxSize": "9",
+      "toleratedLeaders": [
+        {
+          "pokemon": "pwuff",
+          "tier": 1
+        },
+        {
+          "pokemon": "qwilfish",
+          "tier": 1
+        },
+        {
+          "pokemon": "overqwil",
+          "tier": 2
+        },
+        {
+          "pokemon": "barblast",
+          "tier": 2
+        },
+        {
+          "pokemon": "manaphy",
+          "tier": 3
+        }
+      ]
+    },
+
+    "resting": {
+      "canSleep": true,
+      "depth": "normal",
+      "light": "0-4",
+      "willSleepOnBed": false,
+      "times": "night"
+    },
+    "moving": {
+      "canLook": false,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.5,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      },
+      "fly": {
+        "canFly": false,
+        "flySpeedHorizontal": 0.3
+      }
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": true
+    }
+  },
+  "catchRate": 101,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 168,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 5,
+  "eggGroups": [
+    "water_1",
+    "water_2"
+  ],
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "minecraft:pufferfish"
+      },
+      {
+        "item": "minecraft:bone_meal",
+        "percentage": 5.0
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:defencecurl",
+    "5:watergun",
+    "8:powdersnow",
+    "11:torment",
+    "15:headbutt",
+    "18:waterpulse",
+    "22:stretch",
+    "25:poisonfang",
+    "30:workup",
+    "35:icefang",
+    "40:aquacutter",
+    "44:poisonjab",
+    "egg:aquajaws",
+    "egg:swordsdance",
+    "egg:stealthrock",
+    "egg:toxic",
+    "egg:honeclaws",
+    "egg:surf",
+    "egg:wavewrecker",
+    "tm:bubblebeam",
+    "tm:protect",
+    "tm:facade",
+    "tm:recover",
+    "tm:surf",
+    "tm:falseswipe"
+  ],
+  "labels": [
+    "custom",
+    "roria"
+  ],
+  "pokedex": [
+    "cobblemon.species.pwuff.desc"
+  ],
+  "baseScale": 1,
+  "hitbox": {
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 63,
+  "weight": 7,
+  "evolutions": [
+   {
+      "id": "pwuff-barblast-level_up",
+      "variant": "level_up",
+      "result": "barblast",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "toxiblast"
+      ],
+      "requirements": [
+        {
+          "variant": "biome",
+          "biomeCondition": "#cobblemon:is_beach"
+        },
+        {
+          "variant": "level",
+          "minLevel": 26
+        }
+      ],
+      "requiredContext": ""
+    }
+  ]
+}

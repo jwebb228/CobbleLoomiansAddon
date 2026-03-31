@@ -1,0 +1,32 @@
+{
+  "species": "cobblemon:teridescent",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:teridescent",
+      "model": "cobblemon:teridescent.geo",
+      "texture": "cobblemon:textures/pokemon/teridescent/teridescent.png",
+      "layers": [
+        {
+              "name": "emissive",
+              "emissive": true,
+              "texture": "cobblemon:textures/pokemon/teridescent/teridescent_emissive.png",
+              "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/teridescent/teridescent_shiny.png",
+      "layers": [
+        {
+              "name": "emissive",
+              "emissive": true,
+              "texture": "cobblemon:textures/pokemon/teridescent/teridescent_emissive_shiny.png",
+              "translucent": true
+        }
+      ]
+    }
+  ]
+}

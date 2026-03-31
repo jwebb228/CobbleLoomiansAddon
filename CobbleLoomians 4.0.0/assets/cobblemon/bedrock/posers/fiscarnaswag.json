@@ -1,0 +1,52 @@
+{
+ "head": "head",
+ "portraitScale": 1,
+ "portraitTranslation": [ -0.4, 0.3, 0 ],
+ "profileScale": 0.5,
+ "profileTranslation": [ 0.1, 0.8, 0 ],
+ "animations": {
+  "cry": "q.bedrock_stateful('fiscarna', 'cry')"
+},
+ "poses": {
+  "standing": {
+    "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+    "isBattle": false,
+    "animations": [
+      "q.bedrock('fiscarnaswag', 'ground_idle')"
+    ],
+    "quirks": [
+      "q.bedrock_quirk('fiscarnaswag', 'blink')"
+    ]
+  },
+  "walking": {
+    "poseTypes": ["WALK"],
+    "animations": [
+      "q.bedrock('fiscarnaswag', 'ground_walk')"
+    ],
+    "quirks": ["q.bedrock_quirk('fiscarnaswag', 'blink')"]
+  },
+  "float": {
+    "poseTypes": ["FLOAT"],
+    "animations": [
+      "q.bedrock('fiscarnaswag', 'water_idle')"
+    ],
+    "quirks": ["q.bedrock_quirk('fiscarnaswag', 'blink')"]
+  },
+  "swim": {
+    "poseTypes": ["SWIM"],
+    "animations": [
+      "q.bedrock('fiscarnaswag', 'water_swim')"
+    ],
+    "quirks": ["q.bedrock_quirk('fiscarnaswag', 'blink')"]
+  },
+  "water-sleep": {
+     "poseTypes": ["SLEEP"],
+     "isTouchingWater": true,
+     "animations": ["q.bedrock('fiscarnaswag', 'water_sleep')"]
+   },
+  "sleep": {
+    "poseTypes": ["SLEEP"],
+    "animations": ["q.bedrock('fiscarnaswag', 'ground_sleep')"]
+  }
+ }
+}

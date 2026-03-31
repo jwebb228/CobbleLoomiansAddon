@@ -1,0 +1,22 @@
+{
+    "id": "cobblemon:barblast",
+    "speciesId": "cobblemon:barblast",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Normal",
+        "unlockForms": [
+          "Normal"
+        ]
+      },
+      {
+        "displayForm": "Tennis",
+        "unlockForms": [
+          "Tennis"
+        ]
+      }
+    ],
+    "variations": []
+  }
+  

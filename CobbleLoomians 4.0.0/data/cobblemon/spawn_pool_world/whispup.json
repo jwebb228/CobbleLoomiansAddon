@@ -1,0 +1,45 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "whispup-1",
+            "pokemon": "whispup",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "1-27",
+            "weight": 4,
+            "condition": {
+                "timeRange": "night",
+                "biomes": [
+                    "#cobblemon:is_forest",
+                    "#cobblemon:is_taiga",
+                    "#cobblemon:is_spooky"
+                ]
+            }
+        },
+        {
+            "id": "whispup-2",
+            "pokemon": "whispup",
+            "presets": [
+                "village"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "1-27",
+            "weight": 4,
+            "condition": {
+                "timeRange": "night",
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ]
+            }
+        }
+    ]
+}

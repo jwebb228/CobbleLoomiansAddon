@@ -1,0 +1,41 @@
+{
+ "head": "pupil",
+ "portraitScale": 2.7,
+ "portraitTranslation": [ 0.3, -1.9, 0 ],
+ "profileScale": 1.3,
+ "profileTranslation": [ 0, -0.25, 0 ],
+ "animations": {
+  "cry": "q.bedrock_stateful('grievestone', 'cry')"
+},
+ "poses": {
+  "standing": {
+    "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+    "isBattle": false,
+    "animations": ["look",
+      "q.bedrock('grievestone', 'ground_idle')"
+    ]
+  },
+  "walking": {
+    "poseTypes": ["WALK"],
+    "animations": ["look",
+      "q.bedrock('grievestone', 'ground_walk')"
+    ]
+  },
+  "float": {
+    "poseTypes": ["FLOAT"],
+    "animations": [
+      "q.bedrock('grievestone', 'ground_idle')"
+    ]
+  },
+  "swim": {
+    "poseTypes": ["SWIM"],
+    "animations": [
+      "q.bedrock('grievestone', 'ground_walk')"
+    ]
+  },
+  "sleep": {
+    "poseTypes": ["SLEEP"],
+    "animations": ["q.bedrock('grievestone', 'ground_idle')"]
+  }
+ }
+}

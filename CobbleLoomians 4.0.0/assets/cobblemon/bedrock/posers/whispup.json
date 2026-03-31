@@ -1,0 +1,48 @@
+{
+ "head": "head",
+ "portraitScale": 1.3,
+ "portraitTranslation": [ -0.2, 1.1, 0 ],
+ "profileScale": 0.7,
+ "profileTranslation": [ -0.1, 1.2, 0 ],
+ "animations": {
+  "faint": "q.bedrock_primary('whispup', 'faint', q.curve('one'))",
+  "cry": "q.bedrock_stateful('whispup', 'cry')"
+},
+ "poses": {
+  "standing": {
+    "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+    "isBattle": false,
+    "animations": ["look",
+      "q.bedrock('whispup', 'ground_idle')"
+    ],
+    "quirks": [
+      "q.bedrock_quirk('whispup', 'blink')"
+    ]
+  },
+  "walking": {
+    "poseTypes": ["WALK"],
+    "animations": ["look",
+      "q.bedrock('whispup', 'ground_walk')"
+    ],
+    "quirks": ["q.bedrock_quirk('whispup', 'blink')"]
+  },
+  "float": {
+    "poseTypes": ["FLOAT"],
+    "animations": [
+      "q.bedrock('whispup', 'ground_idle')"
+    ],
+    "quirks": ["q.bedrock_quirk('whispup', 'blink')"]
+  },
+  "swim": {
+    "poseTypes": ["SWIM"],
+    "animations": [
+      "q.bedrock('whispup', 'ground_walk')"
+    ],
+    "quirks": ["q.bedrock_quirk('whispup', 'blink')"]
+  },
+  "sleep": {
+    "poseTypes": ["SLEEP"],
+    "animations": ["q.bedrock('whispup', 'sleep')"]
+  }
+ }
+}

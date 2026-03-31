@@ -1,0 +1,22 @@
+{
+    "species": "cobblemon:swishy",
+    "order": 0,
+    "variations": [
+        {
+            "aspects": [],
+            "poser": "cobblemon:swishy",
+            "model": "cobblemon:swishy.geo",
+            "texture": "cobblemon:textures/pokemon/swishy/swishy.png",
+            "layers": []
+        },
+        {
+            "aspects": [
+                "shiny"
+            ],
+            "poser": "cobblemon:swishy",
+            "model": "cobblemon:swishy.geo",
+            "texture": "cobblemon:textures/pokemon/swishy/swishy_shiny.png",
+            "layers": []
+        }
+    ]
+}

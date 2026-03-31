@@ -1,0 +1,23 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+   {
+     "id": "obelost-1",
+     "pokemon": "obelost",
+     "presets": [ "natural" ],
+     "type": "pokemon",
+     "context": "grounded",
+     "bucket": "rare",
+     "level": "37-45",
+     "weight": 2,
+     "condition": {
+       "timeRange": "night",
+       "canSeeSky": true,
+       "biomes": [ "#cobblemon:is_spooky",
+                   "#cobblemon:is_plains" ]
+     }
+   }
+ ]
+}

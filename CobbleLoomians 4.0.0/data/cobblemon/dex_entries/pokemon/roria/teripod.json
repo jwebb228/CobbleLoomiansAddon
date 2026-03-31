@@ -1,0 +1,16 @@
+{
+    "id": "cobblemon:teripod",
+    "speciesId": "cobblemon:teripod",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Normal",
+        "unlockForms": [
+          "Normal"
+        ]
+      }
+    ],
+    "variations": []
+  }
+  

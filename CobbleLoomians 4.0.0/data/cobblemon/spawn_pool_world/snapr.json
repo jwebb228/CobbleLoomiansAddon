@@ -1,0 +1,82 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "snapr-1",
+            "pokemon": "snapr",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "common",
+            "level": "18-32",
+            "weight": 3,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_freshwater",
+                    "#cobblemon:is_swamp"
+                ]
+            }
+        },
+        {
+            "id": "snapr-2",
+            "pokemon": "snapr",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "surface",
+            "bucket": "uncommon",
+            "level": "18-32",
+            "weight": 0.79,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_freshwater",
+                    "#cobblemon:is_swamp"
+                ]
+            }
+        },
+        {
+            "id": "snapr-3",
+            "pokemon": "snapr",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "18-32",
+            "weight": 3.0,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_freshwater",
+                    "#cobblemon:is_swamp"
+                ]
+            }
+        },
+        {
+            "id": "snapr-4",
+            "pokemon": "snapr",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "common",
+            "level": "18-32",
+            "weight": 3,
+            "condition": {
+                "canSeeSky": false,
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_freshwater",
+                    "#cobblemon:is_swamp"
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,161 @@
+{
+  "implemented": true,
+  "name": "lyricat",
+  "nationalPokedexNumber": 2182,
+  "primaryType": "normal",
+  "abilities": [
+    "tonedeaf",
+    "pickpocket",
+    "h:frisk"
+  ],
+  "baseStats": {
+    "hp": 90,
+    "attack": 69,
+    "defence": 62,
+    "special_attack": 107,
+    "special_defence": 64,
+    "speed": 101
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "depth": "normal",
+      "light": "0-4",
+      "willSleepOnBed": true,
+      "times": "night"
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.3,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      },
+      "fly": {
+        "canFly": false,
+        "flySpeedHorizontal": 0.3
+      }
+    },
+    "entityInteract": {
+      "avoidedByCreeper": true,
+      "avoidedByPhantom": true
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    }
+  },
+  "catchRate": 105,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 345,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 30,
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {
+    "amount": 1,
+    "entries": [
+       {
+        "item": "minecraft:rabbit_foot",
+        "quantityRange": "1-2",
+        "percentage": 16.13
+      },
+      {
+        "item": "minecraft:rabbit_hide",
+        "quantityRange": "1",
+        "percentage": 16.13
+      },
+      {
+        "item": "minecraft:string",
+        "quantityRange": "1-4",
+        "percentage": 16.13
+      },
+      {
+        "item": "minecraft:rotten_flesh",
+        "quantityRange": "1-2",
+        "percentage": 16.13
+      },
+      {
+        "item": "minecraft:feather",
+        "quantityRange": "1-2",
+        "percentage": 16.13
+      },
+      {
+        "item": "minecraft:chicken",
+        "quantityRange": "1",
+        "percentage": 16.13
+      },
+      {
+        "item": "minecraft:phantom_membrane",
+        "quantityRange": "1-2",
+        "percentage": 3.22
+      }
+    ]
+  },
+  "moves": [
+    "1:highpitchscreech",
+    "1:gnaw",
+    "1:leer",
+    "3:tackle",
+    "5:stretch",
+    "8:quickattack",
+    "12:harmiouschord",
+    "15:taunt",
+    "19:repeatingtune",
+    "23:calmmind",
+    "30:snarl",
+    "34:dissonantchord",
+    "39:nastyplot",
+    "44:resonate",
+    "egg:boombash",
+    "egg:bugbuzz",
+    "egg:hasten",
+    "egg:hullabaloo",
+    "egg:preemptivestrike",
+    "egg:raginghowl",
+    "egg:substitute",
+    "egg:knockoff",
+    "egg:splittingheadache",
+    "egg:swat",
+    "tm:followme",
+    "tm:trick",
+    "tm:protect",
+    "tm:hypnosis",
+    "tm:facade",
+    "tm:calmmind",
+    "tm:falseswipe"
+  ],
+  "labels": [
+    "custom",
+    "roria"
+  ],
+  "pokedex": [
+    "cobblemon.species.lyricat.desc"
+  ],
+  "baseScale": 0.75,
+  "hitbox": {
+    "width": 1,
+    "height": 1.5,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 112,
+  "weight": 22,
+  "preEvolution": "kittone",
+  "evolutions": []
+}

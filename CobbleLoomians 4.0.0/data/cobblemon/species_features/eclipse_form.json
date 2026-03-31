@@ -1,0 +1,13 @@
+{
+  "type": "choice",
+  "keys": [
+    "eclipse_form"
+  ],
+  "default": "normal",
+  "choices": [
+    "day",
+    "night"
+  ],
+  "isAspect": true,
+  "aspectFormat": "{{choice}}-form"
+}

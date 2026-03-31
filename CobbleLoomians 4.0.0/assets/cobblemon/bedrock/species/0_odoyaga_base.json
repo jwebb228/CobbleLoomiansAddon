@@ -1,0 +1,22 @@
+{
+    "species": "cobblemon:odoyaga",
+    "order": 0,
+    "variations": [
+        {
+            "aspects": [],
+            "poser": "cobblemon:odoyaga",
+            "model": "cobblemon:odoyaga.geo",
+            "texture": "cobblemon:textures/pokemon/odoyaga/odoyaga.png",
+            "layers": []
+        },
+        {
+            "aspects": [
+                "shiny"
+            ],
+            "poser": "cobblemon:odoyaga",
+            "model": "cobblemon:odoyaga.geo",
+            "texture": "cobblemon:textures/pokemon/odoyaga/odoyaga_shiny.png",
+            "layers": []
+        }
+    ]
+}

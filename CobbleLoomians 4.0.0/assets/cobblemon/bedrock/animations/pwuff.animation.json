@@ -1,0 +1,35 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.pwuff.water_swim": {
+			"loop": true,
+			"bones": {
+				"tailfin": {
+					"rotation": [0, "-0+0+math.sin(query.anim_time*90*7)*-7", 0]
+				},
+				"body": {
+					"position": ["-0-math.sin(query.anim_time*90*1)*-0.25", "0+math.sin(query.anim_time*90*1)*-0.25", "0+math.sin(query.anim_time*90*1)*-0.25"]
+				}
+			}
+		},
+		"animation.pwuff.water_idle": {
+			"loop": true,
+			"bones": {
+				"tailfin": {
+					"rotation": [0, "-0+0+math.sin(query.anim_time*90*7)*-3", 0]
+				},
+				"body": {
+					"position": [0, "0+math.sin(query.anim_time*90*1)*-0.25", 0]
+				}
+			}
+		},
+		"animation.pwuff.cry": {
+			"loop": true,
+			"sound_effects": {
+				"0.0": {
+					"effect": "pokemon.pwuff.cry"
+				}
+			}
+		}
+	}
+}

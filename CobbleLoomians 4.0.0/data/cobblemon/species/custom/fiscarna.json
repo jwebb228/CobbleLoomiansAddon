@@ -1,0 +1,268 @@
+{
+  "implemented": true,
+  "name": "fiscarna",
+  "nationalPokedexNumber": 2190,
+  "primaryType": "water",
+  "abilities": [
+    "magicbounce",
+    "damp",
+    "h:viscid"
+  ],
+  "baseStats": {
+    "hp": 79,
+    "attack": 43,
+    "defence": 87,
+    "special_attack": 113,
+    "special_defence": 110,
+    "speed": 79
+  },
+  "riding": {
+    "behaviours": {
+      "LIQUID": {
+        "key": "cobblemon:liquid/submarine",
+        "hitboxBreachPercentage": 0.9,
+        "rideSounds": [],
+        "stats": {
+          "ACCELERATION": "35-70",
+          "JUMP": "15-35",
+          "SKILL": "25-55",
+          "SPEED": "35-65",
+          "STAMINA": "20-40"
+        }
+      }
+    },
+    "seats": [
+      {
+        "offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "poseOffsets": [
+          {
+            "offset": {
+              "x": 0.0,
+              "y": -1.1382103,
+              "z": 0.31190932
+            },
+            "poseTypes": [
+              "STAND"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": -1.2665093,
+              "z": 0.35917875
+            },
+            "poseTypes": [
+              "WALK"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": -1.2607776,
+              "z": 0.1809411
+            },
+            "poseTypes": [
+              "HOVER"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": -1.2607776,
+              "z": 0.1809411
+            },
+            "poseTypes": [
+              "FLY"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.14216961,
+              "y": -1.2242103,
+              "z": 0.27955168
+            },
+            "poseTypes": [
+              "FLOAT"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": -1.2665093,
+              "z": 0.35917875
+            },
+            "poseTypes": [
+              "SWIM"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": -1.2607776,
+              "z": 0.1809411
+            },
+            "poseTypes": [
+              "GLIDE"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "behaviour": {
+    "herd": {
+      "maxSize": "9",
+      "toleratedLeaders": [
+        {
+          "pokemon": "fiscarna",
+          "tier": 1
+        },
+        {
+          "pokemon": "manaphy",
+          "tier": 2
+        }
+      ]
+    },
+    "resting": {
+      "canSleep": true,
+      "depth": "normal",
+      "light": "0-4",
+      "willSleepOnBed": false,
+      "times": "night"
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.5,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      },
+      "fly": {
+        "canFly": false,
+        "flySpeedHorizontal": 0.3
+      }
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    }
+  },
+  "catchRate": 75,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 168,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 5,
+  "eggGroups": [
+    "water_1",
+    "water_2"
+  ],
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:exp_candy_xs",
+        "quantityRange": "1-10",
+        "percentage": 20.0
+      },
+      {
+        "item": "cobblemon:exp_candy_s",
+        "quantityRange": "1-6",
+        "percentage": 15.0
+      },
+       {
+        "item": "cobblemon:exp_candy_m",
+        "quantityRange": "1-4",
+        "percentage": 10.0
+      },
+       {
+        "item": "cobblemon:exp_candy_l",
+        "quantityRange": "1-2",
+        "percentage": 7.0
+      },
+             {
+        "item": "cobblemon:exp_candy_xl",
+        "quantityRange": "1",
+        "percentage": 1.0
+      },
+             {
+        "item": "cobblemon:rare_candy",
+        "quantityRange": "1",
+        "percentage": 5.0
+      }
+    ]
+  },
+  "moves": [
+    "1:gulp",
+    "1:tackle",
+    "1:watergun",
+    "6:defencecurl",
+    "10:waterpulse",
+    "14:taunt",
+    "19:laserfocus",
+    "23:aquaring",
+    "30:bubblebeam",
+    "34:substitute",
+    "39:haze",
+    "46:mudslide",
+    "egg:painsplit",
+    "egg:healinggift",
+    "egg:hydroblast",
+    "egg:landslide",
+    "egg:recycle",
+    "egg:stratagem",
+    "tm:protect",
+    "tm:icebeam",
+    "tm:bubblebeam",
+    "tm:calmmind",
+    "tm:dive",
+    "tm:falseswipe",
+    "tm:surf"
+  ],
+  "labels": [
+    "custom",
+    "roria"
+  ],
+  "pokedex": [
+    "cobblemon.species.fiscarna.desc"
+  ],
+  "forms": [ 
+       {
+    "name": "swag",
+    "aspects": [
+        "swag" 
+     ]
+   }
+  ],
+  "baseScale": 1,
+  "hitbox": {
+    "width": 2,
+    "height": 1.5,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "height": 63,
+  "weight": 7,
+  "preEvolution": "swishy",
+  "features": [ 
+    "swag"],
+  "evolutions": [
+  ]
+}

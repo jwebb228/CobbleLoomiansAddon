@@ -1,0 +1,19 @@
+{
+  "type": "choice",
+  "keys": ["skeleton"],
+  "default": "false",
+  "choices": [
+    "red",
+    "orange",
+    "yellow",
+    "green",
+    "blue",
+    "purple",
+    "cyan",
+    "pink",
+    "white",
+    "black"
+  ],
+  "isAspect": true,
+  "aspectFormat": "skeleton-{{choice}}"
+ }

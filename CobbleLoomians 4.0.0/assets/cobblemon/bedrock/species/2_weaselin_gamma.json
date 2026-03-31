@@ -1,0 +1,10 @@
+{
+  "species": "cobblemon:weaselin",
+  "order": 2,
+  "variations": [
+    {
+      "aspects": ["shiny", "gamma-gamma"],
+      "texture": "cobblemon:textures/pokemon/weaselin/weaselin_gamma.png"
+    }
+  ]
+}

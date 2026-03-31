@@ -1,0 +1,25 @@
+{
+ "species": "cobblemon:twilat",
+ "order": 0,
+ "variations": [
+   {
+     "aspects": [],
+     "poser": "cobblemon:twilat",
+     "model": "cobblemon:twilat.geo",
+     "texture": "cobblemon:textures/pokemon/twilat/twilat.png",
+     "layers": []
+   },
+   {
+     "aspects": [
+       "shiny"
+     ],
+     "texture": "cobblemon:textures/pokemon/twilat/twilat_shiny.png"
+   },
+   {
+     "aspects": [
+       "corrupted"
+     ],
+     "texture": "cobblemon:textures/pokemon/twilat/twilat_corrupt.png"
+   }
+ ]
+}

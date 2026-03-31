@@ -1,0 +1,23 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+   {
+     "id": "luxoar-1",
+     "pokemon": "luxoar",
+     "presets": [ "natural" ],
+     "type": "pokemon",
+     "context": "grounded",
+     "bucket": "uncommon",
+     "level": "21-37",
+     "weight": 6.4,
+     "condition": {
+       "canSeeSky": true,
+       "timeRange": "day",
+       "biomes": [ "#cobblemon:is_forest",
+                   "#cobblemon:is_plains" ]
+     }
+   }
+ ]
+}

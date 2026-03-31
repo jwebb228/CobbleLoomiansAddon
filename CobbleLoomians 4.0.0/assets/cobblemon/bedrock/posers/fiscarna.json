@@ -1,0 +1,52 @@
+{
+ "head": "head",
+ "portraitScale": 1,
+ "portraitTranslation": [ -0.4, 0.3, 0 ],
+ "profileScale": 0.5,
+ "profileTranslation": [ 0.1, 0.8, 0 ],
+ "animations": {
+  "cry": "q.bedrock_stateful('fiscarna', 'cry')"
+},
+ "poses": {
+  "standing": {
+    "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+    "isBattle": false,
+    "animations": [
+      "q.bedrock('fiscarna', 'ground_idle')"
+    ],
+    "quirks": [
+      "q.bedrock_quirk('fiscarna', 'blink')"
+    ]
+  },
+  "walking": {
+    "poseTypes": ["WALK"],
+    "animations": [
+      "q.bedrock('fiscarna', 'ground_walk')"
+    ],
+    "quirks": ["q.bedrock_quirk('fiscarna', 'blink')"]
+  },
+  "float": {
+    "poseTypes": ["FLOAT"],
+    "animations": [
+      "q.bedrock('fiscarna', 'water_idle')"
+    ],
+    "quirks": ["q.bedrock_quirk('fiscarna', 'blink')"]
+  },
+  "swim": {
+    "poseTypes": ["SWIM"],
+    "animations": [
+      "q.bedrock('fiscarna', 'water_swim')"
+    ],
+    "quirks": ["q.bedrock_quirk('fiscarna', 'blink')"]
+  },
+  "water-sleep": {
+     "poseTypes": ["SLEEP"],
+     "isTouchingWater": true,
+     "animations": ["q.bedrock('fiscarna', 'water_sleep')"]
+   },
+  "sleep": {
+    "poseTypes": ["SLEEP"],
+    "animations": ["q.bedrock('fiscarna', 'ground_sleep')"]
+  }
+ }
+}

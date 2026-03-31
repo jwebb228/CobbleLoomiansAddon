@@ -1,0 +1,46 @@
+{
+  "species": "cobblemon:metronette",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:metronette",
+      "model": "cobblemon:metronette.geo",
+      "texture": "cobblemon:textures/pokemon/metronette/metronette.png"
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/metronette/metronette_shiny.png"
+    },
+    {
+      "aspects": ["collab"],
+      "poser": "cobblemon:metronettenoli",
+      "model": "cobblemon:metronettenoli.geo",
+      "texture": "cobblemon:textures/pokemon/metronette/collab/metronettenoli.png",
+      "layers": [
+        {
+              "name": "emissive",
+              "emissive": true,
+              "texture": "cobblemon:textures/pokemon/metronette/collab/metronettenoli_emissive.png",
+              "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny", "collab"
+      ],
+      "texture": "cobblemon:textures/pokemon/metronette/collab/metronettenoli_shiny.png",
+      "layers": [
+        {
+              "name": "emissive",
+              "emissive": true,
+              "texture": "cobblemon:textures/pokemon/metronette/collab/metronettenoli_emissive.png",
+              "translucent": true
+        }
+      ]
+    }
+  ]
+}

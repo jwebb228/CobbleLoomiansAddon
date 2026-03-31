@@ -1,0 +1,16 @@
+{
+    "id": "cobblemon:hunder",
+    "speciesId": "cobblemon:hunder",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Normal",
+        "unlockForms": [
+          "Normal"
+        ]
+      }
+    ],
+    "variations": []
+  }
+  

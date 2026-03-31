@@ -1,0 +1,16 @@
+{
+    "id": "cobblemon:ursnac",
+    "speciesId": "cobblemon:ursnac",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Normal",
+        "unlockForms": [
+          "Normal"
+        ]
+      }
+    ],
+    "variations": []
+  }
+  

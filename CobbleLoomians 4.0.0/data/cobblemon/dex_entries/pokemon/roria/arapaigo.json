@@ -1,0 +1,16 @@
+{
+    "id": "cobblemon:arapaigo",
+    "speciesId": "cobblemon:arapaigo",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Normal",
+        "unlockForms": [
+          "Normal"
+        ]
+      }
+    ],
+    "variations": []
+  }
+  

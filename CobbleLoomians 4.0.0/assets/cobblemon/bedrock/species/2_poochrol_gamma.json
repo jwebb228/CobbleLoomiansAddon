@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:poochrol",
+  "order": 2,
+  "variations": [
+    {
+      "aspects": ["shiny", "gamma-gamma"],
+      "texture": "cobblemon:textures/pokemon/poochrol/poochrol_gamma.png",
+      "layers": [
+        {
+              "name": "emissive",
+              "emissive": true,
+              "texture": "cobblemon:textures/pokemon/poochrol/poochrol_emissive_gamma.png",
+              "translucent": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "species": "cobblemon:tiklipse",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:tiklipse",
+      "model": "cobblemon:tiklipse.geo",
+      "texture": "cobblemon:textures/pokemon/tiklipse/tiklipse.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/tiklipse/tiklipse_shiny.png"
+    },
+    {
+      "aspects": ["day-form"],
+      "poser": "cobblemon:tiklipse",
+      "model": "cobblemon:tiklipse.geo",
+      "texture": "cobblemon:textures/pokemon/tiklipse/tiklipse_day.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny","day-form"
+      ],
+      "texture": "cobblemon:textures/pokemon/tiklipse/tiklipse_shiny.png"
+    },
+
+    {
+      "aspects": ["night-form"],
+      "poser": "cobblemon:tiklipse",
+      "model": "cobblemon:tiklipse.geo",
+      "texture": "cobblemon:textures/pokemon/tiklipse/tiklipse_night.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny","night-form"
+      ],
+      "texture": "cobblemon:textures/pokemon/tiklipse/tiklipse_shiny.png"
+    }
+  ]
+}

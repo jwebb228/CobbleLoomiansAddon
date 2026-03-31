@@ -1,0 +1,22 @@
+{
+    "species": "cobblemon:pwuff",
+    "order": 0,
+    "variations": [
+        {
+            "aspects": [],
+            "poser": "cobblemon:pwuff",
+            "model": "cobblemon:pwuff.geo",
+            "texture": "cobblemon:textures/pokemon/pwuff/pwuff.png",
+            "layers": []
+        },
+        {
+            "aspects": [
+                "shiny"
+            ],
+            "poser": "cobblemon:pwuff",
+            "model": "cobblemon:pwuff.geo",
+            "texture": "cobblemon:textures/pokemon/pwuff/pwuff_shiny.png",
+            "layers": []
+        }
+    ]
+}

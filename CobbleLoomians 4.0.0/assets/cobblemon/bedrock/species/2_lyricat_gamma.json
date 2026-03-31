@@ -1,0 +1,10 @@
+{
+  "species": "cobblemon:lyricat",
+  "order": 2,
+  "variations": [
+    {
+      "aspects": ["shiny", "gamma-gamma"],
+      "texture": "cobblemon:textures/pokemon/lyricat/lyricat_gamma.png"
+    }
+  ]
+}

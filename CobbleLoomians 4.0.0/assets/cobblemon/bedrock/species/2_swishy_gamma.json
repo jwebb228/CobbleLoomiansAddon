@@ -1,0 +1,10 @@
+{
+  "species": "cobblemon:swishy",
+  "order": 2,
+  "variations": [
+    {
+      "aspects": ["shiny", "gamma-gamma"],
+      "texture": "cobblemon:textures/pokemon/swishy/swishy_gamma.png"
+    }
+  ]
+}

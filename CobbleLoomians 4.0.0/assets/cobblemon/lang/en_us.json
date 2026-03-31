@@ -1,0 +1,423 @@
+{
+  "cobblemon.ui.pokedex.region.roria": "Roria",
+  
+  "cobblemon.species.duskit.name": "Duskit",
+  "cobblemon.species.duskit.desc": "The adventurers of the cherry blossom forests tell legends of Duskit protecting the surrounding area from disaster throughout history.",
+  "cobblemon.ui.pokedex.info.form.duskit": "Original",
+  "cobblemon.ui.pokedex.info.form.duskit-plushie": "Plushie",
+  "cobblemon.ui.pokedex.info.form.duskit-skeleton": "Skeleton",
+
+  "cobblemon.species.phancub.name": "Phancub",
+  "cobblemon.species.phancub.desc": "They are quite friendly towards children, but are known to display aggression towards adults. Due to this, it's thought that they are a child's toy that has been brought to life.",
+
+  "cobblemon.species.ursoul.name": "Ursoul",
+  "cobblemon.species.ursoul.desc": "Despite their large size, they pass through the woods without a sound. Hikers are warned to keep an eye out for Ursoul while travelling through the mountains.",
+
+  "cobblemon.species.ursnac.name": "Ursnac",
+  "cobblemon.species.ursnac.desc": "Ursnac can smell sweets from over 20 miles away. They can often be found carrying with them their own supply of their favorite sweet foods.",
+
+  "cobblemon.species.whispup.name": "Whispup",
+  "cobblemon.species.whispup.desc": "It often follows travelers through the woods, though it means no harm it has a tendency of scaring people.",
+    
+  "cobblemon.species.revenine.name": "Revenine",
+  "cobblemon.species.revenine.desc": "Revenine were originally discovered centuries ago around Savanva Villages. Scientists are unsure where they came from, but the locals have formed strong bonds with these Pokemon over the years.",
+    
+  "cobblemon.species.metronette.name": "Metronette",
+  "cobblemon.species.metronette.desc": "A Pokemon from another dimension, Metronette is capable of haunting the dreams of humans whose consciousness has wandered into its realm while they sleep.",
+  "cobblemon.ui.pokedex.info.form.metronette": "Original",
+  "cobblemon.ui.pokedex.info.form.metronette-collab": "Noli",
+
+  "cobblemon.species.twilat.name": "Twilat",
+  "cobblemon.species.twilat.desc1": "Often found hopping through fields, they use their powerful legs to escape predators.",
+   
+  "cobblemon.species.umbrat.name": "Umbrat",
+  "cobblemon.species.umbrat.desc1": "Though nocturnal, they are often found doing most of their hunting around dusk and dawn. Researchers are unsure why they exhibit this behavior.",
+ 
+  "cobblemon.species.luxoar.name": "Luxoar",
+  "cobblemon.species.luxoar.desc1": "When in a tough situation, it emits a bright flash of light from its mouth to blind its opponent.",
+ 
+  "cobblemon.species.tiklipse.name": "Tiklipse",
+  "cobblemon.species.tiklipse.desc1": "Capable of emitting or absorbing light, it can manipulate the environment around it to its advantage in combat.",
+ 
+  "cobblemon.species.grievestone.name": "Grievestone",
+  "cobblemon.species.grievestone.desc1": "A lost, forgotten soul confined to a tombstone. Echoes of sobs may be heard in the vicinity as Grievestone just wants to be accompanied and comforted.",
+ 
+  "cobblemon.species.obelost.name": "Obelost",
+  "cobblemon.species.obelost.desc1": "It is said that Obelost cherishes friendship more than anything, even going so far as to protect any befriended souls in the afterlife for eternity.",
+
+  "cobblemon.species.hunder.name": "Hunder",
+  "cobblemon.species.hunder.desc": "Designed with speed in mind, this Pokemon can chase down any criminal. Its spiked collar tazes its foes.",
+  
+  "cobblemon.species.poochrol.name": "Poochrol",
+  "cobblemon.species.poochrol.desc": "Designed to assist police in busting criminals. Programmers claim that tail chasing is an unexplained anomaly not part of its task protocol.",
+
+  "cobblemon.species.swimp.name": "Swimp",
+  "cobblemon.species.swimp.desc": "A skittish Pokemon, Swimp are at the bottom of the food chain in their natural habitat. Inside them burns a resentment for their own timidness.",
+
+  "cobblemon.species.snapr.name": "Snapr",
+  "cobblemon.species.snapr.desc": "Snapr travel in large schools to hunt and survive. A school is capable of making short work of almost any foe.",
+
+  "cobblemon.species.garlash.name": "Garlash",
+  "cobblemon.species.garlash.desc": "The timidness this Pokemon carried as a Swimp has vanished. Garlash has become an apex predator. Its teeth are said to be strong enough to tear the hull of a metal boat open in one bite.",
+
+  "cobblemon.species.kittone.name": "Kittone",
+  "cobblemon.species.kittone.desc": "This Pokemon uses high pitched cries to alert others when it feels threatened, or in some cases when it is hungry. Kittone are very clean and can easily live alongside people in their homes.",
+
+  "cobblemon.species.lyricat.name": "Lyricat",
+  "cobblemon.species.lyricat.desc": "Lyricat often gather together in groups and meow together in harmony. Their loud sounds can also be used offensively to disorient opponents.",
+
+  "cobblemon.species.teripod.name": "Teripod",
+  "cobblemon.species.teripod.desc": "Teripod are capable of using light they emit from multiple spots on its body to help it see in darkest places in the ocean. Their light can be displayed in a wide array of colors.",
+
+  "cobblemon.species.teridescent.name": "Teridescent",
+  "cobblemon.species.teridescent.desc": "Using the hypnotic glowing display that it emits from its body, Teridescent can confuse its prey before using its stinger to immobilize them.",
+
+  "cobblemon.species.goppie.name": "Goppie",
+  "cobblemon.species.goppie.desc": "Goppie can be found in nearly every natural body of water on the planet.",
+
+  "cobblemon.species.arapaigo.name": "Arapaigo",
+  "cobblemon.species.arapaigo.desc1": "Arapaigo scales are highly coveted by collectors. While some colors are worth more than others, their shine also weighs in on their value.",
+
+  "cobblemon.species.fentern.name": "Fentern",
+  "cobblemon.species.fentern.desc": "Fentern are very efficient creatures when it comes to completing day to day tasks. They are attracted to the smell of coffee and can often be found drawn to places where the aroma is strong.",
+
+  "cobblemon.species.weaselin.name": "Weaselin",
+  "cobblemon.species.weaselin.desc": "Weaselin is always looking for a good trade. It collects things it finds and will try and trade with other or people for something that is more valuable to it. It is common to be ripped off by Weaselin.",
+
+  "cobblemon.species.swishy.name": "Swishy",
+  "cobblemon.species.swishy.desc": "A gummy fish brought to life when it was infused with Soul Crystal dust. These Pokemon are able to survive for a long time out of water due to a special sugar in their body that easily retains water.",
+
+  "cobblemon.species.fiscarna.name": "Fiscarna",
+  "cobblemon.species.fiscarna.desc": "Fiscarna lure in its prey with its sweet scent and bright colors. Anything that draws close enough to these Pokemon are quickly eaten in one gulp.",
+  "cobblemon.ui.pokedex.info.form.fiscarna": "Original",
+  "cobblemon.ui.pokedex.info.form.fiscarna-swag": "Swag",
+
+  "cobblemon.species.pwuff.name": "Pwuff",
+  "cobblemon.species.pwuff.desc": "Known for its curiosity, Pwuff often venture close to shore to observe people. This has led to many cases of accidental poisoning.",
+
+  "cobblemon.species.barblast.name": "Barblast",
+  "cobblemon.species.barblast.desc": "Barblast's bodies are under high pressure at all times from the toxins they generate within. They're capable of letting loose all this power when threatened.",
+  "cobblemon.ui.pokedex.info.form.barblast": "Original",
+  "cobblemon.ui.pokedex.info.form.barblast-tennis": "Tennis",
+
+  "cobblemon.species.odoyaga.name": "Odoyaga",
+  "cobblemon.species.odoyaga.desc": "A creature brought to life when a mischevious spirit inhabits a large mortar and pestle. Odoyaga is able to control the winds, sometimes casting cyclones when it is enraged.",
+
+  "cobblemon.species.celesting.name": "Celesting",
+  "cobblemon.species.celesting.desc": "The metals that make up Celesting's body are found nowhere else on earth. Legend says that this Pokemon came from a far away star to live on our planet.",
+
+  "cobblemon.ability.tonedeaf": "Tone Deaf",
+  "cobblemon.ability.tonedeaf.desc": "Slightly boosts the power of sound based moves.",
+
+  "cobblemon.ability.adorable": "Adorable",
+  "cobblemon.ability.adorable.desc": "Distracts foes with captivating charm when entering battle, lowering their Defense.",
+
+  "cobblemon.ability.awakening": "Awakening",
+  "cobblemon.ability.awakening.desc": "Raises your STAB Bonus from 50% to 75%.",
+
+  "cobblemon.ability.circadian": "Circadian",
+  "cobblemon.ability.circadian.desc": "Rotate between Fairy- and Dark-type each turn in battle.",
+
+  "cobblemon.ability.totaleclipse": "Total Eclipse",
+  "cobblemon.ability.totaleclipse.desc": "When struck by a Fairy- or Dark-type attack, this Pokemon absorbs it to boost its Speed.",
+
+  "cobblemon.ability.dawn": "Dawn",
+  "cobblemon.ability.dawn.desc": "Increases your Special Attack when in battle with an ally with the Dawn or Dusk Ability.",
+
+  "cobblemon.ability.dusk": "Dusk",
+  "cobblemon.ability.dusk.desc": "Increases your Attack when in battle with an ally with the Dawn or Dusk Ability.",
+
+  "cobblemon.ability.overshadow": "Overshadow",
+  "cobblemon.ability.overshadow.desc": "Normal-type moves become the Dark type. The Strength of these moves is boosted a little.",
+
+  "cobblemon.ability.petrifying": "Petrifying",
+  "cobblemon.ability.petrifying.desc": "Strike fear into your foes as you enter battle, lowering their Ranged Attack.",
+
+  "cobblemon.ability.meanspirited": "Mean Spirited",
+  "cobblemon.ability.meanspirited.desc": "Boosts the power of attacks when the target is afflicted with a status ailment.",
+
+  "cobblemon.ability.viscid": "Viscid",
+  "cobblemon.ability.viscid.desc": "A sticky coating prevents you from being forced off of the battlefield from your opponents' moves.",
+
+  "cobblemon.ability.sob": "Sob",
+  "cobblemon.ability.sob.desc": "Reset all stat changes upon entering battle.",
+
+  "cobblemon.ability.seize": "Seize",
+  "cobblemon.ability.seize.desc": "Prevents the opponent from using pivoting moves.",
+
+  "cobblemon.ability.mystictone": "Mystic Tone",
+  "cobblemon.ability.mystictone.desc": "When an opponent's attack makes contact with you, respond by summoning a random ally's move.",
+
+  "cobblemon.ability.vengeance": "Vengeance",
+  "cobblemon.ability.vengeance.desc": "When this Pokemon witnesses an ally get knocked out in battle, its next attack will hit with double the strength.",
+
+  "cobblemon.ability.hag": "Hag",
+  "cobblemon.ability.hag.desc": "Your Psychic-type attacks deal 25% more damage.",
+
+  "cobblemon.ability.highexplosive": "High Explosive",
+  "cobblemon.ability.highexplosive.desc": "Explosive attacks deal 50% more damage, but have no secondary effects.",
+
+  "cobblemon.ability.burstingseams": "Bursting Seams",
+  "cobblemon.ability.burstingseams.desc": "After consuming an item, there is a chance you will get it back at the end of the turn.",
+
+  "cobblemon.ability.tank": "Tank",
+  "cobblemon.ability.tank.desc": "Halves the damage of the first hit this Pokemon takes in battle.",
+
+  "cobblemon.ability.baneful": "Baneful",
+  "cobblemon.ability.baneful.desc": "Deal 20% more damage to opponents which are infected with poison.",
+
+  "cobblemon.move.aquajaws": "Aqua Jaws",
+  "cobblemon.move.aquajaws.desc": "Bite down hard on the foe. This also lowers their Defense.",
+
+  "cobblemon.move.dazzlingbarrage": "Dazzling Barrage",
+  "cobblemon.move.dazzlingbarrage.desc": "The user rapidly shoots balls of light at the opponent. This move hits two to five times.",
+
+  "cobblemon.move.energize": "Energize",
+  "cobblemon.move.energize.desc": "Build up electric charge to boost your Special Attack and Special Defense.",
+
+  "cobblemon.move.gnarlygash": "Gnarly Gash",
+  "cobblemon.move.gnarlygash.desc": "Build up electric charge to boost your Special Attack and Special Defense.",
+
+  "cobblemon.move.lightdash": "Light Dash",
+  "cobblemon.move.lightdash.desc": "Tackle the foe at nearly the speed of light. This move often goes first.",
+
+  "cobblemon.move.jolt": "Jolt",
+  "cobblemon.move.jolt.desc": "Tackle the foe with a quick shock. This move often goes first.",
+
+  "cobblemon.move.wintersfury": "Winter's Fury",
+  "cobblemon.move.wintersfury.desc": "Unleash two or three punches on the foe.",
+
+  "cobblemon.move.vicejaws": "Vice Jaws",
+  "cobblemon.move.vicejaws.desc": "Chomp on the foe with great force. Any positive boosts they may have gained in Defense are ignored.",
+
+  "cobblemon.move.vicioussnap": "Vicious Snap",
+  "cobblemon.move.vicioussnap.desc": "Attack the target with a cruel bite.",
+
+  "cobblemon.move.shrewdblast": "Shrewd Blast",
+  "cobblemon.move.shrewdblast.desc": "Predicting your target's next movements, launch a blast that almost never misses. Lands critical hits more often.",
+
+  "cobblemon.move.stretch": "Stretch",
+  "cobblemon.move.stretch.desc": "Stretch your muscles to be better prepared to move, boosting your Speed.",
+
+  "cobblemon.move.thirdeye": "Third Eye",
+  "cobblemon.move.thirdeye.desc": "Hone your senses to boost your Special Attack.",
+
+  "cobblemon.move.swipe": "Swipe",
+  "cobblemon.move.swipe.desc": "Swing sharp claws at the enemy.",
+
+  "cobblemon.move.disperse": "Disperse",
+  "cobblemon.move.disperse.desc": "Split light into multiple beams to boost your Special Attack and Accuracy.",
+
+  "cobblemon.move.hasten": "Hasten",
+  "cobblemon.move.hasten.desc": "Pick up the pace! Boosts your Special Attack and Speed.",
+
+  "cobblemon.move.fadeaway": "Fade Away",
+  "cobblemon.move.fadeaway.desc": "Strike the opponent and then disappear, allowing an ally to take your place.",
+
+  "cobblemon.move.flabbergast": "Flabbergast",
+  "cobblemon.move.flabbergast.desc": "Attack the opponent's mind by telepathically flooding it with confusing ideas and imagery. Has a small chance to lower their Special Attack.",
+
+  "cobblemon.move.flashnflee": "Flash 'n Flee",
+  "cobblemon.move.flashnflee.desc": "Blast the opponent with blinding light, and then retreat from battle to allow an ally to take your place.",
+
+  "cobblemon.move.harrow": "Harrow",
+  "cobblemon.move.harrow.desc": "Torment the foe with haunting terror. This may also poison them.",
+
+  "cobblemon.move.highpitchscreech": "High-Pitch Screech",
+  "cobblemon.move.highpitchscreech.desc": "Strike the opponent with a extremly loud noise, this may leave the opponent confused.",
+
+  "cobblemon.move.raginghowl": "Raging Howl",
+  "cobblemon.move.raginghowl.desc": "Roar furiously to deal massive damage to the opponent, but also damages yourself.",
+
+  "cobblemon.move.gnaw": "Gnaw",
+  "cobblemon.move.gnaw.desc": "Bite the target with a small amount of force.",
+
+  "cobblemon.move.chasedown": "Chase Down",
+  "cobblemon.move.chasedown.desc": "Attack your target before they can retreat from battle. This move fails if the target is not retreating this turn.",
+
+  "cobblemon.move.drudge": "Drudge",
+  "cobblemon.move.drudge.desc": "Push yourself to perform better, boosting your Attack and Speed.",
+
+  "cobblemon.move.swiften": "Swiften",
+  "cobblemon.move.swiften.desc": "Grant your team a boon which doubles your Speed for 4 turns.",
+
+  "cobblemon.move.resonate": "Resonate",
+  "cobblemon.move.resonate.desc": "Produce an amplified sound that damages the target, and may boost your Special Attack.",
+
+  "cobblemon.move.blindspotbatter": "Blindspot Batter",
+  "cobblemon.move.blindspotbatter.desc": "Blind the target and attack from behind, bypassing their fortifications.",
+
+  "cobblemon.move.radiantrush": "Radiant Rush",
+  "cobblemon.move.radiantrush.desc": "Rush head-on into the opponent.",
+
+  "cobblemon.move.psychoblast": "Psycho Blast",
+  "cobblemon.move.psychoblast.desc": "Strike the target with a fierce mental blast. This may lower their Special Defense.",
+
+  "cobblemon.move.pyrokinesis": "Pyrokinesis",
+  "cobblemon.move.pyrokinesis.desc": "Scorch the foe with flames created by your mind alone. This may burn them.",
+
+  "cobblemon.move.stupefy": "Stupefy",
+  "cobblemon.move.stupefy.desc": "Scare the foe, potentially inducing paralysis.",
+
+  "cobblemon.move.punch": "Punch",
+  "cobblemon.move.punch.desc": "Whack the target with a closed fist. This may leave them confused.",
+
+  "cobblemon.move.shadowbox": "Shadowbox",
+  "cobblemon.move.shadowbox.desc": "Rehearse attacks to boost your Attack and Special Defense.",
+
+  "cobblemon.move.soulstorm": "Soul Storm",
+  "cobblemon.move.soulstorm.desc": "Raid the opponent with a barrage of spectral strikes. Knocks down protective enchantments.",
+
+  "cobblemon.move.steeltrap": "Steel Trap",
+  "cobblemon.move.steeltrap.desc": "Clamp the target down, damaging them for four to five turns and preventing them from escaping the fight.",
+
+  "cobblemon.move.hopkick": "Hop Kick",
+  "cobblemon.move.hopkick.desc": "Hop into the air and land with a kick on the target. Lands critical hits more often.",
+
+  "cobblemon.move.ghostlyhowl": "Ghostly Howl",
+  "cobblemon.move.ghostlyhowl.desc": "Release a spine-chilling howl that damages the opponent, bypassing their fortifications and potentially leaving them confused",
+
+  "cobblemon.move.splittingheadache": "Splitting Headache",
+  "cobblemon.move.splittingheadache.desc": "Deal double damage if you are inflicted with a status ailment.",
+
+  "cobblemon.move.shriek": "Shriek",
+  "cobblemon.move.shriek.desc": "Hurt the foe by producing an intolerable sound.",
+
+  "cobblemon.move.trickshot": "Trick Shot",
+  "cobblemon.move.trickshot.desc": "Predicting that the foe will attack, you strike before them using this tricky technique. This move fails if the foe is not preparing an attack as predicted.",
+
+  "cobblemon.move.energybreak": "Energy Break",
+  "cobblemon.move.energybreak.desc": "Launch an attack at the foe that also drains a bit of their Health.",
+
+  "cobblemon.move.landslide": "Landslide",
+  "cobblemon.move.landslide.desc": "Hits all Pokemon surrounding the user.",
+
+  "cobblemon.move.mudslide": "Mudslide",
+  "cobblemon.move.mudslide.desc": "Swamp the target with a mudflow. This also clears obstacles from your side of the arena and increases your Accuracy.",
+
+  "cobblemon.move.dissonantchord": "Dissonant Chord",
+  "cobblemon.move.dissonantchord.desc": "Play a loud, harsh sound that damages the foe and prevents them from falling asleep.",
+
+  "cobblemon.move.shadowpulse": "Shadow Pulse",
+  "cobblemon.move.shadowpulse.desc": "Attack your foes with a wave of dark energy.",
+
+  "cobblemon.move.ultrapunch": "Ultra Punch",
+  "cobblemon.move.ultrapunch.desc": "Hit the target hard with a fist. This may leave them confused.",
+
+  "cobblemon.move.judgemental": "Judgemental",
+  "cobblemon.move.judgemental.desc": "Bring the hammer down on the foe! Punish them with a powerful force that may as well be an actual hammer. This may make them flinch.",
+
+  "cobblemon.move.minddrain": "Mind Drain",
+  "cobblemon.move.minddrain.desc": "Drain the target's Health. Half of the damage dealt is absorbed to restore your Health.",
+
+  "cobblemon.move.eeriestare": "Eerie Stare",
+  "cobblemon.move.eeriestare.desc": "Spook the foe with a stare that lowers their Defense and Speed.",
+
+  "cobblemon.move.metalswipes": "Metal Swipes",
+  "cobblemon.move.metalswipes.desc": "Swipe at the foe with metal claws. Hits twice.",
+
+  "cobblemon.move.wavewrecker": "Wave Wrecker",
+  "cobblemon.move.wavewrecker.desc": "Thrash the opponent with a heavy sea wave. May leave them confused.",
+
+  "cobblemon.move.harmoniouschord": "Harmonious Chord",
+  "cobblemon.move.harmoniouschord.desc": "Play a delightful tone that damages the foe a little, and may put them to sleep.",
+
+  "cobblemon.move.repeatingtune": "Repeating Tune",
+  "cobblemon.move.repeatingtune.desc": "Repeat the same musical notes, damaging the target two to three times.",
+
+  "cobblemon.move.boombash": "Boom Bash",
+  "cobblemon.move.boombash.desc": "From a distance, punch or kick hard to direct a shock wave at the foe. This may leave them confused.",
+
+  "cobblemon.move.hullabaloo": "Hullabaloo",
+  "cobblemon.move.hullabaloo.desc": "Produce a tumultuous noise that causes the target pain and prevents them from healing for the next two turns.",
+
+  "cobblemon.move.preemptivestrike": "Preemptive Strike",
+  "cobblemon.move.preemptivestrike.desc": "A fast-paced technique that can only be used immediately after joining the battle. Your foe will be caught off-guard and flinch.",
+
+  "cobblemon.move.dinoclaws": "Dino Claws",
+  "cobblemon.move.dinoclaws.desc": "Swipe at the foe with sharp claws. May also make them flinch.",
+
+  "cobblemon.move.hypersting": "Hyper Sting",
+  "cobblemon.move.hypersting.desc": "Fiercely attack the opponent with a sharp stinger. Breaks down substitutes.",
+
+  "cobblemon.move.stratagem": "Stratagem",
+  "cobblemon.move.stratagem.desc": "A unique move which utilizes the user's Special Defense stat in place of its Attack.",
+
+  "cobblemon.move.baffle": "Baffle",
+  "cobblemon.move.baffle.desc": "Surprise the foe with an unexpected gesture, reducing their Melee and Ranged Attack, then retreat to allow an ally to take your place.",
+
+  "cobblemon.move.ancientroar": "Ancient Roar",
+  "cobblemon.move.ancientroar.desc": "Threaten the foe with a fierce roar that lowers their Melee Attack and Ranged Attack, then retreat to allow another Loomian on your team to take your place.",
+
+  "cobblemon.move.bequeath": "Bequeath",
+  "cobblemon.move.bequeath.desc": "Accept your fate, and instantly faint, bestowing upon your replacement all of your stat changes. This move tends to go last.",
+
+  "cobblemon.move.reflectionburst": "Reflection Burst",
+  "cobblemon.move.reflectionburst.desc": "If you have already been hit by an opponent's move this turn, this move's Strength is doubled.",
+
+  "cobblemon.move.cosmicchime": "Cosmic Chime",
+  "cobblemon.move.cosmicchime.desc": "A mystical attack that bypasses the target's Ability.",
+
+  "cobblemon.move.lightspeedray": "Lightspeed Ray",
+  "cobblemon.move.lightspeedray.desc": "Swiftly cast an attack on the foe. This move tends to go first.",
+
+  "cobblemon.move.nosedive": "Nosedive",
+  "cobblemon.move.nosedive.desc": "Plummet straight down from high above the target and crash into them, taking some damage yourself.",
+
+  "cobblemon.move.oppress": "Oppress",
+  "cobblemon.move.oppress.desc": "Relentlessly pester the foe. Deals more damage if the target is afflicted with a status ailment. Has a 50% chance to paralyze the target.",
+
+  "cobblemon.move.jetstream": "Jet Stream",
+  "cobblemon.move.jetstream.desc": "Batter the foe with turbulent gusts. This may also lower their speed.",
+
+  "cobblemon.move.primalslash": "Primal Slash",
+  "cobblemon.move.primalslash.desc": "Swipe at the target with claws. Lands critical hits more often.",
+
+  "cobblemon.move.outburst": "Outburst",
+  "cobblemon.move.outburst.desc": "The Strength of this move scales based on how much Health the user has.",
+
+  "cobblemon.move.toxiblast": "Toxiblast",
+  "cobblemon.move.toxiblast.desc": "An explosive move that may leave the foe poisoned.",
+
+  "cobblemon.move.swat": "Swat",
+  "cobblemon.move.swat.desc": "If the foe is Flying-type, this will deal double damage and nullify their Flying typing.",
+
+  "cobblemon.move.flareblast": "Flare Blast",
+  "cobblemon.move.flareblast.desc": "If the foe is Flying-type, this will deal double damage and nullify their Flying typing.",
+
+  "cobblemon.move.hydroblast": "Hydro Blast",
+  "cobblemon.move.hydroblast.desc": "Overwhelm your opponents with a torrential projectile. This move has 100 Accuracy during rain.",
+
+  "cobblemon.move.phantomblast": "Phantom Blast",
+  "cobblemon.move.phantomblast.desc": "Bombard your foes with ghastly projectiles. This move has 100 Accuracy in the presence of dense fog.",
+
+  "cobblemon.move.slumber": "Slumber",
+  "cobblemon.move.slumber.desc": "Sleep for 3 turns. Each turn, recover 1/3 of your HP.",
+
+  "cobblemon.move.gulp": "Gulp",
+  "cobblemon.move.gulp.desc": "This attack may cause the foe to drop their Item, in which case you swoop by and swallow it. If the Item was food, you may benefit from its effects.",
+
+  "cobblemon.move.boilingpress": "Boiling Press",
+  "cobblemon.move.boilingpress.desc": "Pin down the foe and rapidly heat them to the point of evaporation. Super effective on Water-type Loomians.",
+
+  "cobblemon.move.rapidfire": "Rapid Fire",
+  "cobblemon.move.rapidfire.desc": "Launch three fireballs at the target, each having a small chance to burn them.",
+
+  "cobblemon.move.burntup": "Burnt Up",
+  "cobblemon.move.burntup.desc": "Kindle your flames to raise your Special Attack and burn traps placed on your side of the field.",
+
+  "cobblemon.move.heartbreak": "Heart Break",
+  "cobblemon.move.heartbreak.desc": "Strike the opponent in the heart. There is a good chance this will leave them confused.",
+
+  "cobblemon.move.submerge": "Submerge",
+  "cobblemon.move.submerge.desc": "Dive below the surface and hide there for a turn. Strike the target on the second turn, bypassing their fortifications.",
+
+  "cobblemon.move.flashpulse": "Flash Pulse",
+  "cobblemon.move.flashpulse.desc": "Create a pulsing wave of light that hurts your opponent(s) and may leave them confused.",
+
+  "cobblemon.move.naturesrage": "Nature's Rage",
+  "cobblemon.move.naturesrage.desc": "Recklessly unleash your fury on an opponent for a few turns. When finished, you will become confused.",
+
+  "cobblemon.move.junglejutsu": "Junglejutsu",
+  "cobblemon.move.junglejutsu.desc": "Pulverize the opponent with a calculated blow. Lands critical hits more often."
+}

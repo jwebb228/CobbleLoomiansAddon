@@ -1,0 +1,14 @@
+{
+  "species": "cobblemon:fiscarna",
+  "order": 2,
+  "variations": [
+    {
+      "aspects": ["shiny", "gamma-gamma"],
+      "texture": "cobblemon:textures/pokemon/fiscarna/fiscarna_gamma.png"
+    },
+    {
+      "aspects": ["shiny", "gamma-gamma", "swag"],
+      "texture": "cobblemon:textures/pokemon/fiscarna/fiscarnaswag/fiscarnaswag_gamma.png"
+    }
+  ]
+}

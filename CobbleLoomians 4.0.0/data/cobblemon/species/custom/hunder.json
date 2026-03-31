@@ -1,0 +1,124 @@
+{
+  "implemented": true,
+  "name": "hunder",
+  "nationalPokedexNumber": 2069,
+  "primaryType": "steel",
+  "secondaryType": "electric",
+  "abilities": [
+    "sheerforce",
+    "h:strongjaw"
+  ],
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:bone",
+        "quantityRange": "0-2"
+      },
+      {
+        "item": "minecraft:redstone",
+        "percentage": 90.0,
+         "quantityRange": "1-4"
+      },
+       {
+        "item": "cobblemon:metal_coat",
+        "percentage": 10
+      }
+    ]
+  },
+  "baseStats": {
+    "hp": 78,
+    "attack": 94,
+    "defence": 83,
+    "special_attack": 63,
+    "special_defence": 69,
+    "speed": 116
+  },
+  "catchRate": 45,
+  "maleRatio": -1,
+  "shoulderMountable": false,
+  "baseExperienceYield": 510,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 39,
+  "eggGroups": [
+    "field"
+  ],
+  "behaviour": {
+    "moving": {
+      "walk": {
+        "walkSpeed": 0.25
+      }
+    },
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-4"
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    }
+  },
+  
+  "moves": [
+    "1:heavyslam",
+    "1:growl",
+    "1:thundershock",
+    "5:metalswipes",
+    "11:quickattack",
+    "19:shockwave",
+    "23:bite",
+    "27:honeclaws",
+    "33:ironhead",
+    "37:crunch",
+    "46:chasedown",
+    "egg:firefang",
+    "egg:icefang",
+    "egg:thunderfang",
+    "egg:jawlock",
+    "egg:vicejaws",
+    "egg:nuzzle",
+    "egg:taunt",
+    "tm:firefang",
+    "tm:icefang",
+    "tm:thunderfang",
+    "tm:jawlock",
+    "tm:nuzzle",
+    "tm:protect",
+    "tm:mudshot",
+    "tm:falseswipe",
+    "tm:thunderbolt",
+    "tm:voltswitch",
+    "tm:irontail"
+  ],
+  "labels": [
+    "custom",
+    "roria"
+  ],
+  "pokedex": [
+    "cobblemon.species.hunder.desc"
+  ],
+ "preEvolution": "poochrol",
+  "evolutions": [],
+  "baseScale": 1,
+  "hitbox": {
+    "width": 0.7,
+    "height": 1.65,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
+  },
+  "height": 10,
+  "weight": 340,
+  "aspects": [],
+  "cannotDynamax": false
+}

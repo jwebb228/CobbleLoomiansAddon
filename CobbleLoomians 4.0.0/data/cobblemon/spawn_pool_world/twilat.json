@@ -1,0 +1,35 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+   {
+     "id": "twilat-1",
+     "pokemon": "twilat",
+     "presets": [ "natural" ],
+     "type": "pokemon",
+     "context": "grounded",
+     "bucket": "common",
+     "level": "2-15",
+     "weight": 9.2,
+     "condition": {
+       "biomes": [ "#cobblemon:is_forest",
+                   "#cobblemon:is_plains" ]
+     }
+   },
+   {
+     "id": "twilat-2",
+     "pokemon": "twilat corrupted uncatchable",
+     "presets": [ "natural" ],
+     "type": "pokemon",
+     "context": "grounded",
+     "bucket": "common",
+     "level": "2-15",
+     "weight": 9.2,
+     "condition": {
+       "biomes": [ "#cobblemon:is_forest",
+                   "#cobblemon:is_plains" ]
+     }
+   }
+ ]
+}

@@ -1,0 +1,53 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "metronette-1",
+            "pokemon": "metronette",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "35-55",
+            "weight": 0.5,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_jungle",
+                    "#cobblemon:is_forest",
+                    "#cobblemon:is_floral",
+                    "#cobblemon:is_plains",
+                    "#cobblemon:is_taiga",
+                    "#cobblemon:is_spooky"
+
+                ]
+            }
+        },
+        {
+            "id": "metronette-collab-1",
+            "pokemon": "metronette collab",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "35-55",
+            "weight": 0.25,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_jungle",
+                    "#cobblemon:is_forest",
+                    "#cobblemon:is_floral",
+                    "#cobblemon:is_plains",
+                    "#cobblemon:is_taiga",
+                    "#cobblemon:is_spooky"
+
+                ]
+            }
+        }
+    ]
+}

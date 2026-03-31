@@ -1,0 +1,16 @@
+{
+    "id": "cobblemon:goppie",
+    "speciesId": "cobblemon:goppie",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Normal",
+        "unlockForms": [
+          "Normal"
+        ]
+      }
+    ],
+    "variations": []
+  }
+  

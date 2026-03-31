@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:phancub",
+  "order": 2,
+  "variations": [
+    {
+      "aspects": ["shiny", "gamma-gamma"],
+      "texture": "cobblemon:textures/pokemon/phancub/phancub_gamma.png",
+      "layers": [
+        {
+              "name": "emissive",
+              "emissive": true,
+              "texture": "cobblemon:textures/pokemon/phancub/phancub_emissive.png",
+              "translucent": true
+        }
+      ]
+    }
+  ]
+}

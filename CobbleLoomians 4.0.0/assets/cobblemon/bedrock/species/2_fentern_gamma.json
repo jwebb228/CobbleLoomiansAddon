@@ -1,0 +1,10 @@
+{
+  "species": "cobblemon:fentern",
+  "order": 2,
+  "variations": [
+    {
+      "aspects": ["shiny", "gamma-gamma"],
+      "texture": "cobblemon:textures/pokemon/fentern/fentern_gamma.png"
+    }
+  ]
+}

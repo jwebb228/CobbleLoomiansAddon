@@ -1,0 +1,47 @@
+{
+ "head": "head",
+ "portraitScale": 1.5,
+ "portraitTranslation": [ -0.1, 1.9, 0 ],
+ "profileScale": 0.6,
+ "profileTranslation": [ 0, 1, 0 ],
+ "animations": {
+  "cry": "q.bedrock_stateful('weaselin', 'cry')"
+},
+ "poses": {
+  "standing": {
+    "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+    "isBattle": false,
+    "animations": ["look",
+      "q.bedrock('weaselin', 'ground_idle')"
+    ],
+    "quirks": [
+      "q.bedrock_quirk('weaselin', 'blink')"
+    ]
+  },
+  "walking": {
+    "poseTypes": ["WALK"],
+    "animations": ["look",
+      "q.bedrock('weaselin', 'ground_walk')"
+    ],
+    "quirks": ["q.bedrock_quirk('weaselin', 'blink')"]
+  },
+  "float": {
+    "poseTypes": ["FLOAT"],
+    "animations": [
+      "q.bedrock('weaselin', 'ground_idle')"
+    ],
+    "quirks": ["q.bedrock_quirk('weaselin', 'blink')"]
+  },
+  "swim": {
+    "poseTypes": ["SWIM"],
+    "animations": [
+      "q.bedrock('weaselin', 'ground_walk')"
+    ],
+    "quirks": ["q.bedrock_quirk('weaselin', 'blink')"]
+  },
+  "sleep": {
+    "poseTypes": ["SLEEP"],
+    "animations": ["q.bedrock('weaselin', 'sleep')"]
+  }
+ }
+}

@@ -1,0 +1,22 @@
+{
+    "id": "cobblemon:fiscarna",
+    "speciesId": "cobblemon:fiscarna",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Normal",
+        "unlockForms": [
+          "Normal"
+        ]
+      },
+      {
+        "displayForm": "Swag",
+        "unlockForms": [
+          "Swag"
+        ]
+      }
+    ],
+    "variations": []
+  }
+  

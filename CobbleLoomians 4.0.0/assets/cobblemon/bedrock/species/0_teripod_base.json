@@ -1,0 +1,32 @@
+{
+  "species": "cobblemon:teripod",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:teripod",
+      "model": "cobblemon:teripod.geo",
+      "texture": "cobblemon:textures/pokemon/teripod/teripod.png",
+      "layers": [
+        {
+              "name": "emissive",
+              "emissive": true,
+              "texture": "cobblemon:textures/pokemon/teripod/teripod_emissive.png",
+              "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/teripod/teripod_shiny.png",
+      "layers": [
+        {
+              "name": "emissive",
+              "emissive": true,
+              "texture": "cobblemon:textures/pokemon/teripod/teripod_shiny_emissive.png",
+              "translucent": true
+        }
+      ]
+    }
+  ]
+}

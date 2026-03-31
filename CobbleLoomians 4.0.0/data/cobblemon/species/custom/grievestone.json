@@ -1,0 +1,168 @@
+{
+  "implemented": true,
+  "name": "grievestone",
+  "nationalPokedexNumber": 2268,
+  "primaryType": "ground",
+  "secondaryType": "ghost",
+  "abilities": [
+    "sob",
+    "cursedbody",
+    "h:arenatrap"
+  ],
+  "baseStats": {
+    "hp": 48,
+    "attack": 30,
+    "defence": 85,
+    "special_attack": 85,
+    "special_defence": 30,
+    "speed": 30
+  },
+  "behaviour": {
+    "herd": {
+      "maxSize": "6",
+      "toleratedLeaders": [
+        {
+          "pokemon": "grievestone",
+          "tier": 1
+        },
+        {
+          "pokemon": "obelost",
+          "tier": 2
+        }
+      ]
+    },
+    "resting": {
+      "canSleep": true,
+      "depth": "normal",
+      "light": "0-8",
+      "willSleepOnBed": false,
+      "times": "day"
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.3,
+        "canSwimInWater": false,
+        "canBreatheUnderwater": false
+      },
+      "fly": {
+        "canFly": false,
+        "flySpeedHorizontal": 0.3
+      }
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    }
+  },
+  "catchRate": 68,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 186,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 40,
+  "eggGroups": [
+    "mineral"
+  ],
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "minecraft:dirt",
+        "quantityRange": "1-3",
+        "percentage": 50
+      },
+      {
+        "item": "minecraft:cobblestone",
+        "quantityRange": "1-3",
+        "percentage": 25
+      },
+      {
+        "item": "minecraft:deepslate",
+        "quantityRange": "1-1",
+        "percentage": 5
+      }
+    ]
+  },
+  "moves": [
+    "1:mudslap",
+    "1:stupefy",
+    "3:shriek",
+    "5:laserfocus",
+    "9:painsplit",
+    "14:sandtomb",
+    "17:shadowball",
+    "20:dissonantchord",
+    "25:substitute",
+    "29:smackdown",
+    "33:soulstorm",
+    "38:bodypress",
+    "43:encore",
+    "47:splittingheadache",
+    "egg:acupressure",
+    "egg:trickroom",
+    "egg:spikes",
+    "egg:energybreak",
+    "egg:landslide",
+    "egg:mudslide",
+    "egg:phantomblast",
+    "egg:taunt",
+    "egg:leechseed",
+    "egg:rest",
+    "egg:haze",
+    "egg:assist",
+    "egg:momento",
+    "tm:protect",
+    "tm:facade",
+    "tm:mudshot",
+    "tm:calmmind",
+    "tm:shadowball"
+  ],
+  "labels": [
+    "custom",
+    "roria"
+  ],
+  "pokedex": [
+    "cobblemon.species.grievestone.desc1"
+  ],
+  "baseScale": 1,
+  "hitbox": {
+    "width": 0.8,
+    "height": 0.7,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 8.9,
+  "weight": 857,
+  "evolutions": [
+    {
+      "id": "grievestone-obelost-level_up",
+      "variant": "level_up",
+      "result": "obelost",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "trickshot"
+      ],
+      "requirements": [
+        {
+          "variant": "friendship",
+          "amount": 255
+        }
+      ],
+      "requiredContext": ""
+    }
+  ]
+}

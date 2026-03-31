@@ -1,0 +1,22 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+   {
+     "id": "umbrat-1",
+     "pokemon": "umbrat",
+     "presets": [ "natural" ],
+     "type": "pokemon",
+     "context": "grounded",
+     "bucket": "uncommon",
+     "level": "21-37",
+     "weight": 6.4,
+     "condition": {
+       "timeRange": "night",
+       "biomes": [ "#cobblemon:is_forest",
+                   "#cobblemon:is_plains"  ]
+     }
+   }
+ ]
+}

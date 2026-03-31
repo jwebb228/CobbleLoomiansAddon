@@ -1,0 +1,10 @@
+{
+  "species": "cobblemon:swimp",
+  "order": 2,
+  "variations": [
+    {
+      "aspects": ["shiny", "gamma-gamma"],
+      "texture": "cobblemon:textures/pokemon/swimp/swimp_gamma.png"
+    }
+  ]
+}

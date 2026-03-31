@@ -1,0 +1,16 @@
+{
+    "id": "cobblemon:umbrat",
+    "speciesId": "cobblemon:umbrat",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Normal",
+        "unlockForms": [
+          "Normal"
+        ]
+      }
+    ],
+    "variations": []
+  }
+  

@@ -1,0 +1,16 @@
+{
+    "id": "cobblemon:pwuff",
+    "speciesId": "cobblemon:pwuff",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Normal",
+        "unlockForms": [
+          "Normal"
+        ]
+      }
+    ],
+    "variations": []
+  }
+  

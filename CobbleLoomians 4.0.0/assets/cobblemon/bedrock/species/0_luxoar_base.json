@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:luxoar",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:luxoar",
+      "model": "cobblemon:luxoar.geo",
+      "texture": "cobblemon:textures/pokemon/luxoar/luxoar.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/luxoar/luxoar_shiny.png"
+    }
+  ]
+}

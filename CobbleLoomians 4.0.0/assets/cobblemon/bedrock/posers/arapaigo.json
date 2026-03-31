@@ -1,0 +1,47 @@
+{
+ "head": "head",
+ "portraitScale": 1,
+ "portraitTranslation": [ -0.8, -0.1, 0 ],
+ "profileScale": 0.5,
+ "profileTranslation": [ -0.1, 0.8, 0 ],
+ "animations": {
+  "cry": "q.bedrock_stateful('arapaigo', 'cry')"
+},
+ "poses": {
+  "standing": {
+    "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+    "isBattle": false,
+    "animations": [
+      "q.bedrock('arapaigo', 'ground_idle')"
+    ],
+    "quirks": [
+      "q.bedrock_quirk('arapaigo', 'blink')"
+    ]
+  },
+  "walking": {
+    "poseTypes": ["WALK"],
+    "animations": [
+      "q.bedrock('arapaigo', 'ground_walk')"
+    ],
+    "quirks": ["q.bedrock_quirk('arapaigo', 'blink')"]
+  },
+  "float": {
+    "poseTypes": ["FLOAT"],
+    "animations": [
+      "q.bedrock('arapaigo', 'water_idle')"
+    ],
+    "quirks": ["q.bedrock_quirk('arapaigo', 'blink')"]
+  },
+  "swim": {
+    "poseTypes": ["SWIM"],
+    "animations": [
+      "q.bedrock('arapaigo', 'water_swim')"
+    ],
+    "quirks": ["q.bedrock_quirk('arapaigo', 'blink')"]
+  },
+  "sleep": {
+    "poseTypes": ["SLEEP"],
+    "animations": ["q.bedrock('arapaigo', 'sleep')"]
+  }
+ }
+}

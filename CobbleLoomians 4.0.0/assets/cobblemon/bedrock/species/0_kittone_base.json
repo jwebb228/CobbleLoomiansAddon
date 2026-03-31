@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:kittone",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:kittone",
+      "model": "cobblemon:kittone.geo",
+      "texture": "cobblemon:textures/pokemon/kittone/kittone.png"
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/kittone/kittone_shiny.png"
+    }
+  ]
+}

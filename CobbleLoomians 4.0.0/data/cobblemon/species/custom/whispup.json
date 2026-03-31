@@ -1,0 +1,168 @@
+{
+  "implemented": true,
+  "name": "whispup",
+  "nationalPokedexNumber": 2062,
+  "primaryType": "ghost",
+  "secondaryType": "fire",
+  "abilities": [
+    "flamebody",
+    "berserk",
+    "h:vengeance"
+  ],
+  "baseStats": {
+    "hp": 45,
+    "attack": 57,
+    "defence": 42,
+    "special_attack": 70,
+    "special_defence": 48,
+    "speed": 72
+  },
+  "behaviour": {
+    "herd": {
+      "maxSize": "6",
+      "toleratedLeaders": [
+        {
+          "pokemon": "whispup",
+          "tier": 1
+        },
+        {
+          "pokemon": "revenine",
+          "tier": 2
+        }
+      ]
+    },
+    "resting": {
+      "canSleep": true,
+      "depth": "normal",
+      "light": "4-15",
+      "willSleepOnBed": true,
+      "times": "day"
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.3,
+        "canSwimInWater": false,
+        "canBreatheUnderwater": false
+      },
+      "fly": {
+        "canFly": false,
+        "flySpeedHorizontal": 0.3
+      }
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    }
+  },
+  "catchRate": 150,
+  "maleRatio": 0.5,
+  "shoulderMountable": true,
+  "baseExperienceYield": 201,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 39,
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:razor_fang",
+        "quantityRange": "1",
+        "percentage": 5
+      },
+      {
+        "item": "minecraft:bone",
+        "quantityRange": "1-2",
+        "percentage": 75
+      }
+    ]
+  },
+  "moves": [
+    "1:astonish",
+    "1:leer",
+    "4:ember",
+    "8:gnaw",
+    "15:destinybond",
+    "21:stretch",
+    "27:shadowsneak",
+    "30:firefang",
+    "32:agility",
+    "36:shadowball",
+    "41:darkpulse",
+    "egg:flamethrower",
+    "egg:flareblast",
+    "egg:harrow",
+    "egg:crunch",
+    "egg:phantomblast",
+    "egg:shadowclaw",
+    "egg:workup",
+    "egg:soulstorm",
+    "tm:darkpulse",
+    "tm:protect",
+    "tm:fadeaway",
+    "tm:flamethrower",
+    "tm:falseswipe",
+    "tm:shadowball"
+  ],
+  "labels": [
+    "custom",
+    "roria"
+  ],
+  "pokedex": [
+    "cobblemon.species.whispup.desc"
+  ],
+  "forms": [
+    {
+            "name": "puppet",     
+            "aspects": [
+            "puppet" 
+            ]
+    
+   }
+  ],
+  "baseScale": 0.5,
+  "hitbox": {
+    "width": 1,
+    "height": 2,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 97,
+  "weight": 2,
+  "features": [ 
+  "puppet"],
+  "evolutions": [
+    {
+      "id": "whispup-revenine-level_up",
+      "variant": "level_up",
+      "result": "revenine",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "ghostlyhowl"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 28
+        }
+      ],
+      "requiredContext": ""
+    }
+  ]
+  
+}

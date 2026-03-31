@@ -1,0 +1,28 @@
+{
+    "id": "cobblemon:duskit",
+    "speciesId": "cobblemon:duskit",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Normal",
+        "unlockForms": [
+          "Normal"
+        ]
+      },
+        {
+        "displayForm": "Plushie",
+        "unlockForms": [
+          "Plushie"
+        ]
+      },
+      {
+        "displayForm": "Skeleton",
+        "unlockForms": [
+          "Skeleton"
+        ]
+      }
+    ],
+    "variations": []
+  }
+  

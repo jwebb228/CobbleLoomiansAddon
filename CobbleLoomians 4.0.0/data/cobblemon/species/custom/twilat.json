@@ -1,0 +1,206 @@
+{
+  "implemented": true,
+  "name": "twilat",
+  "nationalPokedexNumber": 2022,
+  "primaryType": "normal",
+  "abilities": [
+    "rivalry",
+    "innerfocus",
+    "h:normalize"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 42,
+    "defence": 38,
+    "special_attack": 42,
+    "special_defence": 38,
+    "speed": 40
+  },
+  "behaviour": {
+    "herd": {
+      "maxSize": "9",
+      "toleratedLeaders": [
+        {
+          "pokemon": "twilat",
+          "tier": 1
+        },
+        {
+          "pokemon": "umbrat",
+          "tier": 2
+        },
+        {
+          "pokemon": "luxoar",
+          "tier": 2
+        },
+        {
+          "pokemon": "tiklipse",
+          "tier": 3
+        }
+      ]
+    },
+    "resting": {
+      "canSleep": true,
+      "depth": "normal",
+      "light": "0-4",
+      "willSleepOnBed": false,
+      "times": "night"
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "walkSpeed": 0.30,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.3,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      },
+      "fly": {
+        "canFly": false,
+        "flySpeedHorizontal": 0.3
+      }
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    }
+  },
+  "catchRate": 150,
+  "maleRatio": 0.5,
+  "shoulderMountable": true,
+  "baseExperienceYield": 87,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 25,
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:oran_berry",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
+  },
+  "moves": [
+    "1:gnaw",
+    "1:tailwhip",
+    "5:stretch",
+    "11:quickattack",
+    "16:swipe",
+    "23:substitute",
+    "27:honeclaws",
+    "28:charm",
+    "tm:falseswipe",
+    "tm:protect",
+    "egg:swordsdance",
+    "egg:bodyslam",
+    "egg:chasedown",
+    "egg:disperse",
+    "egg:drudge",
+    "egg:hasten",
+    "egg:highpitchscreech",
+    "egg:workup",
+    "egg:nastyplot",
+    "egg:raginghowl",
+    "egg:doubleedge",
+    "egg:charm",
+    "egg:honeclaws"
+  ],
+  "labels": [
+    "custom",
+    "roria"
+  ],
+  "pokedex": [
+    "cobblemon.species.twilat.desc1"
+  ],
+  "baseScale": 0.6,
+  "hitbox": {
+    "width": 0.9,
+    "height": 0.7,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 4,
+  "weight": 109,
+  "evolutions": [
+    {
+      "id": "twilat-umbrat-level_up",
+      "variant": "level_up",
+      "result": "umbrat",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "lashout"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 22
+        },
+        {
+          "variant": "time_range",
+          "range": "night"
+        }
+      ],
+      "requiredContext": ""
+    },
+    {
+      "id": "twilat-luxoar-level_up",
+      "variant": "level_up",
+      "result": "luxoar",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "alluringvoice"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 22
+        },
+        {
+          "variant": "time_range",
+          "range": "day"
+        }
+      ],
+      "requiredContext": ""
+    },
+    {
+      "id": "twilat-tiklipse-level_up",
+      "variant": "level_up",
+      "result": "tiklipse",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "nightdaze",
+        "fairywind"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 22
+        },
+        {
+          "variant": "has_move_type",
+          "type": "fairy"
+        },
+        {
+          "variant": "has_move_type",
+          "type": "dark"
+        }
+      ],
+      "requiredContext": ""
+    }
+  ]
+}

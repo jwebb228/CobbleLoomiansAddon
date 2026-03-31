@@ -1,0 +1,30 @@
+{
+  "species": "cobblemon:duskit",
+  "order": 2,
+  "variations": [
+    {
+      "aspects": ["shiny", "gamma-gamma"],
+      "texture": "cobblemon:textures/pokemon/duskit/duskit/duskit_gamma.png",
+      "layers": [
+        {
+              "name": "emissive",
+              "emissive": true,
+              "texture": "cobblemon:textures/pokemon/duskit/duskit/duskit_emissive.png",
+              "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": ["shiny", "gamma-gamma", "plushie"],
+      "texture": "cobblemon:textures/pokemon/duskit/duskitplushie/duskitplushie_gamma.png",
+      "layers": [
+        {
+              "name": "emissive",
+              "emissive": true,
+              "texture": "cobblemon:textures/pokemon/duskit/duskitplushie/duskitplushie_gamma_emissive.png",
+              "translucent": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "species": "cobblemon:garlash",
+  "order": 2,
+  "variations": [
+    {
+      "aspects": ["shiny", "gamma-gamma"],
+      "texture": "cobblemon:textures/pokemon/garlash/garlash_gamma.png"
+    }
+  ]
+}

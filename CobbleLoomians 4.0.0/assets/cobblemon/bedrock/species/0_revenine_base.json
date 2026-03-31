@@ -1,0 +1,34 @@
+{
+  "species": "cobblemon:revenine",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:revenine",
+      "model": "cobblemon:revenine.geo",
+      "texture": "cobblemon:textures/pokemon/revenine/revenine.png",
+      "layers": [
+        {
+              "name": "emissive",
+              "emissive": true,
+              "texture": "cobblemon:textures/pokemon/revenine/revenine_emissive.png",
+              "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/revenine/revenine_shiny.png",
+      "layers": [
+        {
+              "name": "emissive",
+              "emissive": true,
+              "texture": "cobblemon:textures/pokemon/revenine/revenine_shiny_emissive.png",
+              "translucent": true
+        }
+      ]
+    },
+    {
+        }
+      ]
+    }

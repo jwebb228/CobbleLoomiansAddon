@@ -1,0 +1,159 @@
+{
+  "implemented": true,
+  "name": "Goppie",
+  "nationalPokedexNumber": 2097,
+  "primaryType": "water",
+  "abilities": [
+    "swiftswim",
+    "infiltrator",
+    "h:naturalcure"
+  ],
+  "baseStats": {
+    "hp": 48,
+    "attack": 33,
+    "defence": 45,
+    "special_attack": 53,
+    "special_defence": 45,
+    "speed": 64
+  },
+  "catchRate": 200,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 174,
+  "experienceGroup": "slow",
+  "eggCycles": 5,
+  "eggGroups": [
+    "water_2",
+    "dragon"
+  ],
+  "behaviour": {
+    "herd": {
+      "maxSize": "9",
+      "toleratedLeaders": [
+        {
+          "pokemon": "goppie",
+          "tier": 1
+        },
+        {
+          "pokemon": "goldeen",
+          "tier": 1
+        },
+        {
+          "pokemon": "magikarp",
+          "tier": 1
+        },
+        {
+          "pokemon": "feebas",
+          "tier": 1
+        },
+        {
+          "pokemon": "seaking",
+          "tier": 2
+        },
+        {
+          "pokemon": "arapaigo",
+          "tier": 3
+        },
+        {
+          "pokemon": "manaphy",
+          "tier": 4
+        }
+      ]
+    },
+    "moving": {
+      "canLook": false,
+      "walk": {
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": true
+    }
+  },
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:cod"
+      },
+      {
+        "item": "minecraft:bone_meal",
+        "percentage": 5.0
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:tailwhip",
+    "4:watergun",
+    "7:powdersnow",
+    "11:bite",
+    "15:leer",
+    "20:bodyslam",
+    "23:waterpulse",
+    "26:snarl",
+    "31:eeriestare",
+    "38:surf",
+    "egg:darkpulse",
+    "egg:hydroblast",
+    "egg:icebeam",
+    "egg:nastyplot",
+    "tm:darkpulse",
+    "tm:protect",
+    "tm:icebeam",
+    "tm:facade",
+    "tm:bubblebeam",
+    "tm:dive",
+    "tm:recover",
+    "tm:falseswipe",
+    "tm:surf",
+    "tm:voltswitch",
+    "tm:flipturn"
+  ],
+  "labels": [
+    "custom",
+    "roria"
+  ],
+  "pokedex": [
+    "cobblemon.species.goppie.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "goppie_arapaigo",
+      "variant": "item_interact",
+      "result": "arapaigo",
+      "consumeHeldItem": true,
+      "learnableMoves": [
+        "aquacutter"
+      ],
+      "requirements": [],
+ "requiredContext": "cobblemon:prism_scale"
+    }
+  ],
+  "baseScale": 1,
+  "hitbox": {
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 9,
+  "weight": 90,
+  "aspects": [],
+  "cannotDynamax": false
+}

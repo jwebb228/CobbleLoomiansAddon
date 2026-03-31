@@ -1,0 +1,252 @@
+{
+  "implemented": true,
+  "name": "barblast",
+  "nationalPokedexNumber": 2114,
+  "primaryType": "water",
+  "secondaryType": "poison",
+  "abilities": [
+    "poisonpoint",
+    "aftermath",
+    "h:highexplosive"
+  ],
+  "baseStats": {
+    "hp": 96,
+    "attack": 72,
+    "defence": 107,
+    "special_attack": 89,
+    "special_defence": 88,
+    "speed": 37
+  },
+  "riding": {
+    "behaviours": {
+      "LIQUID": {
+        "key": "cobblemon:liquid/submarine",
+        "hitboxBreachPercentage": 0.9,
+        "rideSounds": [],
+        "stats": {
+          "ACCELERATION": "35-70",
+          "JUMP": "15-35",
+          "SKILL": "25-55",
+          "SPEED": "35-65",
+          "STAMINA": "20-40"
+        }
+      }
+    },
+    "seats": [
+      {
+        "offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "poseOffsets": [
+          {
+            "offset": {
+              "x": 0.0,
+              "y": -1.1382103,
+              "z": 0.31190932
+            },
+            "poseTypes": [
+              "STAND"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": -1.2665093,
+              "z": 0.35917875
+            },
+            "poseTypes": [
+              "WALK"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": -1.2607776,
+              "z": 0.1809411
+            },
+            "poseTypes": [
+              "HOVER"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": -1.2607776,
+              "z": 0.1809411
+            },
+            "poseTypes": [
+              "FLY"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.14216961,
+              "y": -1.2242103,
+              "z": 0.27955168
+            },
+            "poseTypes": [
+              "FLOAT"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": -1.2665093,
+              "z": 0.35917875
+            },
+            "poseTypes": [
+              "SWIM"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": -1.2607776,
+              "z": 0.1809411
+            },
+            "poseTypes": [
+              "GLIDE"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "behaviour": {
+    "herd": {
+      "maxSize": "9",
+      "toleratedLeaders": [
+        {
+          "pokemon": "barblast",
+          "tier": 1
+        },
+        {
+          "pokemon": "overqwil",
+          "tier": 1
+        },
+        {
+          "pokemon": "manaphy",
+          "tier": 2
+        }
+      ]
+    },
+    "resting": {
+      "canSleep": true,
+      "depth": "normal",
+      "light": "0-4",
+      "willSleepOnBed": false,
+      "times": "night"
+    },
+    "moving": {
+      "canLook": false,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.5,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      },
+      "fly": {
+        "canFly": false,
+        "flySpeedHorizontal": 0.3
+      }
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    }
+  },
+  "catchRate": 101,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 168,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 5,
+  "eggGroups": [
+    "water_1",
+    "water_2"
+  ],
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "minecraft:pufferfish"
+      },
+      {
+        "item": "minecraft:bone_meal",
+        "percentage": 5.0
+      }
+    ]
+  },
+  "moves": [
+    "1:toxiblast",
+    "1:selfdestruct",
+    "1:explosion",
+    "1:tackle",
+    "1:defencecurl",
+    "5:watergun",
+    "8:powdersnow",
+    "11:torment",
+    "15:headbutt",
+    "18:waterpulse",
+    "22:stretch",
+    "25:poisonfang",
+    "30:workup",
+    "35:icefang",
+    "43:aquacutter",
+    "50:poisonjab",
+    "egg:aquajaws",
+    "egg:swordsdance",
+    "egg:stealthrock",
+    "egg:toxic",
+    "egg:honeclaws",
+    "egg:surf",
+    "egg:wavewrecker",
+    "tm:bubblebeam",
+    "tm:protect",
+    "tm:facade",
+    "tm:recover",
+    "tm:surf",
+    "tm:falseswipe"
+  ],
+  "labels": [
+    "custom",
+    "roria"
+  ],
+  "pokedex": [
+    "cobblemon.species.barblast.desc"
+  ],
+  "baseScale": 1,
+  "hitbox": {
+    "width": 2,
+    "height": 2,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 63,
+  "weight": 7,
+  "preEvolution": "pwuff",
+  "forms":[
+    {
+    "name": "tennis",
+    "aspects": [
+        "tennis" 
+     ]
+   }
+  ],
+  "features": [ 
+    "tennis"] 
+}

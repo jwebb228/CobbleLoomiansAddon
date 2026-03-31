@@ -1,0 +1,10 @@
+{
+  "species": "cobblemon:kittone",
+  "order": 2,
+  "variations": [
+    {
+      "aspects": ["shiny", "gamma-gamma"],
+      "texture": "cobblemon:textures/pokemon/kittone/kittone_gamma.png"
+    }
+  ]
+}

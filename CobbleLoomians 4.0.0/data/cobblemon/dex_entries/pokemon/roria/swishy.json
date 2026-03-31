@@ -1,0 +1,16 @@
+{
+    "id": "cobblemon:swishy",
+    "speciesId": "cobblemon:swishy",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Normal",
+        "unlockForms": [
+          "Normal"
+        ]
+      }
+    ],
+    "variations": []
+  }
+  

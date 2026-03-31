@@ -1,0 +1,148 @@
+{
+  "implemented": true,
+  "name": "poochrol",
+  "nationalPokedexNumber": 2068,
+  "primaryType": "steel",
+  "secondaryType": "electric",
+  "abilities": [
+    "sheerforce",
+    "h:strongjaw"
+  ],
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:bone",
+        "quantityRange": "0-2"
+      },
+      {
+        "item": "minecraft:redstone",
+        "percentage": 75.0,
+         "quantityRange": "1-4"
+      },
+       {
+        "item": "cobblemon:metal_coat",
+        "percentage": 2.5
+      }
+    ]
+  },
+  "baseStats": {
+    "hp": 51,
+    "attack": 59,
+    "defence": 52,
+    "special_attack": 31,
+    "special_defence": 47,
+    "speed": 69
+  },
+  "catchRate": 90,
+  "maleRatio": -1,
+  "shoulderMountable": false,
+  "baseExperienceYield": 186,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 39,
+  "eggGroups": [
+    "field"
+  ],
+  "behaviour": {
+    "herd": {
+      "maxSize": "6",
+      "toleratedLeaders": [
+        {
+          "pokemon": "poochrol",
+          "tier": 1
+        },
+        {
+          "pokemon": "hunder",
+          "tier": 2
+        }
+      ]
+    },
+    "moving": {
+      "walk": {
+        "walkSpeed": 0.25
+      }
+    },
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "depth": "normal",
+      "light": "0-4"
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    }
+  },
+  
+  "moves": [
+    "1:growl",
+    "1:thundershock",
+    "5:metalswipes",
+    "11:quickattack",
+    "19:shockwave",
+    "23:bite",
+    "26:honeclaws",
+    "31:ironhead",
+    "34:crunch",
+    "40:chasedown",
+    "egg:firefang",
+    "egg:icefang",
+    "egg:thunderfang",
+    "egg:jawlock",
+    "egg:vicejaws",
+    "egg:nuzzle",
+    "egg:taunt",
+    "tm:firefang",
+    "tm:icefang",
+    "tm:thunderfang",
+    "tm:jawlock",
+    "tm:nuzzle",
+    "tm:protect",
+    "tm:mudshot",
+    "tm:falseswipe",
+    "tm:thunderbolt",
+    "tm:voltswitch"
+  ],
+  "labels": [
+    "custom",
+    "roria"
+  ],
+  "pokedex": [
+    "cobblemon.species.poochrol.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "poochrol_hunder",
+      "variant": "level_up",
+      "result": "hunder",
+      "consumeHeldItem": false,
+      "learnableMoves": ["heavyslam"],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 26
+        }
+      ]
+    }
+],
+  "baseScale": 1,
+  "hitbox": {
+    "width": 0.7,
+    "height": 1.0,
+    "fixed": false
+  },
+  "baseFriendship": 90,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 8,
+  "weight": 240,
+  "aspects": [],
+  "cannotDynamax": false
+}

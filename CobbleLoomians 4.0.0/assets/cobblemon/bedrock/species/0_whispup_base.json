@@ -1,0 +1,32 @@
+{
+  "species": "cobblemon:whispup",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:whispup",
+      "model": "cobblemon:whispup.geo",
+      "texture": "cobblemon:textures/pokemon/whispup/whispup.png",
+      "layers": [
+        {
+              "name": "emissive",
+              "emissive": true,
+              "texture": "cobblemon:textures/pokemon/whispup/whispup_emissive.png",
+              "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/whispup/whispup_shiny.png",
+      "layers": [
+        {
+              "name": "emissive",
+              "emissive": true,
+              "texture": "cobblemon:textures/pokemon/whispup/whispup_shiny_emissive.png",
+              "translucent": true
+        }
+      ]
+    }
+  ]
+}

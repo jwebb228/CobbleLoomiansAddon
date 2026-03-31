@@ -1,0 +1,10 @@
+{
+  "species": "cobblemon:twilat",
+  "order": 2,
+  "variations": [
+    {
+      "aspects": ["shiny", "gamma-gamma"],
+      "texture": "cobblemon:textures/pokemon/twilat/twilat_gamma.png"
+    }
+  ]
+}

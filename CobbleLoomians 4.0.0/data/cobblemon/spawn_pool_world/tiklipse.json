@@ -1,0 +1,21 @@
+{
+ "enabled": true,
+ "neededInstalledMods": [],
+ "neededUninstalledMods": [],
+ "spawns": [
+   {
+     "id": "tiklipse-1",
+     "pokemon": "tiklipse",
+     "presets": [ "natural" ],
+     "type": "pokemon",
+     "context": "grounded",
+     "bucket": "rare",
+     "level": "22-37",
+     "weight": 6.4,
+     "condition": {
+       "biomes": [ "#cobblemon:is_forest",
+                   "#cobblemon:is_plains" ]
+     }
+   }
+ ]
+}

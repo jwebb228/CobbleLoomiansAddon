@@ -1,0 +1,156 @@
+{
+  "implemented": true,
+  "name": "umbrat",
+  "nationalPokedexNumber": 2023,
+  "primaryType": "dark",
+  "abilities": [
+    "dusk",
+    "innerfocus",
+    "h:overshadow"
+  ],
+  "baseStats": {
+    "hp": 75,
+    "attack": 106,
+    "defence": 90,
+    "special_attack": 61,
+    "special_defence": 88,
+    "speed": 71
+  },
+  "behaviour": {
+    "herd": {
+      "maxSize": "9",
+      "toleratedLeaders": [
+        {
+          "pokemon": "umbrat",
+          "tier": 1
+        },
+        {
+          "pokemon": "luxoar",
+          "tier": 1
+        },
+        {
+          "pokemon": "tiklipse",
+          "tier": 2
+        }
+      ]
+    },
+    "resting": {
+      "canSleep": true,
+      "depth": "normal",
+      "light": "0-4",
+      "willSleepOnBed": false,
+      "times": "day"
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "walkSpeed": 0.25,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.3,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      },
+      "fly": {
+        "canFly": false,
+        "flySpeedHorizontal": 0.3
+      }
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    }
+  },
+  "catchRate": 100,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 217,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 15,
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:oran_berry",
+        "quantityRange": "1-2",
+        "percentage": 50
+      },
+      {
+        "item": "cobblemon:pecha_berry",
+        "quantityRange": "1-1",
+        "percentage": 25
+      },
+      {
+        "item": "cobblemon:dusk_stone",
+        "quantityRange": "1-1",
+        "percentage": 5
+      }
+    ]
+  },
+  "moves": [
+    "1:gloomfangs",
+    "1:lashout",
+    "1:icefang",
+    "1:gnaw",
+    "1:tailwhip",
+    "5:stretch",
+    "11:quickattack",
+    "16:swipe",
+    "25:substitute",
+    "31:honeclaws",
+    "39:doubleedge",
+    "45:crunch",
+    "50:bulkup",
+    "61:drudge",
+    "tm:bulkup",
+    "tm:darkpulse",
+    "tm:falseswipe",
+    "tm:fadeaway",
+    "tm:protect",
+    "egg:swordsdance",
+    "egg:bodyslam",
+    "egg:chasedown",
+    "egg:disperse",
+    "egg:drudge",
+    "egg:hasten",
+    "egg:highpitchscreech",
+    "egg:workup",
+    "egg:nastyplot",
+    "egg:raginghowl",
+    "egg:doubleedge",
+    "egg:charm",
+    "egg:honeclaws"
+  ],
+  "labels": [
+    "custom",
+    "roria"
+  ],
+  "pokedex": [
+    "cobblemon.species.umbrat.desc1"
+  ],
+  "baseScale": 0.8,
+  "hitbox": {
+    "width": 1.6,
+    "height": 1.3,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 9,
+  "weight": 381,
+  "preEvolution": "twilat",
+  "evolutions": []
+}

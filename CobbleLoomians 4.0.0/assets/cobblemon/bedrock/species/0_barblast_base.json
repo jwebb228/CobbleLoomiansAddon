@@ -1,0 +1,38 @@
+{
+    "species": "cobblemon:barblast",
+    "order": 0,
+    "variations": [
+        {
+            "aspects": [],
+            "poser": "cobblemon:barblast",
+            "model": "cobblemon:barblast.geo",
+            "texture": "cobblemon:textures/pokemon/barblast/barblast.png",
+            "layers": []
+        },
+        {
+            "aspects": [
+                "shiny"
+            ],
+            "poser": "cobblemon:barblast",
+            "model": "cobblemon:barblast.geo",
+            "texture": "cobblemon:textures/pokemon/barblast/barblast_shiny.png",
+            "layers": []
+        },
+        {
+            "aspects": ["tennis"],
+            "poser": "cobblemon:barblast",
+            "model": "cobblemon:barblast.geo",
+            "texture": "cobblemon:textures/pokemon/barblast/tennis/barblasttennis.png",
+            "layers": []
+        },
+        {
+            "aspects": [
+                "shiny", "tennis"
+            ],
+            "poser": "cobblemon:barblast",
+            "model": "cobblemon:barblast.geo",
+            "texture": "cobblemon:textures/pokemon/barblast/tennis/barblasttennis_shiny.png",
+            "layers": []
+        }
+    ]
+}

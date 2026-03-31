@@ -1,0 +1,32 @@
+{
+  "species": "cobblemon:celesting",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:celesting",
+      "model": "cobblemon:celesting.geo",
+      "texture": "cobblemon:textures/pokemon/celesting/celesting.png",
+      "layers": [
+        {
+              "name": "emissive",
+              "emissive": true,
+              "texture": "cobblemon:textures/pokemon/celesting/celesting_emissive.png",
+              "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/celesting/celesting_shiny.png",
+      "layers": [
+        {
+              "name": "emissive",
+              "emissive": true,
+              "texture": "cobblemon:textures/pokemon/celesting/celesting_shiny_emissive.png",
+              "translucent": true
+        }
+      ]
+    }
+  ]
+ }

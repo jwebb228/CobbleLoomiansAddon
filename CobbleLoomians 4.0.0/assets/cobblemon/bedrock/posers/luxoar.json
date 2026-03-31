@@ -1,0 +1,48 @@
+{
+ "head": "head",
+ "portraitScale": 2.3,
+ "portraitTranslation": [ -0.6, 0.1, 0 ],
+ "profileScale": 0.8,
+ "profileTranslation": [ 0, 0.5, 0 ],
+ "animations": {
+  "faint": "q.bedrock_primary('hunder', 'faint', q.curve('one'))",
+  "cry": "q.bedrock_stateful('luxoar', 'cry')"
+},
+ "poses": {
+  "standing": {
+    "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+    "isBattle": false,
+    "animations": ["look",
+      "q.bedrock('luxoar', 'ground_idle')"
+    ],
+    "quirks": [
+      "q.bedrock_quirk('luxoar', 'twitch_left')",
+      "q.bedrock_quirk('luxoar', 'twitch_right')"
+    ]
+  },
+  "walking": {
+    "poseTypes": ["WALK"],
+    "animations": ["look",
+      "q.bedrock('luxoar', 'ground_walk')"
+    ],
+    "quirks": [ "q.bedrock_quirk('luxoar', 'twitch_left')",
+    "q.bedrock_quirk('luxoar', 'twitch_right')"]
+  },
+  "float": {
+    "poseTypes": ["FLOAT"],
+    "animations": [
+      "q.bedrock('luxoar', 'ground_idle')"
+    ],
+    "quirks": ["q.bedrock_quirk('luxoar', 'twitch_left')",
+    "q.bedrock_quirk('luxoar', 'twitch_right')"]
+  },
+  "swim": {
+    "poseTypes": ["SWIM"],
+    "animations": [
+      "q.bedrock('luxoar', 'ground_walk')"
+    ],
+    "quirks": [  "q.bedrock_quirk('luxoar', 'twitch_left')",
+    "q.bedrock_quirk('luxoar', 'twitch_right')"]
+  }
+ }
+}

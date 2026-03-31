@@ -1,0 +1,22 @@
+{
+    "id": "cobblemon:metronette",
+    "speciesId": "cobblemon:metronette",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Normal",
+        "unlockForms": [
+          "Normal"
+        ]
+      },
+      {
+        "displayForm": "Collab",
+        "unlockForms": [
+          "Collab"
+        ]
+      }
+    ],
+    "variations": []
+  }
+  

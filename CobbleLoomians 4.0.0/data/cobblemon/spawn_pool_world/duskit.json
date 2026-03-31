@@ -1,0 +1,312 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "duskit-1",
+            "pokemon": "duskit",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "8-35",
+            "weight": 2,
+            "condition": {
+                "biomes": [
+                    "minecraft:cherry_grove"
+                ]
+            }
+        },
+        {
+            "id": "duskit-2",
+            "pokemon": "duskit",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "8-35",
+            "weight": 2,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_jungle",
+                    "#cobblemon:is_forest",
+                    "#cobblemon:is_floral",
+                    "#cobblemon:is_plains",
+                    "#cobblemon:is_taiga"
+
+                ]
+            }
+        },
+        {
+            "id": "duskit-plushie-3",
+            "pokemon": "duskit plushie",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "8-35",
+            "weight": 2,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_jungle",
+                    "#cobblemon:is_forest",
+                    "#cobblemon:is_floral",
+                    "#cobblemon:is_plains",
+                    "#cobblemon:is_taiga"
+
+                ]
+            }
+        },
+        {
+            "id": "duskit-skeleton-4",
+            "pokemon": "duskit skeleton=red",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "8-35",
+            "weight": 2,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_jungle",
+                    "#cobblemon:is_forest",
+                    "#cobblemon:is_floral",
+                    "#cobblemon:is_plains",
+                    "#cobblemon:is_taiga"
+
+                ]
+            }
+        },
+        {
+            "id": "duskit-skeleton-5",
+            "pokemon": "duskit skeleton=orange",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "8-35",
+            "weight": 2,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_jungle",
+                    "#cobblemon:is_forest",
+                    "#cobblemon:is_floral",
+                    "#cobblemon:is_plains",
+                    "#cobblemon:is_taiga"
+
+                ]
+            }
+        },
+        {
+            "id": "duskit-skeleton-6",
+            "pokemon": "duskit skeleton=yellow",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "8-35",
+            "weight": 2,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_jungle",
+                    "#cobblemon:is_forest",
+                    "#cobblemon:is_floral",
+                    "#cobblemon:is_plains",
+                    "#cobblemon:is_taiga"
+
+                ]
+            }
+        },
+        {
+            "id": "duskit-skeleton-7",
+            "pokemon": "duskit skeleton=green",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "8-35",
+            "weight": 2,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_jungle",
+                    "#cobblemon:is_forest",
+                    "#cobblemon:is_floral",
+                    "#cobblemon:is_plains",
+                    "#cobblemon:is_taiga"
+
+                ]
+            }
+        },
+        {
+            "id": "duskit-skeleton-8",
+            "pokemon": "duskit skeleton=blue",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "8-35",
+            "weight": 2,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_jungle",
+                    "#cobblemon:is_forest",
+                    "#cobblemon:is_floral",
+                    "#cobblemon:is_plains",
+                    "#cobblemon:is_taiga"
+
+                ]
+            }
+        },
+        {
+            "id": "duskit-skeleton-9",
+            "pokemon": "duskit skeleton=purple",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "8-35",
+            "weight": 2,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_jungle",
+                    "#cobblemon:is_forest",
+                    "#cobblemon:is_floral",
+                    "#cobblemon:is_plains",
+                    "#cobblemon:is_taiga"
+
+                ]
+            }
+        },
+        {
+            "id": "duskit-skeleton-10",
+            "pokemon": "duskit skeleton=cyan",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "8-35",
+            "weight": 2,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_jungle",
+                    "#cobblemon:is_forest",
+                    "#cobblemon:is_floral",
+                    "#cobblemon:is_plains",
+                    "#cobblemon:is_taiga"
+
+                ]
+            }
+        },
+        {
+            "id": "duskit-skeleton-11",
+            "pokemon": "duskit skeleton=pink",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "8-35",
+            "weight": 2,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_jungle",
+                    "#cobblemon:is_forest",
+                    "#cobblemon:is_floral",
+                    "#cobblemon:is_plains",
+                    "#cobblemon:is_taiga"
+
+                ]
+            }
+        },
+        {
+            "id": "duskit-skeleton-12",
+            "pokemon": "duskit skeleton=white",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "8-35",
+            "weight": 2,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_jungle",
+                    "#cobblemon:is_forest",
+                    "#cobblemon:is_floral",
+                    "#cobblemon:is_plains",
+                    "#cobblemon:is_taiga"
+
+                ]
+            }
+        },
+        {
+            "id": "duskit-skeleton-13",
+            "pokemon": "duskit skeleton=black",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "8-35",
+            "weight": 2,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_jungle",
+                    "#cobblemon:is_forest",
+                    "#cobblemon:is_floral",
+                    "#cobblemon:is_plains",
+                    "#cobblemon:is_taiga"
+
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,163 @@
+{
+  "implemented": true,
+  "name": "swimp",
+  "nationalPokedexNumber": 2115,
+  "primaryType": "water",
+  "abilities": [
+    "anticipation",
+    "strongjaw",
+    "h:moldbreaker"
+  ],
+  "baseStats": {
+    "hp": 46,
+    "attack": 52,
+    "defence": 44,
+    "special_attack": 25,
+    "special_defence": 47,
+    "speed": 64
+  },
+  "behaviour": {
+    "herd": {
+      "maxSize": "6",
+      "toleratedLeaders": [
+        {
+          "pokemon": "swimp",
+          "tier": 1
+        },
+        {
+          "pokemon": "snapr",
+          "tier": 2
+        },
+        {
+          "pokemon": "garlash",
+          "tier": 3
+        },
+        {
+          "pokemon": "manaphy",
+          "tier": 4
+        }
+      ]
+    },
+    "resting": {
+      "canSleep": true,
+      "depth": "normal",
+      "light": "0-4",
+      "willSleepOnBed": false,
+      "times": "night"
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.5,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      },
+      "fly": {
+        "canFly": false,
+        "flySpeedHorizontal": 0.3
+      }
+    },
+    "combat": {
+      "willDefendSelf": false,
+      "willDefendOwner": true,
+      "willFlee": true
+    }
+  },
+  "catchRate": 101,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 168,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 5,
+  "eggGroups": [
+    "water_1",
+    "water_2"
+  ],
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "minecraft:salmon"
+      },
+      {
+        "item": "minecraft:bone_meal",
+        "percentage": 5.0
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:leer",
+    "5:watergun",
+    "8:stretch",
+    "12:bite",
+    "16:waterpulse",
+    "19:faketears",
+    "22:icywind",
+    "25:quickattack",
+    "27:taunt",
+    "30:aquajaws",
+    "33:crunch",
+    "37:shrewdblast",
+    "egg:bulldoze",
+    "egg:primalslash",
+    "egg:poisontail",
+    "egg:poisonfang",
+    "egg:vicejaws",
+    "egg:torment",
+    "egg:wavewrecker",
+    "tm:trick",
+    "tm:bulkup",
+    "tm:protect",
+    "tm:facade",
+    "tm:mudshot",
+    "tm:dive",
+    "tm:falseswipe"
+  ],
+  "labels": [
+    "custom",
+    "roria"
+  ],
+  "pokedex": [
+    "cobblemon.species.swimp.desc"
+  ],
+  "baseScale": 1,
+  "hitbox": {
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 63,
+  "weight": 7,
+  "evolutions": [
+    {
+      "id": "swimp-snapr-level_up",
+      "variant": "level_up",
+      "result": "snapr",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "icefang"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 18
+        }
+      ],
+      "requiredContext": ""
+    }
+  ]
+}

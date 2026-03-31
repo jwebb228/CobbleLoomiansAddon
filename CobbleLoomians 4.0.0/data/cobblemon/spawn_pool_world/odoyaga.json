@@ -1,0 +1,25 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "odoyaga-1",
+            "pokemon": "odoyaga",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "35-55",
+            "weight": 0.5,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_spooky",
+                    "#cobblemon:is_swamp"
+                ]
+            }
+        }
+    ]
+}

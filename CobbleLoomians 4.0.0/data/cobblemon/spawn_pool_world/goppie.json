@@ -1,0 +1,98 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "goppie-1",
+            "pokemon": "goppie",
+            "presets": [
+                "freshwater",
+                "underwater"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "common",
+            "level": "1-20",
+            "weight": 6,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_freshwater"
+                ]
+            }
+        },
+        {
+            "id": "goppie-2",
+            "pokemon": "goppie",
+            "presets": [
+                "freshwater",
+                "water_surface"
+            ],
+            "type": "pokemon",
+            "context": "surface",
+            "bucket": "common",
+            "level": "1-20",
+            "weight": 1,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_freshwater"
+                ]
+            }
+        },
+        {
+            "id": "goppie-3",
+            "pokemon": "goppie",
+            "presets": [
+                "underwater"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "common",
+            "level": "1-20",
+            "weight": 8,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_ocean"
+                ]
+            }
+        },
+        {
+            "id": "goppie-4",
+            "pokemon": "goppie",
+            "presets": [
+                "water_surface"
+            ],
+            "type": "pokemon",
+            "context": "surface",
+            "bucket": "uncommon",
+            "level": "1-20",
+            "weight": 1,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "#cobblemon:is_ocean"
+                ]
+            }
+        },
+        {
+            "id": "goppie-5",
+            "pokemon": "goppie",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "1-100",
+            "weight": 9,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_freshwater",
+                    "#minecraft:is_ocean"
+                ]
+            }
+        }
+    ]
+}

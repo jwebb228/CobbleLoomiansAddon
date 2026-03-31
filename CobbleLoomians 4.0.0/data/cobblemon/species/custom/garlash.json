@@ -1,0 +1,240 @@
+{
+  "implemented": true,
+  "name": "garlash",
+  "nationalPokedexNumber": 2117,
+  "primaryType": "water",
+  "abilities": [
+    "intimidate",
+    "strongjaw",
+    "h:moldbreaker"
+  ],
+  "baseStats": {
+    "hp": 87,
+    "attack": 100,
+    "defence": 84,
+    "special_attack": 63,
+    "special_defence": 72,
+    "speed": 100
+  },
+  "riding": {
+    "behaviours": {
+      "LIQUID": {
+        "key": "cobblemon:liquid/submarine",
+        "hitboxBreachPercentage": 0.9,
+        "rideSounds": [],
+        "stats": {
+          "ACCELERATION": "30-55",
+          "JUMP": "40-70",
+          "SKILL": "35-65",
+          "SPEED": "40-60", 
+          "STAMINA": "45-75"
+        }
+      }
+    },
+    "seats": [
+      {
+        "offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "poseOffsets": [
+          {
+            "offset": {
+              "x": -0.48058435,
+              "y": -0.27500024,
+              "z": 0.14605118
+            },
+            "poseTypes": [
+              "STAND"
+            ]
+          },
+          {
+            "offset": {
+              "x": -0.48242062,
+              "y": -1.3168869,
+              "z": 0.053928375
+            },
+            "poseTypes": [
+              "WALK"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.044194173,
+              "y": -1.3188695,
+              "z": 0.16690472
+            },
+            "poseTypes": [
+              "HOVER"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.044194173,
+              "y": -1.3188695,
+              "z": 0.16690472
+            },
+            "poseTypes": [
+              "FLY"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.044194173,
+              "y": -1.3188695,
+              "z": 0.16690472
+            },
+            "poseTypes": [
+              "FLOAT"
+            ]
+          },
+          {
+            "offset": {
+              "x": -0.021463323,
+              "y": -1.3135426,
+              "z": 0.1828245
+            },
+            "poseTypes": [
+              "SWIM"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.044194173,
+              "y": -1.3188695,
+              "z": 0.16690472
+            },
+            "poseTypes": [
+              "GLIDE"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "behaviour": {
+    "herd": {
+      "maxSize": "9",
+      "toleratedLeaders": [
+        {
+          "pokemon": "garlash",
+          "tier": 1
+        },
+        {
+          "pokemon": "manaphy",
+          "tier": 1
+        }
+      ]
+    },
+    "resting": {
+      "canSleep": true,
+      "depth": "normal",
+      "light": "0-4",
+      "willSleepOnBed": false,
+      "times": "night"
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.5,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      },
+      "fly": {
+        "canFly": false,
+        "flySpeedHorizontal": 0.3
+      }
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    }
+  },
+  "catchRate": 101,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 663,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 5,
+  "eggGroups": [
+    "water_1",
+    "water_2"
+  ],
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "minecraft:salmon",
+        "quantityRange": "1-4"
+      },
+      {
+        "item": "minecraft:bone_meal",
+        "percentage": 5.0
+      }
+    ]
+  },
+  "moves": [
+    "1:vicioussnap",
+    "1:tackle",
+    "1:leer",
+    "5:watergun",
+    "8:stretch",
+    "12:bite",
+    "16:waterpulse",
+    "18:icefang",
+    "20:faketears",
+    "24:icywind",
+    "27:quickattack",
+    "29:taunt",
+    "34:aquajaws",
+    "38:crunch",
+    "43:shrewdblast",
+    "52:wavewrecker",
+    "egg:bulldoze",
+    "egg:primalslash",
+    "egg:poisontail",
+    "egg:poisonfang",
+    "egg:vicejaws",
+    "egg:torment",
+    "egg:wavewrecker",
+    "tm:trick",
+    "tm:bulkup",
+    "tm:protect",
+    "tm:facade",
+    "tm:mudshot",
+    "tm:dive",
+    "tm:falseswipe"
+  ],
+  "labels": [
+    "custom",
+    "roria"
+  ],
+  "pokedex": [
+    "cobblemon.species.garlash.desc"
+  ],
+  "baseScale": 1,
+  "hitbox": {
+    "width": 3,
+    "height": 1.5,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 165,
+  "weight": 28,
+  "preEvolution": "snapr",
+  "evolutions": []
+}

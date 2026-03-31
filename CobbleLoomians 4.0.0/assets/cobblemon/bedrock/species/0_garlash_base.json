@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:garlash",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:garlash",
+      "model": "cobblemon:garlash.geo",
+      "texture": "cobblemon:textures/pokemon/garlash/garlash.png"
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/garlash/garlash_shiny.png"
+    }
+  ]
+}

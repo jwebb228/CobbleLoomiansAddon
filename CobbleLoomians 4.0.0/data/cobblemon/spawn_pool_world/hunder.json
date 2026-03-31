@@ -1,0 +1,38 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "hunder-1",
+      "pokemon": "hunder",
+      "presets": [ "underground" ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "50-60",
+      "weight": 20.0,
+      "condition": {
+        "canSeeSky": false,
+        "biomes": [ "sculk_depths:infected_columns", "sculk_depths:petrified_valtrox_forest", "sculk_depths:dried_valtrox_forest" ]
+
+      }
+    },
+    {
+      "id": "hunder-2",
+      "pokemon": "hunder",
+      "presets": [ "village" ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "26-60",
+      "weight": 5.0,
+      "condition": {
+           "structures": ["#minecraft:village"],
+           "biomes": [
+              "#cobblemon:is_overworld"
+          ]
+      }
+  }
+  ]
+}

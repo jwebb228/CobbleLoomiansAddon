@@ -1,0 +1,166 @@
+{
+  "implemented": true,
+  "name": "teripod",
+  "nationalPokedexNumber": 2224,
+  "primaryType": "dragon",
+  "secondaryType": "fairy",
+  "abilities": [
+    "analytic",
+    "pixilate",
+    "h:dazzling"
+  ],
+  "baseStats": {
+    "hp": 79,
+    "attack": 49,
+    "defence": 74,
+    "special_attack": 15,
+    "special_defence": 53,
+    "speed": 61
+  },
+  "behaviour": {
+    "herd": {
+      "maxSize": "3",
+      "toleratedLeaders": [
+        {
+          "pokemon": "teripod",
+          "tier": 1
+        },
+        {
+          "pokemon": "teridescent",
+          "tier": 2
+        },
+        {
+          "pokemon": "manaphy",
+          "tier": 3
+        }
+      ]
+    },
+    "resting": {
+      "canSleep": true,
+      "depth": "normal",
+      "light": "0-4",
+      "willSleepOnBed": false,
+      "times": "night"
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": true
+      },
+      "swim": {
+        "swimSpeed": 0.5,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      },
+      "fly": {
+        "canFly": false,
+        "flySpeedHorizontal": 0.3
+      }
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    }
+  },
+  "catchRate": 50,
+  "maleRatio": 0.5,
+  "shoulderMountable": true,
+  "baseExperienceYield": 198,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 30,
+  "eggGroups": [
+    "bug",
+    "water_3"
+  ],
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "minecraft:amethyst_shard",
+        "quantityRange": "1-2",
+        "percentage": 40.0
+      },
+      {
+        "item": "cobblemon:deep_sea_scale",
+        "quantityRange": "1",
+        "percentage": 20.0
+      },
+      {
+        "item": "cobblemon:prism_scale",
+        "quantityRange": "1",
+        "percentage": 215.0
+      }
+    ]
+  },
+  "moves": [
+    "1:disarmingvoice",
+    "1:dinoclaws",
+    "4:confuseray",
+    "7:bugbite",
+    "11:drainingkiss",
+    "15:aquajaws",
+    "19:shrewdblast",
+    "24:dragondance",
+    "29:dazzlingbarrage",
+    "32:slash",
+    "36:aquacutter",
+    "40:blindspotbatter",
+    "47:primalslash",
+    "egg:trickroom",
+    "egg:bodyslam",
+    "egg:lunge",
+    "egg:moonblast",
+    "egg:leechlife",
+    "egg:wavewrecker",
+    "tm:protect",
+    "tm:hypnosis",
+    "tm:dazzlinggleam",
+    "tm:flashnflee",
+    "tm:bubblebeam",
+    "tm:falseswipe"
+  ],
+  "labels": [
+    "custom",
+    "roria"
+  ],
+  "pokedex": [
+    "cobblemon.species.teripod.desc"
+  ],
+  "baseScale": 1,
+  "hitbox": {
+    "width": 1,
+    "height": 0.5,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 46,
+  "weight": 6,
+  "evolutions": [
+    {
+      "id": "teripod-teridescent-level_up",
+      "variant": "level_up",
+      "result": "teridescent",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "hypersting"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 31
+        }
+      ],
+      "requiredContext": ""
+    }
+  ]
+}

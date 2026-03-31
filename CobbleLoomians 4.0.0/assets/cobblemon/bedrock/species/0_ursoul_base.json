@@ -1,0 +1,32 @@
+{
+  "species": "cobblemon:ursoul",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:ursoul",
+      "model": "cobblemon:ursoul.geo",
+      "texture": "cobblemon:textures/pokemon/ursoul/ursoul.png",
+      "layers": [
+        {
+              "name": "emissive",
+              "emissive": true,
+              "texture": "cobblemon:textures/pokemon/ursoul/ursoul_emissive.png",
+              "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/ursoul/ursoul_shiny.png",
+      "layers": [
+        {
+              "name": "emissive",
+              "emissive": true,
+              "texture": "cobblemon:textures/pokemon/ursoul/ursoul_shiny_emissive.png",
+              "translucent": true
+        }
+      ]
+    }
+  ]
+ }

@@ -1,0 +1,22 @@
+{
+    "species": "cobblemon:goppie",
+    "order": 0,
+    "variations": [
+        {
+            "aspects": [],
+            "poser": "cobblemon:goppie",
+            "model": "cobblemon:goppie.geo",
+            "texture": "cobblemon:textures/pokemon/goppie/goppie.png",
+            "layers": []
+        },
+        {
+            "aspects": [
+                "shiny"
+            ],
+            "poser": "cobblemon:goppie",
+            "model": "cobblemon:goppie.geo",
+            "texture": "cobblemon:textures/pokemon/goppie/goppie_shiny.png",
+            "layers": []
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+ "species": "cobblemon:obelost",
+ "order": 0,
+ "variations": [
+   {
+     "aspects": [],
+     "poser": "cobblemon:obelost",
+     "model": "cobblemon:obelost.geo",
+     "texture": "cobblemon:textures/pokemon/obelost/obelost.png",
+     "layers": [
+        {
+              "name": "emissive",
+              "emissive": true,
+              "texture": "cobblemon:textures/pokemon/obelost/obelost_emissive.png",
+              "translucent": true
+        }
+      ]
+   },
+   {
+    "aspects": [ "shiny" ],
+    "texture": "cobblemon:textures/pokemon/obelost/obelost_shiny.png",
+    "layers": [
+      {
+            "name": "emissive",
+            "emissive": true,
+            "texture": "cobblemon:textures/pokemon/obelost/obelost_shiny_emissive.png",
+            "translucent": true
+      }
+    ]
+  }
+ ]
+}

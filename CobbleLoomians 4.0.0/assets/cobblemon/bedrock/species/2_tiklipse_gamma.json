@@ -1,0 +1,10 @@
+{
+  "species": "cobblemon:tiklipse",
+  "order": 2,
+  "variations": [
+    {
+      "aspects": ["shiny", "gamma-gamma"],
+      "texture": "cobblemon:textures/pokemon/tiklipse/tiklipse_gamma.png"
+    }
+  ]
+}

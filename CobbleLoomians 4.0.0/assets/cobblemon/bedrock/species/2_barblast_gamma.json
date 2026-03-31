@@ -1,0 +1,14 @@
+{
+  "species": "cobblemon:barblast",
+  "order": 2,
+  "variations": [
+    {
+      "aspects": ["shiny", "gamma-gamma"],
+      "texture": "cobblemon:textures/pokemon/barblast/barblast_gamma.png"
+    },
+    {
+      "aspects": ["shiny", "gamma-gamma", "tennis"],
+      "texture": "cobblemon:textures/pokemon/barblast/tennis/barblasttennis_gamma.png"
+    }
+  ]
+}

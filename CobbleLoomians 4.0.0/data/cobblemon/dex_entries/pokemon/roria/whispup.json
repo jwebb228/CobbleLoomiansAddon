@@ -1,0 +1,22 @@
+{
+    "id": "cobblemon:whispup",
+    "speciesId": "cobblemon:whispup",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Normal",
+        "unlockForms": [
+          "Normal"
+        ]
+      },
+      {
+        "displayForm": "Shiny Gamma=gamma",
+        "unlockForms": [
+          "Shiny Gamma=gamma"
+        ]
+      }
+    ],
+    "variations": []
+  }
+  

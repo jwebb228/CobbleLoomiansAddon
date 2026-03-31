@@ -1,0 +1,38 @@
+{
+    "species": "cobblemon:fiscarna",
+    "order": 0,
+    "variations": [
+        {
+            "aspects": [],
+            "poser": "cobblemon:fiscarna",
+            "model": "cobblemon:fiscarna.geo",
+            "texture": "cobblemon:textures/pokemon/fiscarna/fiscarna.png",
+            "layers": []
+        },
+        {
+            "aspects": [
+                "shiny"
+            ],
+            "poser": "cobblemon:fiscarna",
+            "model": "cobblemon:fiscarna.geo",
+            "texture": "cobblemon:textures/pokemon/fiscarna/fiscarna_shiny.png",
+            "layers": []
+        },
+        {
+            "aspects": ["swag"],
+            "poser": "cobblemon:fiscarnaswag",
+            "model": "cobblemon:fiscarnaswag.geo",
+            "texture": "cobblemon:textures/pokemon/fiscarna/fiscarnaswag/fiscarnaswag.png",
+            "layers": []
+        },
+        {
+            "aspects": [
+                "shiny", "swag"
+            ],
+            "poser": "cobblemon:fiscarnaswag",
+            "model": "cobblemon:fiscarnaswag.geo",
+            "texture": "cobblemon:textures/pokemon/fiscarna/fiscarnaswag/fiscarnaswag_shiny.png",
+            "layers": []
+        }
+    ]
+}

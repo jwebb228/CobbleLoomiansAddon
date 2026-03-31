@@ -1,0 +1,10 @@
+{
+  "species": "cobblemon:pwuff",
+  "order": 2,
+  "variations": [
+    {
+      "aspects": ["shiny", "gamma-gamma"],
+      "texture": "cobblemon:textures/pokemon/pwuff/pwuff_gamma.png"
+    }
+  ]
+}
