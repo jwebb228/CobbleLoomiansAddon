@@ -59,7 +59,7 @@
   "shoulderMountable": true,
   "baseExperienceYield": 507,
   "experienceGroup": "medium_fast",
-  "eggCycles": 23,
+  "eggCycles": 10,
   "eggGroups": [
     "monster",
     "field"

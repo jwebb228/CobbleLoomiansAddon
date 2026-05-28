@@ -52,7 +52,7 @@
   "shoulderMountable": false,
   "baseExperienceYield": 347,
   "experienceGroup": "medium_fast",
-  "eggCycles": 40,
+  "eggCycles": 15,
   "eggGroups": [
     "mineral"
   ],

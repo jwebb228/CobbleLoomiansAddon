@@ -56,7 +56,7 @@
   "shoulderMountable": true,
   "baseExperienceYield": 186,
   "experienceGroup": "medium_fast",
-  "eggCycles": 30,
+  "eggCycles": 10,
   "eggGroups": [
     "field"
   ],
@@ -101,7 +101,6 @@
     ]
   },
   "moves": [
-    "1:swat",
     "1:gnaw",
     "1:leer",
     "3:tackle",

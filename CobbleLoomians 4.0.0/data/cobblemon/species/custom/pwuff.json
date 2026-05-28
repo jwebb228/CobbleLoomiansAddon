@@ -78,7 +78,7 @@
   "shoulderMountable": false,
   "baseExperienceYield": 168,
   "experienceGroup": "medium_fast",
-  "eggCycles": 5,
+  "eggCycles": 10,
   "eggGroups": [
     "water_1",
     "water_2"
