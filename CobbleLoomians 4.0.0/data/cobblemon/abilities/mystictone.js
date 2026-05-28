@@ -1,6 +1,9 @@
 {
   onDamagingHitOrder: 1,
     onDamagingHit(damage, target, source, move) {
+      if (target.fainted){
+          return null;
+        }
       if (this.checkMoveMakesContact(move, source, target, true)) {
       const moves = [];
       for (const pokemon of target.side.pokemon) {
@@ -15,6 +18,9 @@
           moves.push(moveid);
         }
       }
+      if (target.hp < 1 || target.fainted){
+          return null;
+        }
       let randomMove = "";
       if (moves.length)
         randomMove = this.sample(moves);
