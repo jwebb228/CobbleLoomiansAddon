@@ -1,0 +1,10 @@
+{
+    "species": "cobblemon:goppie",
+  "order": 2,
+  "variations": [
+    {
+      "aspects": ["shiny", "gamma-gamma"],
+      "texture": "cobblemon:textures/pokemon/goppie/goppie_gamma.png"
+    }
+  ]
+}

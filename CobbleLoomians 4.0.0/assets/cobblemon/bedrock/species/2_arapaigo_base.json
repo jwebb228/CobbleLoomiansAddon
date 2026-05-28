@@ -1,0 +1,10 @@
+{
+    "species": "cobblemon:arapaigo",
+  "order": 2,
+  "variations": [
+    {
+      "aspects": ["shiny", "gamma-gamma"],
+      "texture": "cobblemon:textures/pokemon/arapaigo/arapaigo_gamma.png"
+    }
+  ]
+}
