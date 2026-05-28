@@ -86,6 +86,7 @@
     "egg:repeatingtune",
     "egg:resonate",
     "egg:teardown",
+    "egg:tonebarrier",
     "tm:trick",
     "tm:protect",
     "tm:flashnflee",

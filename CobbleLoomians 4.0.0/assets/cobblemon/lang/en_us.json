@@ -394,6 +394,9 @@
   "cobblemon.move.slumber": "Slumber",
   "cobblemon.move.slumber.desc": "Sleep for 3 turns. Each turn, recover 1/3 of your HP.",
 
+  "cobblemon.move.tonebarrier": "Tone Barrier",
+  "cobblemon.move.tonebarrier.desc": "Protect yourself with a wall of inaudible sound waves. Special moves targeting you will cause a reverberation, damaging their user. May fail if used consecutively.",
+
   "cobblemon.move.gulp": "Gulp",
   "cobblemon.move.gulp.desc": "This attack may cause the foe to drop their Item, in which case you swoop by and swallow it. If the Item was food, you may benefit from its effects.",
 
