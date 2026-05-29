@@ -422,5 +422,16 @@
   "cobblemon.move.naturesrage.desc": "Recklessly unleash your fury on an opponent for a few turns. When finished, you will become confused.",
 
   "cobblemon.move.junglejutsu": "Junglejutsu",
-  "cobblemon.move.junglejutsu.desc": "Pulverize the opponent with a calculated blow. Lands critical hits more often."
+  "cobblemon.move.junglejutsu.desc": "Pulverize the opponent with a calculated blow. Lands critical hits more often.",
+
+  "cobblemon.move.gloomfangs": "Gloom Fangs",
+  "cobblemon.move.gloomfangs.desc": "Bite down on the foe and swallow all the light in their soul. They cannot use Light-type moves for two turns.",
+
+ "cobblemon.battle.cant.gloomfangs": "The effects of Gloom Fangs prevent %1$s from using Light-Type moves!",
+
+  "cobblemon.move.luminousroar": "Luminous Roar",
+  "cobblemon.move.luminousroar.desc": "Blast the foe with blinding light from your mouth that also prevents them from using Dark-type moves for two turns.",
+
+ "cobblemon.battle.cant.luminousroar": "The effects of Luminous Roar prevent %1$s from using Dark-Type moves!"
+
 }
