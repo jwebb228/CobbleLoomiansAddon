@@ -5,7 +5,7 @@
   "primaryType": "normal",
   "abilities": [
     "hospitality",
-    "unburden",
+    "rushhour",
     "h:pickpocket"
   ],
   "baseStats": {

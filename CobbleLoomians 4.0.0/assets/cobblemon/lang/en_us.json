@@ -166,6 +166,10 @@
   "cobblemon.ability.baneful": "Baneful",
   "cobblemon.ability.baneful.desc": "Deal 20% more damage to opponents which are infected with poison.",
 
+  "cobblemon.ability.rushhour": "Rush Hour",
+  "cobblemon.ability.rushhour.desc": "Your Speed is boosted by 50% for the first move that you use after entering battle.",
+  "cobblemon.battle.start.rushhour": "%1$s is in a rush",
+
   "cobblemon.move.aquajaws": "Aqua Jaws",
   "cobblemon.move.aquajaws.desc": "Bite down hard on the foe. This also lowers their Defense.",
 
@@ -426,12 +430,10 @@
 
   "cobblemon.move.gloomfangs": "Gloom Fangs",
   "cobblemon.move.gloomfangs.desc": "Bite down on the foe and swallow all the light in their soul. They cannot use Light-type moves for two turns.",
-
- "cobblemon.battle.cant.gloomfangs": "The effects of Gloom Fangs prevent %1$s from using Light-Type moves!",
+  "cobblemon.battle.cant.gloomfangs": "The effects of Gloom Fangs prevent %1$s from using Light-Type moves!",
 
   "cobblemon.move.luminousroar": "Luminous Roar",
   "cobblemon.move.luminousroar.desc": "Blast the foe with blinding light from your mouth that also prevents them from using Dark-type moves for two turns.",
-
- "cobblemon.battle.cant.luminousroar": "The effects of Luminous Roar prevent %1$s from using Dark-Type moves!"
+  "cobblemon.battle.cant.luminousroar": "The effects of Luminous Roar prevent %1$s from using Dark-Type moves!"
 
 }
