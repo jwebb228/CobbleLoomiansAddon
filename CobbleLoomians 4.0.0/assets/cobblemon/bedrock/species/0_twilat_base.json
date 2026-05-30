@@ -14,12 +14,6 @@
        "shiny"
      ],
      "texture": "cobblemon:textures/pokemon/twilat/twilat_shiny.png"
-   },
-   {
-     "aspects": [
-       "corrupted"
-     ],
-     "texture": "cobblemon:textures/pokemon/twilat/twilat_corrupt.png"
    }
  ]
 }
