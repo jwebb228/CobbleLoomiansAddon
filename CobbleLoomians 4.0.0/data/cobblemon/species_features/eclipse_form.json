@@ -6,7 +6,8 @@
   "default": "normal",
   "choices": [
     "day",
-    "night"
+    "night",
+"normal"
   ],
   "isAspect": true,
   "aspectFormat": "{{choice}}-form"

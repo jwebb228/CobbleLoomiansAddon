@@ -1,0 +1,13 @@
+{
+  "pokemons": ["Tiklipse"],
+  "showdown_form_change_id": "night",
+  "aspect_conditions": {
+    "apply": {
+      "aspects": ["eclipse_form=night"]
+    },
+    "revert": {
+      "aspects": ["eclipse_form=normal"]
+    }
+},
+  "effect": "mega_showdown:end_rod"
+}

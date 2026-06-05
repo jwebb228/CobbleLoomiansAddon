@@ -1,6 +1,6 @@
 {
   "implemented": true,
-  "name": "tiklipse",
+  "name": "Tiklipse",
   "nationalPokedexNumber": 2025,
   "primaryType": "fairy",
   "secondaryType": "dark",
@@ -52,7 +52,7 @@
   "shoulderMountable": false,
   "baseExperienceYield": 243,
   "experienceGroup": "medium_fast",
-  "eggCycles": 5,
+  "eggCycles": 15,
   "eggGroups": [
     "field"
   ],
@@ -149,7 +149,7 @@
   "evolutions": [],
   "forms": [
     {
-      "name": "day",
+      "name": "Day",
       "primaryType": "Fairy",
       "maleRatio": 0.5,
       "height": 3,
@@ -173,7 +173,7 @@
     },
 
     {
-      "name": "night",
+      "name": "Night",
       "primaryType": "Dark",
       "maleRatio": 0.5,
       "height": 3,
