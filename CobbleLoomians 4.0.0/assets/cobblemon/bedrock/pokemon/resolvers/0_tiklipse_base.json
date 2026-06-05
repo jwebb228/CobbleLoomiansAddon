@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:tiklipse",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:tiklipse",
+      "model": "cobblemon:tiklipse.geo",
+      "texture": "cobblemon:textures/pokemon/tiklipse/tiklipse.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/tiklipse/tiklipse_shiny.png"
+    }
+]
+}
