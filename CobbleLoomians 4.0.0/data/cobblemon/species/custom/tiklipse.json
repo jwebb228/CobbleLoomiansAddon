@@ -6,7 +6,6 @@
   "secondaryType": "dark",
   "abilities": [
     "circadian",
-    "innerfocus",
     "h:totaleclipse"
   ],
   "baseStats": {
@@ -82,8 +81,8 @@
     ]
   },
   "moves": [
-    "1:nightdaze",
-    "1:fairywind",
+    "1:gloominousfangs",
+    "1:gloominousroar",
     "1:blindspotbatter",
     "1:radiantrush",
     "1:gnaw",

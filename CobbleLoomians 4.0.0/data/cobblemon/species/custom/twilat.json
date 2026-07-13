@@ -73,7 +73,7 @@
   "shoulderMountable": true,
   "baseExperienceYield": 87,
   "experienceGroup": "medium_fast",
-  "eggCycles": 5,
+  "eggCycles": 25,
   "eggGroups": [
     "field"
   ],
@@ -94,11 +94,11 @@
     "11:quickattack",
     "16:swipe",
     "23:substitute",
-    "27:honeclaws",
-    "28:charm",
     "tm:falseswipe",
     "tm:protect",
     "egg:swordsdance",
+    "egg:luminousroar",
+    "egg:gloomfangs",
     "egg:bodyslam",
     "egg:chasedown",
     "egg:disperse",
@@ -183,8 +183,8 @@
       "result": "tiklipse",
       "consumeHeldItem": false,
       "learnableMoves": [
-        "nightdaze",
-        "fairywind"
+        "gloominousroar",
+        "gloominousfangs"
       ],
       "requirements": [
         {
@@ -192,12 +192,12 @@
           "minLevel": 22
         },
         {
-          "variant": "has_move_type",
-          "type": "fairy"
+          "variant": "has_move",
+          "move": "gloomfangs"
         },
         {
-          "variant": "has_move_type",
-          "type": "dark"
+          "variant": "has_move",
+          "move": "luminousroar"
         }
       ],
       "requiredContext": ""

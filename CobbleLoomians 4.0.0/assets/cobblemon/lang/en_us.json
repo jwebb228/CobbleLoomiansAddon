@@ -428,6 +428,12 @@
   "cobblemon.move.junglejutsu": "Junglejutsu",
   "cobblemon.move.junglejutsu.desc": "Pulverize the opponent with a calculated blow. Lands critical hits more often.",
 
+  "cobblemon.move.gloominousroar": "Gloominous Roar",
+  "cobblemon.move.gloominousroar.desc": "When used by Tiklipse, this move becomes the same type(s) as it.",
+
+  "cobblemon.move.gloominousfangs": "Gloominous Fangs",
+  "cobblemon.move.gloominousfangs.desc": "When used by Tiklipse, this move becomes the same type(s) as it.",
+
   "cobblemon.move.gloomfangs": "Gloom Fangs",
   "cobblemon.move.gloomfangs.desc": "Bite down on the foe and swallow all the light in their soul. They cannot use Light-type moves for two turns.",
   "cobblemon.battle.cant.gloomfangs": "The effects of Gloom Fangs prevent %1$s from using Light-Type moves!",
