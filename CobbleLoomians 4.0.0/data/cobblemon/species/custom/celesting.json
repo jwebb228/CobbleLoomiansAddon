@@ -46,7 +46,7 @@
       "willFlee": false
     }
   },
-  "catchRate": 10,
+  "catchRate": 3,
   "maleRatio": -1,
   "shoulderMountable": false,
   "baseExperienceYield": 330,
